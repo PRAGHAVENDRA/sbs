@@ -36,7 +36,7 @@ elseif($_SESSION['valid'] != 1)
 		setTimeout(function(){$('#sidenav').css('left','-220px');},1000);
 		setTimeout(function(){$('#sidenav1').css('left','-220px');},1000);
 		setTimeout(function(){$('#sidenav2').css('left','-220px');},1000);
-		setTimeout(function(){var hloc = window.location.href;var jump_id = hloc.split("#");jump_id = jump_id[1];$('#BH_'+jump_id).slideToggle('slow');},100);
+		setTimeout(function(){var hloc = window.location.href;var jump_id = hloc.split("#");jump_id = jump_id[1];$('#BH_'+jump_id).slideToggle('slow');var qid = getUrlParameter('qid');if(qid === undefined){}else{$("html, body").hide().fadeIn('slow').animate({ scrollTop: $('#'+qid).offset().top - 150 }, 1)}},100);
 		setTimeout( function(){$(document).scroll(function(){$('#callout').fadeOut(2000)})}, 2000);
 		$(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
 		$(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});

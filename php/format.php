@@ -153,7 +153,7 @@ echo "<div class=\"header_top\" id=\"header_top\">
 	<div class=\"clearfix\">&nbsp;</div>";
 	echo "<div class=\"page_inner\">";
 
-if($hval != '')
+if(($hval != '') && (!(isset($_GET['qid']))))
 {
 	echo "<div class=\"callout left\" id=\"callout\">
 	<span class=\"qt\">$hval</span>

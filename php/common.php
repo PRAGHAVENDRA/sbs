@@ -19,7 +19,11 @@ function ProcessRef($str, $find)
 	$str = preg_replace("/<\/span>/", "</span> ", $str);
 	$str = preg_replace("/ ,/", ",", $str);
 	$str = preg_replace("/([०१२३४५६७८९]) । /u", "$1-", $str);
+/*
+	$str = uiConvertText($str);
+*/
 	$str = preg_replace("/($find)/u","<span class=\"highlight\">$1</span>", $str);
+	
 	return($str);
 }
 
@@ -310,5 +314,106 @@ function VerifyCredentials($lemail, $lpassword)
 		exit;
 	}
 }
+function uiConvertText($text)
+{
+	$chars = preg_split('/(?<!^)(?!$)/u', $text);
+	$etext = '';
+	foreach($chars as $c)
+	{
+		$etext .= uiConvertChar($c);
+	}
+	$etext .= " ";
+	$etext = preg_replace("/a\.(a|ā|i|ī|u|ū|r̥|r̥̄|ē|ai|ō|au|āṅ)/", "$1", $etext);
+	$etext = preg_replace("/\.(ṁ|ḥ|ṅ|ñ|ṇ|n|m)/", "$1", $etext);
+	$etext = preg_replace("/a\.zzz/", "", $etext);
 
+	$etext = preg_replace("/\s$/", "", $etext);
+	return($etext);
+}
+function uiConvertChar($char)
+{
+	switch($char)
+	{
+		case "अ" : return("a");
+		case "आ" : return("ā");
+		case "इ" : return("i");
+		case "ई" : return("ī");
+		case "उ" : return("u");
+		case "ऊ" : return("ū");
+		case "ऋ" : return("r̥");
+		case "ॠ" : return("r̥̄");
+		case "ए" : return("ē");
+		case "ऐ" : return("ai");
+		case "ओ" : return("ō");
+		case "औ" : return("au");
+		case "क" : return("ka");
+		case "ख" : return("kha");
+		case "ग" : return("ga");
+		case "घ" : return("gha");
+		case "ङ" : return("ṅa");
+		case "च" : return("ca");
+		case "छ" : return("cha");
+		case "ज" : return("ja");
+		case "झ" : return("jha");
+		case "ञ" : return("ña");
+		case "ट" : return("ṭa");
+		case "ठ" : return("ṭha");
+		case "ड" : return("ḍa");
+		case "ढ" : return("ḍha");
+		case "ण" : return("ṇa");
+		case "त" : return("ta");
+		case "थ" : return("tha");
+		case "द" : return("da");
+		case "ध" : return("dha");
+		case "न" : return("na");
+		case "प" : return("pa");
+		case "फ" : return("pha");
+		case "ब" : return("ba");
+		case "भ" : return("bha");
+		case "म" : return("ma");
+		case "य" : return("ya");
+		case "र" : return("ra");
+		case "ल" : return("la");
+		case "व" : return("va");
+		case "श" : return("śa");
+		case "ष" : return("ṣa");
+		case "स" : return("sa");
+		case "ह" : return("ha");
+		case "ा" : return(".ā");
+		case "ि" : return(".i");
+		case "ी" : return(".ī");
+		case "ु" : return(".u");
+		case "ू" : return(".ū");
+		case "ृ" : return(".r̥");
+		case "ॄ" : return(".r̥̄");
+		case "े" : return(".ē");
+		case "ै" : return(".ai");
+		case "ो" : return(".ō");
+		case "ौ" : return(".au");
+		case "ँ" : return(".ṅ");
+		case "ॉ" : return(".āṅ");
+		case "ं" : return(".ṁ");
+		case "ः" : return(".ḥ");
+		case "्" : return(".zzz");
+		case "क़" : return("qa");
+		case "ख़" : return("ḳha");
+		case "ग़" : return("g͟ha");
+		case "ड़" : return("ṛa");
+		case "ढ़" : return("ṛha");
+		case "फ़" : return("fa");
+		case "ज़" : return("za");
+		case "०" : return("0");
+		case "१" : return("1");
+		case "२" : return("2");
+		case "३" : return("3");
+		case "४" : return("4");
+		case "५" : return("5");
+		case "६" : return("6");
+		case "७" : return("7");
+		case "८" : return("8");
+		case "९" : return("9");
+		
+		default : return($char);
+	}
+}
 ?>

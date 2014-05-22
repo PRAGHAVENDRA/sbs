@@ -1,4 +1,4 @@
-﻿bh@font-face {
+﻿@font-face {
  font-family: 'Lohit-Hindi';
  /* src: url(Lohit-Hindi.woff); */
 }
@@ -106,7 +106,7 @@ font-family: 'Siddhantaa';
 }
 .page_format{
 	overflow: auto;
-	margin: 100px auto 0 auto;
+	margin: 100px auto 50px auto;
 	min-height: 40em;
 	text-align: center;
 }

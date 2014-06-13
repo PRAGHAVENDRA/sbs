@@ -26,7 +26,7 @@
 	<div class="clearfix">&nbsp;</div>
 	<div class="page big">
 		<div class="page_left" style="width: 47%;margin-top: 1em;">
-			<div class="mainpimage"><img src="php/images/saraswati.jpg" alt="Akhanda Bharata"/></div>
+			<div class="mainpimage"><img src="php/images/saraswati.jpg" alt="Mata Saraswati"/></div>
 		</div>
 		<div class="page_right" style="width: 48%;padding-right: 40px;">
 			<div class="maincontent_front">
@@ -36,25 +36,25 @@
 				<p class="otherp">Invoking the blessings of Goddess Sharada (the presiding deity of Sringeri Sharada Peetham) and reflecting the Upanishadic teachings as expounded by Jagadguru Sri Adi Shankaracharya, the project has been named "Advaita Sharada".</p>
 			</div>
 		</div>
-		<div class="page_left" style="width: 60%;padding-left: 2em;">
+		<div class="page_left" style="width: 50%;padding-left: 2em;">
 			<div class="maincontent_front">
 				<p class="otherp big clr2" style="margin-bottom: 10px;padding-top: 10px;"><a href="php/prasthanatraya.php">First offering: Shankara Prasthanatraya Bhashya</a></p>
-				<p class="otherp">The first offering of Advaita Sharada is a text searchable, extensively hyperlinked Intenet edition of the Sri Shaankara Granthavali, published by the <span class="itl">Vani Vilasa Press, Srirangam.</span> This is a result of a collaborative effort between <span class="itl">Sri Shankara Advaita Research Centre, Sringeri,</span> and <span class="itl">Sriranga Digital Software Technoloiges, Srirangapatna.</span> The source text in Unicode was provided by <span class="itl">The Sringeri Math at Srirangam;</span> it is scrutinised and proofread at the Sri Shankara Advaita Research Centre, Sringeri. The XML markup scheme and the technology framework for the Internet edition was developed by Sriranga Digital Software Technologies, Srirangapatna. This Internet edition was released on Shankara Jayanti - the Vaishakha Shukla Panchami day of the Jaya Samvatsara - 4th May 2014 by <span class="clr">Jagadguru Shankaracharya Sri Sri Bharati Tirtha Mahaswamiji</span></p>
+				<p class="otherp">The first offering of Advaita Sharada is a text searchable, extensively hyperlinked Internet edition of the Sri Shaankara Granthavali, published by the <span class="itl">Vani Vilasa Press, Srirangam.</span> This is a result of a collaborative effort between <span class="itl">Sri Shankara Advaita Research Centre, Sringeri,</span> and <span class="itl">Sriranga Digital Software Technoloiges, Srirangapatna.</span> The source text in Unicode was provided by <span class="itl">The Sringeri Math at Srirangam;</span> it is scrutinised and proofread at the Sri Shankara Advaita Research Centre, Sringeri. The XML markup scheme and the technology framework for the Internet edition was developed by Sriranga Digital Software Technologies, Srirangapatna. This Internet edition was released on Shankara Jayanti - the Vaishakha Shukla Panchami day of the Jaya Samvatsara - 4th May 2014 by <span class="clr">Jagadguru Shankaracharya Sri Sri Bharati Tirtha Mahaswamiji</span></p>
 				<p class="otherp">In forthcoming releases, we will introduce multimedia, commentaries, sub-commentaries and tags for these Bhasyas. We invite you to register and view <span class="clr"><a href="php/prasthanatraya.php">this first release.</a></span></p>
 			</div>
 		</div>
-		<div class="page_right" style="width: 36%;margin-top: 3em;">
-			<div class="shankara"><img src="php/images/shankaracharya.jpg" alt="Akhanda Bharata"/></div>
+		<div class="page_right" style="width: 46%;margin-top: 1em;">
+			<div class="shankara"><img src="php/images/shankaracharya.jpg" alt="Shankaracharya"/></div>
 		</div>
 		<div class="page_left" style="width: 35%;margin-top: 3em;padding-left: 20px;">
-			<div class="mainpimage" style="margin-right: 10px;"><img src="php/images/Jagadguru_doing_parayanam.jpg" alt="Akhanda Bharata"/></div>
+			<div class="mainpimage" style="margin-right: 10px;"><img src="php/images/Jagadguru_doing_parayanam.jpg" alt="Jagadguru Mahaswamiji doing parayanam"/></div>
 		</div>
 		<div class="page_right" style="width: 47%;padding-right: 2em;margin-top: 1em;">
 			<div class="maincontent_front">
 				<p class="otherp big clr2" style="margin-bottom: 10px;padding-top: 10px;">Acknowledgements</p>
 				<p class="otherp">Under the direct guidance of Jagadguru Shankaracharya Sri Sri Bharati Tirtha Mahaswamiji, the Advaita Sharada project is being executed by Sri Shankara Advaita Shodha Kendram, Narasimha Vanam, Dakshinamnaya Sri Sharada Peetham Sringeri.</p>
 				<p class="otherp">With the active advisory role of Sri V.R. Gowrishankar, the CEO and Administrator of Sringeri Sharada Peetham, numerous individuals have been involved in this project.</p>
-				<p class="otherp">Sriranga Digital Software Pvt. Ltd, headed by Prof. Yogananda and Sri Arjun Kashyap, has been responsible for Technology and Application Infrastructure</p>
+				<p class="otherp">Sriranga Digital Software Technologies Private Limited, headed by C S Yogananda (Professor and Head, Dept. of Mathematics, S J College of Engineering, Mysore) and Sri Arjun Kashyap, has been responsible for Technology and Application Infrastructure</p>
 				<p class="otherp">Keying-in assistance for Source Digitization has been done by Sringeri Shankara Math, Srirangam.</p>
 				<p class="otherp">We would like to thank Sri V.T. Sampath Kumaran, who assisted in conceptualizing and mentoring this project in its formative years. We are also grateful to the many people who have assisted with sponsorships, connections and advice.</p>
 				<p class="otherp">We welcome your feedback describing your experience with the present release. We are also very happy to receive your suggestions for improvement and feature additions in future releases.</p>

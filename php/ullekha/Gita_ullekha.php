@@ -82,7 +82,7 @@
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=02#BG_C02_V10#quote_31">‘गुणा गुणेषु वर्तन्ते’ (भ. गी. ३-२८)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=02#BG_C02_V10#quote_32">‘सत्त्वशुद्धये कर्म कुर्वन्ति’ (भ. गी. ५-११)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=02#BG_C02_V10#quote_33">‘स्वकर्मणा तमभ्यर्च्य सिद्धिं विन्दति मानवः’ (भ. गी. १८-४६)</a></li>
-<li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=02#BG_C02_V10#quote_34">‘सिद्धिं प्राप्तो यता ब्रह्म’ (भ. गी. १८-५०)</a></li>
+<li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=02#BG_C02_V10#quote_34">‘सिद्धिं प्राप्तो यथा ब्रह्म’ (भ. गी. १८-५०)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=02#BG_C02_V10#quote_8">‘दृष्ट्वा तु पाण्डवानीकम्’ (भ. गी. १-२)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=02#BG_C02_V10#quote_9">‘न योत्स्य इति गोविन्दमुक्त्वा तूष्णीं बभूव ह’ (भ. गी. २-९)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=02#BG_C02_V21#quote_38">‘उभौ तौ न विजानीतः’ (भ. गी. २-१९)</a></li>
@@ -295,7 +295,7 @@
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V06#quote_357">‘क्षीणे पुण्ये मर्त्यलोकं विशन्ति’ (भ. गी. ९-२१)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V11#quote_358">‘वेदाविनाशिनम्’ (भ. गी. २-२१)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V13#quote_359">‘यावानर्थ उदपाने’ (भ. गी. २-४६)</a></li>
-<li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V13#quote_360">‘सर्व कर्माखिलं पार्थ ज्ञाने परिसमाप्यते’ (भ. गी. ४-३३)</a></li>
+<li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V13#quote_360">‘सर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते’ (भ. गी. ४-३३)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V17#quote_362">‘कर्तारमात्मानं केवलं तु’ (भ. गी. १८-१६)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V17#quote_363">‘अविकार्योऽयमुच्यते’ (भ. गी. २-२५)</a></li>
 <li type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V17#quote_364">‘गुणैरेव कर्माणि क्रियन्ते’ (भ. गी. ३-२७)</a></li>
@@ -437,7 +437,7 @@
 <li type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=08#BG_C08_V04#quote_195">‘यज्ञो वै विष्णुः’ (तै. सं. १ । ७ । ४)</a></li>
 <li type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_216">‘यो अस्याध्यक्षः परमे व्योमन्’ (ऋ. १० । १२९ । ७)</a></li>
 <li type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_217">(तै. ब्रा. २ । ८ । ९)</a></li>
-<li type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_218">‘को अद्धा वेद क इह प्रवोचम् । कुत आजाता कुत इयं विसृष्टिः’ (ऋ. १० । १२९ । ६)</a></li>
+<li type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_218">‘को अद्धा वेद क इह प्रवोचत् । कुत आजाता कुत इयं विसृष्टिः’ (ऋ. १० । १२९ । ६)</a></li>
 <li type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_219">(तै. ब्रा. २ । ८ । ९)</a></li>
 <li type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=10#BG_C10_V42#quote_225">‘पादोऽस्य विश्वा भूतानि’ (ऋ. १० । ८ । ९० । ३)</a></li>
 <li type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=12#BG_C12_V19#quote_239">‘येन केनचिदाच्छन्नो येन केनचिदाशितः । यत्र क्वचन शायी स्यात्तं देवा ब्राह्मणं विदुः’ (मो. ध. २४५ । १२)</a></li>

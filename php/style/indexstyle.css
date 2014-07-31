@@ -464,7 +464,7 @@ hr{
 #rsidenav {
 	overflow: auto;
 	background: #FDFDFD;
-	width: 220px;
+	width: 270px;
 	padding: 30px 30px 20px 30px;
 	position: fixed;
 	z-index: 949;
@@ -473,10 +473,10 @@ hr{
 	-moz-box-shadow: -4px 0 10px rgba(0,0,0,0.1);
 	-webkit-box-shadow: -4px 0 10px rgba(0,0,0,0.1);
 	opacity: 0.975;
-	height: 100%;
+	height: 10%;
 }
 #rsidenav {
-	right: -250px;
+	right: -300px;
 }
 
 #rsidenav:hover, #rsidenav:focus {
@@ -501,6 +501,7 @@ hr{
 	position: relative;
 	top: 15px;
 	margin-top: 80px;
+	margin-bottom: 40px;
 }
 #rsidenav nav>ul>li {
 	font-size: 0.8em;
@@ -1099,4 +1100,31 @@ hr{
 	height: 100%;
 	z-index: 9999;
 	background: url('../images/loader.gif') 50% 50% no-repeat #FFFFFF;
+}
+.user_details{
+	width: 100%;
+	text-align: left;
+	font-family: gentium;
+}
+.user_details td{
+	padding: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.user_details .hd{
+	border-bottom: 2px solid #555;
+}
+.user_details .tr1{
+	width: 5%;
+	border-right: 1px solid #CCC;
+}
+.user_details .tr2{
+	width: 30%;
+	border-right: 1px solid #CCC;
+}
+.user_details .tr3{
+	width: 59%;
+	border-right: 1px solid #CCC;
+}
+.user_details .tr4{
+	width: 5%;
 }

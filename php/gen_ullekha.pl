@@ -41,7 +41,7 @@ while($line)
 				$page_num = $bs_id;
 				$page_num =~ s/.*\_C([0-9]+).*/$1/g;
 				$page_num =~ s/.*\_V([0-9]+).*/$1/g;
-				print TEMP "<li type=\"".$ref_bhashya."\" class=\"qt\"><a href=\"".$bhashya."_id.html&page=" . $page_num . "#".$bs_id."#quote_".$idref."\">" . $dref . "</a></li>\n";
+				print TEMP "<li id=\"sort_".get_sortid($ref_bhashya)."\" type=\"".$ref_bhashya."\" class=\"qt\"><a href=\"".$bhashya."_id.html&page=" . $page_num . "#".$bs_id."#quote_".$idref."\">" . $dref . "</a></li>\n";
 				$idref++;
 			}
 		}
@@ -55,7 +55,7 @@ while($line)
 			$page_num = $bs_id;
 			$page_num =~ s/.*\_C([0-9]+).*/$1/g;
 			$page_num =~ s/.*\_V([0-9]+).*/$1/g;
-			print TEMP "<li type=\"".$ref_bhashya."\" class=\"qt\"><a href=\"".$bhashya."_id.html&page=" . $page_num . "#".$bs_id."#quote_".$idref."\">" . $href . "</a></li>\n";
+			print TEMP "<li id=\"sort_99\" type=\"".$ref_bhashya."\" class=\"qt\"><a href=\"".$bhashya."_id.html&page=" . $page_num . "#".$bs_id."#quote_".$idref."\">" . $href . "</a></li>\n";
 			$idref++;
 		}
 	}
@@ -161,6 +161,31 @@ sub get_bhashya_code()
 		case "kst" { return("KT"); }
 		case "svt" { return("SV"); }
 		else { return("BS"); }
+	}
+}
+
+sub get_sortid()
+{
+	my($upn) = @_;
+	switch ($upn)
+	{
+		case "BS" { return("01"); }
+		case "Gita" { return("02"); }
+		case "Isha" { return("03"); }
+		case "Aitareya" { return("04"); }
+		case "Kathaka" { return("05"); }
+		case "Kena_pada" { return("06"); }
+		case "Kena_vakya" { return("07"); }
+		case "kst" { return("08"); }
+		case "Chandogya" { return("09"); }
+		case "jbl" { return("10"); }
+		case "Taitiriya" { return("11"); }
+		case "Prashna" { return("12"); }
+		case "Brha" { return("13"); }
+		case "Mandukya" { return("14"); }
+		case "Mundaka" { return("15"); }
+		case "svt" { return("16"); }
+		else { return("00"); }
 	}
 }
 

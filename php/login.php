@@ -1,7 +1,14 @@
 <?php
 
 session_start(); 
-
+if(isset($_SESSION['valid']))
+{
+    if($_SESSION['valid'] == 1)
+    {
+        @header("Location: prasthanatraya.php");
+        exit;
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +18,7 @@ session_start();
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link rel="stylesheet" type="text/css" href="style/indexstyle.css" media ="screen" />
 	<link rel="stylesheet" type="text/css" href="style/reset.css" media ="screen" />
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
 	<title>Shankara Bhashya</title>
 </head>
 
@@ -78,8 +86,13 @@ else
 						<label for="lpassword">Password&nbsp;<span class="clr2">*</span></label><br />
 						<input class="rinput" type="password" name="lpassword" id="lpassword" />
 					</li>
+                    <li id="pr_email_show">
+						<label for="pr_email" class="clr2">Enter your email address</label><br />
+						<input class="rinput" type="text" name="pr_email" id="pr_email" />
+ 					</li>
 					<li id="regForm">
 						<input class="rsubmit" type="submit" name="submit" value="submit"/>
+                        <p class="forgotPassword fright clr2"><a href="javascript:void(0);" onclick="$('#lemail').prop('disabled', true);$('#lpassword').prop('disabled', true);$('#regForm h2').hide();$('#pr_email_show').show();">Forgot your password?</a></p>
 						<h2 class="clr2" style="margin-top: 1em;">If you are a first time user, then we request you to register below</h2>
 					</li>
 				</ul>

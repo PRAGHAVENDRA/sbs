@@ -416,4 +416,36 @@ function uiConvertChar($char)
 		default : return($char);
 	}
 }
+function hasResetExpired($reset)
+{
+  	include("connect.php");
+
+	$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
+	$rs = mysql_select_db($database,$db) or die("No Database");
+	
+	$query_l2 = "select *,count(*) from reset where hash='$reset'";
+	$result_l2 = mysql_query($query_l2);
+	$row_l2=mysql_fetch_assoc($result_l2);
+	$num=$row_l2['count(*)'];
+	if ($num == 0)
+    {
+        return True;
+    }
+    else
+    {
+        $tstamp=$row_l2['timestamp'];
+        $cstamp = time();
+        if(floor(($cstamp - $tstamp) / 3600) > 24)
+        {
+            $query = "DELETE from reset where timestamp<='$tstamp'";
+            $result = mysql_query($query);            
+            return True;
+        }
+        else
+        {
+            return False;
+        }
+    }
+}
+
 ?>

@@ -868,32 +868,54 @@ hr{
 	min-height: 100px;
 	padding: 20px;
 }
-.registration ul li{
+.feedback{
+	width: 600px;
+	margin: 30px auto 30px auto;
+	box-shadow: 0 0 7px #AAA;
+	min-height: 100px;
+	padding: 20px;
+}
+.registration ul li, .feedback ul li{
 	margin-bottom: 1em;
 }
-.registration h2{
+.registration h2, .feedback h2{
 	
 }
-.registration .required_notification{
+.registration .required_notification, .feedback .required_notification{
 	display:inline;
     float:right;
     margin-top: 5px;
 }
-.registration label {
+.registration label{
     width:220px;
     margin-top: 3px;
     display:inline-block;
     float:left;
     padding:3px 3px 3px 0px;
 }
-.registration input[type=text], .registration input[type=password] {
+.feedback label {
+    width:520px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px 3px 3px 0px;
+}
+.registration input[type=text], .registration input[type=password], .feedback input[type=text], .feedback input[type=password]{
     height:20px; 
-    width:300px; 
+    width:95%; 
     padding:5px 8px;
     border: 1px solid #AAA;
     border-radius: 3px;
 }
-.registration input[type=submit] {
+.registration select, .feedback select {
+    background: none;
+    height:32px; 
+    width:318px; 
+    padding:5px 8px;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+}
+.registration input[type=submit], .feedback input[type=submit] {
     width:100px; 
     padding:5px 8px;
     border: 1px solid #AAA;
@@ -901,8 +923,26 @@ hr{
     margin-top: 1em;
     background: none;
 }
-.registration textarea {padding:8px; width:300px;border: 1px solid #AAA;height: 100px;border-radius: 3px;}
-.registration button {margin-left:156px;}
+.registration textarea{
+    padding:8px;
+    width:95%;
+    border: 1px solid #AAA;
+    height: 100px;
+    border-radius: 3px;
+}
+.feedback textarea{
+    padding:8px;
+    width:580px;
+    border: 1px solid #AAA;
+    height: 150px;
+    border-radius: 3px;
+}
+.registration button, .registration button{
+    margin-left:156px;
+}
+.registration input:FOCUS, .feedback input:FOCUS, .registration submit:FOCUS, .feedback submit:FOCUS, .registration select:FOCUS, .feedback select:FOCUS, .registration textarea:FOCUS, .feedback textarea:FOCUS{
+    box-shadow: 0 0 3px #5FC476;
+}
 .regs p{
 	color: #333;
 	padding: 1em;
@@ -1127,4 +1167,10 @@ hr{
 }
 .user_details .tr4{
 	width: 5%;
+}
+.forgotPassword:ACTIVE{
+    text-decoration: underline;
+}
+#pr_email_show{
+    display: none;
 }

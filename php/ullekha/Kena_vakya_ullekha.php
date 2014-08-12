@@ -27,10 +27,10 @@
 <li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=01#KV_C01_V05#quote_23">‘केनेषितां वाचमिमां वदन्ति’ (के. उ. १-१)</a></li>
 <li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=01#KV_C01_V05#quote_24">‘यद्वाचो ह वाचम्’ (के. उ. १-२)</a></li>
 <li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_30">‘नेदं यदिदमुपासते’ (के. उ. १-५)</a></li>
-<li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_31">(के. उ. १-६)</a></li>
-<li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_32">(के. उ. १-७)</a></li>
-<li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_33">(के. उ. १-८)</a></li>
-<li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_34">(के. उ. १-९)</a></li>
+<li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_31">‘नेदं यदिदमुपासते’ (के. उ. १-६)</a></li>
+<li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_32">‘नेदं यदिदमुपासते’ (के. उ. १-७)</a></li>
+<li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_33">‘नेदं यदिदमुपासते’ (के. उ. १-८)</a></li>
+<li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_34">‘नेदं यदिदमुपासते’ (के. उ. १-९)</a></li>
 <li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_35">‘तद्वनमित्युपासितव्यम्’ (के. उ. ४-६)</a></li>
 <li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=03#KV_C03_V12#quote_36">‘तन्न शशाक दग्धुम्’ (के. उ. ३-६)</a></li>
 <li id="sort_07" type="Kena_vakya" class="qt"><a target="_blank" href="format.php?bhashya=Kena_vakya&page=04#KV_C04_V05#quote_56">‘येनाहुर्मनो मतम्’ (के. उ. १-५)</a></li>

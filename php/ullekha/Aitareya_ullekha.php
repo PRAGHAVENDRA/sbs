@@ -62,13 +62,13 @@
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I01#quote_3">‘एष ब्रह्मैष इन्द्रः’ (बृ. उ. ३-१-३)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I01#quote_4">‘यच्च स्थावरम् , सर्वं तत्प्रज्ञानेत्रम्’ (बृ. उ. ३-१-३)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_11">‘व्युत्थायाथ भिक्षाचर्यं चरन्ति’ (बृ. उ. ३-५-१)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_12">(बृ. उ. ४-४-२२)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_12">‘व्युत्थायाथ भिक्षाचर्यं चरन्ति’ (बृ. उ. ४-४-२२)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_15">‘तदात्मानमेवावेत्’ (बृ. उ. १-४-९)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_18">‘सोऽकामयत जाया मे स्यात्’ (बृ. उ. १-४-१७)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_19">‘उभे ह्येते साध्यसाधनलक्षणे एषणे एव’ (बृ. उ. ३-५-१)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_20">‘एतावान्वै कामः’ (बृ. उ. १-४-१७)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_21">‘उभे ह्येते एषणे एव’ (बृ. उ. ३-५-१)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_22">(बृ. उ. ४-४-२२)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_22">‘उभे ह्येते एषणे एव’ (बृ. उ. ४-४-२२)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_23">‘शान्तो दान्तः’ (बृ. उ. ४-४-२३)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_26">‘यत्र त्वस्य सर्वमात्मैवाभूत्’ (बृ. उ. २-४-१४)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_27">‘यत्र हि द्वैतमिव भवति’ (बृ. उ. २-४-१४)</a></li>
@@ -84,10 +84,10 @@
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I02#quote_54">‘नेति नेति’ (बृ. उ. ३-९-२६)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I03#quote_57">‘नेति नेति’ (बृ. उ. ३-९-२६)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I03#quote_58">‘अनन्तरमबाह्यम्’ (बृ. उ. २-५-१९)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I03#quote_59">(बृ. उ. ३-८-८)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I03#quote_59">‘अनन्तरमबाह्यम्’ (बृ. उ. ३-८-८)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I03#quote_60">‘अयमात्मा ब्रह्म सर्वानुभूः’ (बृ. उ. २-५-१९)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I03#quote_62">‘यत्र त्वस्य सर्वमात्मैवाभूत्तत्केन कं पश्येत्’ (बृ. उ. २-४-१४)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I03#quote_63">(बृ. उ. ४-५-१५)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_I03#quote_63">‘यत्र त्वस्य सर्वमात्मैवाभूत्तत्केन कं पश्येत्’ (बृ. उ. ४-५-१५)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=02#AI_C02_S01_V04#quote_65">‘पित्रानुशिष्टोऽहं ब्रह्माहं यज्ञ इत्यादि प्रतिपद्यते’ (बृ. उ. १-५-१७)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=03#AI_C03_S01_V02#quote_67">‘मनसा ह्येव पश्यति मनसा शृणोति हृदयेन हि रूपाणि विजानाति’ (बृ. उ. १-५-३)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=03#AI_C03_S01_V02#quote_69">‘प्राणन्नेव प्राणो नाम भवति’ (बृ. उ. १-४-७)</a></li>
@@ -104,7 +104,7 @@
 <li id="sort_16" type="svt" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_I02#quote_24">‘अत्याश्रमिभ्यः परमं पवित्रं प्रोवाच सम्यगृषिसंघजुष्टम्’ (श्वे. उ. ६-२१)</a></li>
 <li id="sort_16" type="svt" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S01_V01#quote_37">‘अपाणिपादो जवनो ग्रहीता’ (श्वे. उ. ३-२९)</a></li>
 <li id="sort_16" type="svt" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S02_V01#quote_40">‘नान्यः पन्था विद्यतेऽयनाय’ (श्वे. उ. ३-८)</a></li>
-<li id="sort_16" type="svt" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S02_V01#quote_41">(श्वे. उ. ६-१५)</a></li>
+<li id="sort_16" type="svt" class="qt"><a target="_blank" href="format.php?bhashya=Aitareya&page=01#AI_C01_S02_V01#quote_41">‘नान्यः पन्था विद्यतेऽयनाय’ (श्वे. उ. ६-१५)</a></li>
 </ul>
 </li>
 <li><a id="udl112" href="javascript:void(0);" onclick="show_nav_level1('#udl112')">अन्यत्र</a>

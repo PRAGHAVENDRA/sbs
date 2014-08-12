@@ -16,6 +16,7 @@ my $dbh=DBI->connect("DBI:mysql:database=$db;host=$host","$usr","$pwd");
 
 $line = <IN>;
 $idref = 1;
+$prevUllekha = '';
 while($line)
 {
 	$line =~ s/<\/span>/<\/span>\n/g;
@@ -32,6 +33,15 @@ while($line)
 			{
 				$ref_bhashya = $1;
 				$dref = $2;
+                
+                if($dref =~ /(‘.*’)/)
+                {
+                    $prevUllekha = $1;
+                }
+                else
+                {
+                    $dref = $prevUllekha . " " . $dref;
+                }
 				$bs_id = get_bhashya_id("quote_".$idref, get_bhashya_code($bhashya));
 				
 				$bs_id =~ s/\_B[0-9]+//g;
@@ -49,6 +59,14 @@ while($line)
 		{
 			$ref_bhashya = 'zothers';
 			$href = $1;
+            if($href =~ /(‘.*’)/)
+            {
+                $prevUllekha = $1;
+            }
+            else
+            {
+                $href = $prevUllekha . " " . $href;
+            }
 			$bs_id = get_bhashya_id("quote_".$idref, get_bhashya_code($bhashya));
 			$bs_id =~ s/\_B[0-9]+//g;
 			

@@ -156,7 +156,7 @@
 <ul class="hide" id="udl19ul">
 <li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=03#Ch_C03_S13_V01#quote_65">‘आदित्यो ह वै ब्राह्मप्राणः’ (प्र. उ. ३-८)</a></li>
 <li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_183">‘कस्मिन्न्वहमुत्क्रान्त उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति स प्राणमसृजत’ (प्र. उ. ६-३)</a></li>
-<li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_184">(प्र. उ. ६-४)</a></li>
+<li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_184">‘कस्मिन्न्वहमुत्क्रान्त उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति स प्राणमसृजत’ (प्र. उ. ६-४)</a></li>
 <li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V03#quote_239">‘कस्मिन्न्वहमुत्क्रान्ते उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति’ (प्र. उ. ६-३)</a></li>
 </ul>
 </li>
@@ -166,11 +166,11 @@
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V02#quote_13">‘यदेवेदमप्रतिरूपं जिघ्रति’ (बृ. उ. १-३-३)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V06#quote_14">‘एवमु खल्वेता देवताः पाप्मभिः’ (बृ. उ. १-३-६)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_16">‘देवो भूत्वा देवानप्येति’ (बृ. उ. ४-१-२)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_17">(बृ. उ. ४-१-३)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_18">(बृ. उ. ४-१-४)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_19">(बृ. उ. ४-१-५)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_20">(बृ. उ. ४-१-६)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_21">(बृ. उ. ४-१-७)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_17">‘देवो भूत्वा देवानप्येति’ (बृ. उ. ४-१-३)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_18">‘देवो भूत्वा देवानप्येति’ (बृ. उ. ४-१-४)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_19">‘देवो भूत्वा देवानप्येति’ (बृ. उ. ४-१-५)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_20">‘देवो भूत्वा देवानप्येति’ (बृ. उ. ४-१-६)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S02_V14#quote_21">‘देवो भूत्वा देवानप्येति’ (बृ. उ. ४-१-७)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S08_V04#quote_26">‘शुष्यति वै प्राण ऋतेऽन्नात्’ (बृ. उ. ५-१२-१)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S08_V04#quote_27">‘अन्नं दाम’ (बृ. उ. २-२-१)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S10_V09#quote_33">‘यज्ञेन दानेन’ (बृ. उ. ६-२-१६)</a></li>

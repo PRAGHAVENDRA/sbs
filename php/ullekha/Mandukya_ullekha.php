@@ -100,7 +100,7 @@
 <li><a id="udl18" href="javascript:void(0);" onclick="show_nav_level1('#udl18')">बृहदारण्यकोपनिषत्</a>
 <ul class="hide" id="udl18ul">
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=01#MK_C01_I03#quote_1">‘यत्र हि द्वैतमिव भवति’ (बृ. उ. २-४-१४)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=01#MK_C01_I03#quote_2">(बृ. उ. ४-५-१५)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=01#MK_C01_I03#quote_2">‘यत्र हि द्वैतमिव भवति’ (बृ. उ. ४-५-१५)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=01#MK_C01_I03#quote_3">‘यत्र वान्यदिव स्यात्तत्रान्योऽन्यत्पश्येदन्योऽन्यद्विजानीयात्’ (बृ. उ. ४-३-३१)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=01#MK_C01_I03#quote_4">‘यत्र त्वस्य सर्वमात्मैवाभूत्तत्केन कं पश्येत्तत्केन कं विजानीयात्’ (बृ. उ. ४-५-१५)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=01#MK_C01_K02#quote_23">‘इन्धो ह वै नामैष योऽयं दक्षिणेऽक्षन्पुरुषः’ (बृ. उ. ४-२-२)</a></li>
@@ -137,8 +137,8 @@
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K24#quote_126">‘इन्द्रो मायाभिः’ (बृ. उ. २-५-१९)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K26#quote_133">‘अथात आदेशो नेति नेति’ (बृ. उ. २-३-६)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K26#quote_134">‘स एष नेति नेति’ (बृ. उ. ३-९-२६)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K26#quote_135">(बृ. उ. ४-४-२२)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K26#quote_136">(बृ. उ. ४-५-१५)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K26#quote_135">‘स एष नेति नेति’ (बृ. उ. ४-४-२२)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K26#quote_136">‘स एष नेति नेति’ (बृ. उ. ४-५-१५)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K33#quote_138">‘न हि विज्ञातुर्विज्ञातेर्विपरिलोपो विद्यते’ (बृ. उ. ४-३-३०)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K33#quote_139">‘विज्ञानमानन्दं ब्रह्म’ (बृ. उ. ३-९-२८)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K38#quote_144">‘यो वा एतदक्षरं गार्ग्यविदित्वास्माल्लोकात्प्रैति स कृपणः’ (बृ. उ. ३-८-१०)</a></li>

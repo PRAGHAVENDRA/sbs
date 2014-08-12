@@ -20,7 +20,7 @@
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Isha&page=08#IS_V08#quote_6">‘नान्योऽतोऽस्ति द्रष्टा’ (बृ. उ. ३-७-२३)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Isha&page=10#IS_V10#quote_21">‘कर्मणा पितृलोकः, विद्यया देवलोकः’ (बृ. उ. १-५-१६)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Isha&page=IS_I08#IS_I08#quote_10">‘मन एवास्यात्मा वाग्जाया’ (बृ. उ. १-४-१७)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Isha&page=IS_I08#IS_I08#quote_11">(बृ. उ. १-५-२)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Isha&page=IS_I08#IS_I08#quote_11">‘मन एवास्यात्मा वाग्जाया’ (बृ. उ. १-५-२)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Isha&page=IS_I08#IS_I08#quote_12">‘किं प्रजया करिष्यामो येषां नोऽयमात्मायं लोकः’ (बृ. उ. ४-४-२२)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Isha&page=IS_I08#IS_I08#quote_18">‘विद्यया देवलोकः’ (बृ. उ. १-५-१६)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Isha&page=IS_I08#IS_I08#quote_19">‘विद्यया देवलोकः’ (बृ. उ. १-५-१६)</a></li>

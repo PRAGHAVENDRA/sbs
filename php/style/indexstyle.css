@@ -734,10 +734,14 @@ hr{
 	-moz-transition: all 0.4s;
 	-webkit-transition: all 0.4s;
 }
+.ullekha_list li {
+    border-bottom: 1px dotted #A0A0A0;
+	list-style-type: disc;
+	list-style-position: outside;
+    margin: 0.5em 0;
+}
 .ullekha_list >li {
 	padding: 5px 5px 5px 15px;
-	display: block;
-	clear: both;
 	color: #9E1212;
 	text-decoration: none;
 	border-bottom: 1px dotted #c0c0c0;
@@ -750,8 +754,6 @@ hr{
 .ullekha_list >li>ul>li {
 	font-size: 0.95em;
 	margin-left: 1em;
-	display: block;
-	clear: both;
 	color: #333;
 	text-decoration: none;
 }

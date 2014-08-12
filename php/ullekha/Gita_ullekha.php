@@ -217,7 +217,7 @@
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=17#BG_C17_V14#quote_335">‘पञ्चैते तस्य हेतवः’ (भ. गी. १८-१५)</a></li>
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_I20#quote_370">‘ऊर्ध्वमूलम्’ (भ. गी. १५-१)</a></li>
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_I20#quote_371">‘तं च असङ्गशस्त्रेण दृढेन च्छित्त्वा ततः पदं तत्परिमार्गितव्यम्’ (भ. गी. १५-३)</a></li>
-<li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_I20#quote_372">(भ. गी. १५-४)</a></li>
+<li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_I20#quote_372">‘तं च असङ्गशस्त्रेण दृढेन च्छित्त्वा ततः पदं तत्परिमार्गितव्यम्’ (भ. गी. १५-४)</a></li>
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_I24#quote_375">‘न हि कश्चित्क्षणमपि अकर्मकृत्तिष्ठति’ (भ. गी. ३-५)</a></li>
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V02#quote_336">‘अनिष्टमिष्टं मिश्रं च’ (भ. गी. १८-१२)</a></li>
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V02#quote_337">‘न तु संन्यासिनाम्’ (भ. गी. १८-१२)</a></li>
@@ -436,9 +436,9 @@
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=06#BG_C06_V16#quote_188">‘अर्धं सव्यञ्जनान्नस्य तृतीयमुदकस्य च । वायोः संचरणार्थं तु चतुर्थमवशेषयेत्’ (?)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=08#BG_C08_V04#quote_195">‘यज्ञो वै विष्णुः’ (तै. सं. १ । ७ । ४)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_216">‘यो अस्याध्यक्षः परमे व्योमन्’ (ऋ. १० । १२९ । ७)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_217">(तै. ब्रा. २ । ८ । ९)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_217">‘यो अस्याध्यक्षः परमे व्योमन्’ (तै. ब्रा. २ । ८ । ९)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_218">‘को अद्धा वेद क इह प्रवोचत् । कुत आजाता कुत इयं विसृष्टिः’ (ऋ. १० । १२९ । ६)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_219">(तै. ब्रा. २ । ८ । ९)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=09#BG_C09_V10#quote_219">‘को अद्धा वेद क इह प्रवोचत् । कुत आजाता कुत इयं विसृष्टिः’ (तै. ब्रा. २ । ८ । ९)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=10#BG_C10_V42#quote_225">‘पादोऽस्य विश्वा भूतानि’ (ऋ. १० । ८ । ९० । ३)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=12#BG_C12_V19#quote_239">‘येन केनचिदाच्छन्नो येन केनचिदाशितः । यत्र क्वचन शायी स्यात्तं देवा ब्राह्मणं विदुः’ (मो. ध. २४५ । १२)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=12#BG_C12_V19#quote_240">‘नागारे’ (?)</a></li>
@@ -458,7 +458,7 @@
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=15#BG_C15_V13#quote_325">‘स दाधार पृथिवीम्’ (तै. सं. ४ । १ । ८)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=15#BG_C15_V20#quote_331">‘एतद्धि जन्मसामग्र्यं ब्राह्मणस्य विशेषतः । प्राप्यैतत्कृतकृत्यो हि द्विजो भवति नान्यथा’ (मनु. १२ । ९३)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_I22#quote_373">‘वर्णा आश्रमाश्च स्वकर्मनिष्ठाः प्रेत्य कर्मफलमनुभूय ततः शेषेण विशिष्टदेशजातिकुलधर्मायुःश्रुतवृत्तवित्तसुखमेधसो जन्म प्रतिपद्यन्ते’ (गौ. ध. २ । २ । २९)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_I22#quote_374">(मै. गौ. ध. ११ । ३१)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_I22#quote_374">‘वर्णा आश्रमाश्च स्वकर्मनिष्ठाः प्रेत्य कर्मफलमनुभूय ततः शेषेण विशिष्टदेशजातिकुलधर्मायुःश्रुतवृत्तवित्तसुखमेधसो जन्म प्रतिपद्यन्ते’ (मै. गौ. ध. ११ । ३१)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V53#quote_392">‘हृष्टो दृप्यति दृप्तो धर्ममतिक्रामति’ (आ. ध. सू. १ । १३ । ४)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V55#quote_397">‘तस्मान्न्यासमेषां तपसामतिरिक्तमाहुः’ (तै. ना. ७९)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V55#quote_398">‘न्यास एवात्यरेचयत्’ (तै. ना. ७८)</a></li>

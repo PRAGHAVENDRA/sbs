@@ -1,6 +1,6 @@
 <li><a id="udl11" href="javascript:void(0);" onclick="show_nav_level1('#udl11')">काठकोपनिषत्</a>
 <ul class="hide" id="udl11ul">
-<li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=02#MD_C02_S02_V09#quote_29">(का. उ. २-३-१४)</a></li>
+<li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=02#MD_C02_S02_V09#quote_29">‘कामा येऽस्य हृदि श्रिताः’ (का. उ. २-३-१४)</a></li>
 </ul>
 </li>
 <li><a id="udl12" href="javascript:void(0);" onclick="show_nav_level1('#udl12')">छान्दोग्योपनिषत्</a>

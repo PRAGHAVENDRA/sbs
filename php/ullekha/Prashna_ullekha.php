@@ -33,6 +33,6 @@
 <ul class="hide" id="udl15ul">
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Prashna&page=02#PR_C02_V08#quote_1">‘तेषामेव प्राणो वाथर्वा’ (?)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Prashna&page=04#PR_C04_V05#quote_3">‘सधीः स्वप्नो भूत्वा’ (बृ. मा. ४ । ३ । ७)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Prashna&page=04#PR_C04_V05#quote_6">(बृ. मा. ४ । ५ । १४)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Prashna&page=04#PR_C04_V05#quote_6">‘यत्र वा अन्यदिव स्यात्तत्रान्योऽन्यत्पश्येन्मात्रासंसर्गस्त्वस्य भवति’ (बृ. मा. ४ । ५ । १४)</a></li>
 </ul>
 </li>

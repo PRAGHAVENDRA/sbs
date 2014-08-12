@@ -37,11 +37,11 @@
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S01_V01#quote_45">‘यत्र नान्यद्विजानाति स भूमा, अथ यत्रान्यद्विजानाति तदल्पम्’ (छा. उ. ७-२४-१)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S01_V01#quote_46">‘तत् सत्यम्’ (छा. उ. ६-८-१६)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S01_V01#quote_55">‘यो वै स बहिर्धा पुरुषादाकाशो यो वै सोऽन्तः पुरुष आकाशो योऽयमन्तर्हृदय आकाशः’ (छा. उ. ३-१२-७)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S01_V01#quote_56">(छा. उ. ३-१२-८)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S01_V01#quote_56">‘यो वै स बहिर्धा पुरुषादाकाशो यो वै सोऽन्तः पुरुष आकाशो योऽयमन्तर्हृदय आकाशः’ (छा. उ. ३-१२-८)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S01_V01#quote_57">‘वाचारंभणं विकारो नामधेयं मृत्तिकेत्येव सत्यम्’ (छा. उ. ६-१-४)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S01_V01#quote_58">‘तत्सत्यं स आत्मा’ (छा. उ. ६-८-१६)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S03_V01#quote_61">‘सर्वमायुरेति’ (छा. उ. २-११-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S03_V01#quote_62">(छा. उ. ४-११-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S03_V01#quote_62">‘सर्वमायुरेति’ (छा. उ. ४-११-२)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S06_V01#quote_73">‘कथमसतः सज्जायेत’ (छा. उ. ६-२-२)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S06_V01#quote_75">‘अनेन जीवेनात्मनानुप्रविश्य’ (छा. उ. ६-३-२)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=02#T_C02_S08_V05#quote_82">‘एकमेवाद्वितीयम्’ (छा. उ. ६-२-१)</a></li>
@@ -91,9 +91,9 @@
 <li><a id="udl18" href="javascript:void(0);" onclick="show_nav_level1('#udl18')">बृहदारण्यकोपनिषत्</a>
 <ul class="hide" id="udl18ul">
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_27">‘तत्केन कं पश्येत्’ (बृ. उ. २-४-१४)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_28">(बृ. उ. ४-५-१५)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_28">‘तत्केन कं पश्येत्’ (बृ. उ. ४-५-१५)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_29">‘यत्र हि द्वैतमिव भवति’ (बृ. उ. २-४-१४)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_31">(बृ. उ. ४-४-१९)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_31">‘मृत्योः स मृत्युमाप्नोति’ (बृ. उ. ४-४-१९)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_33">‘अन्योऽसावन्योऽहमस्मि’ (बृ. उ. १-४-१०)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_35">‘एकधैवानुद्रष्टव्यम्’ (बृ. उ. ४-४-२०)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_40">‘प्रव्रजिष्यन्वा अरेऽहमस्मात्स्थानादस्मि’ (बृ. उ. ४-५-२)</a></li>
@@ -125,10 +125,10 @@
 <li><a id="udl111" href="javascript:void(0);" onclick="show_nav_level1('#udl111')">अन्यत्र</a>
 <ul class="hide" id="udl111ul">
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S01_I04#quote_4">‘ततः शेषेण’ (आ. ध. २ । २ । २ । ३)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S01_I04#quote_5">(गो. स्मृ. ११)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S01_I04#quote_5">‘ततः शेषेण’ (गो. स्मृ. ११)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S01_I04#quote_6">‘अकुर्वन्विहितं कर्म’ (मनु. ११ । ४४)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S04_V03#quote_8">‘ज्ञानमुत्पद्यते पुंसां क्षयात्पापस्य कर्मणः । यथादर्शतले प्रख्ये पश्यत्यात्मानमात्मनि’ (म. भा. शां. २०४ । ८)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S04_V03#quote_9">(गरुड. १ । २३७ । ६)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S04_V03#quote_9">‘ज्ञानमुत्पद्यते पुंसां क्षयात्पापस्य कर्मणः । यथादर्शतले प्रख्ये पश्यत्यात्मानमात्मनि’ (गरुड. १ । २३७ । ६)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Taitiriya&page=01#T_C01_S11_V04#quote_12">‘तपसा कल्मषं हन्ति विद्ययामृतमश्नुते’ (मनु. १२ । १०४)</a></li>
 </ul>
 </li>

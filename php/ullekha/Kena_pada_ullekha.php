@@ -94,7 +94,7 @@
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=02#KP_C02_V04#quote_59">‘दृष्टेद्रष्टा श्रुतेः श्रोता मतेर्मन्ता विज्ञातेर्विज्ञाता’ (बृ. उ. ३-४-२)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=02#KP_C02_V04#quote_60">‘विज्ञानमानन्दं ब्रह्म’ (बृ. उ. ३-९-२७)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=02#KP_C02_V04#quote_61">‘असङ्गो न हि सज्जते’ (बृ. उ. ३-९-२६)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=02#KP_C02_V04#quote_62">(बृ. उ. ४-५-१५)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=02#KP_C02_V04#quote_62">‘असङ्गो न हि सज्जते’ (बृ. उ. ४-५-१५)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=02#KP_C02_V04#quote_64">‘आत्मन्येवात्मानं पश्यति’ (बृ. उ. ४-४-२३)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=02#KP_C02_V04#quote_66">‘न हि विज्ञातुर्विज्ञातेर्विपरिलोपो विद्यतेऽविनाशित्वात्’ (बृ. उ. ४-३-३०)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=02#KP_C02_V04#quote_68">‘स वा एष महानज आत्माजरोऽमरोऽमृतोऽभयः’ (बृ. उ. ४-४-२५)</a></li>
@@ -119,7 +119,7 @@
 <li><a id="udl112" href="javascript:void(0);" onclick="show_nav_level1('#udl112')">अन्यत्र</a>
 <ul class="hide" id="udl112ul">
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=01#KP_C01_I01#quote_2">‘प्रजा ह तिस्रोऽत्यायमीयुः’ (ऐ. आ. २ । १ । १)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=01#KP_C01_I01#quote_3">( ऋ. मं. ८ । १०१ । १४)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=01#KP_C01_I01#quote_3">‘प्रजा ह तिस्रोऽत्यायमीयुः’ ( ऋ. मं. ८ । १०१ । १४)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=01#KP_C01_V02#quote_19">‘येन सूर्यस्तपति तेजसेद्धः’ (तै. ब्रा. ३ । १२ । ९ । ७)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=01#KP_C01_V02#quote_26">‘न कर्मणा न प्रजया धनेन त्यागेनैके अमृतत्वमानशुः’ (तै. ना. २८)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kena_pada&page=01#KP_C01_V05#quote_34">‘अकारो वै सर्वा वाक्सैषास्य स्पर्शान्तःस्थोष्मभिर्व्यज्यमाना बह्वी नानारूपा भवति’ (ऐ. आ. २ । ३ । ६)</a></li>

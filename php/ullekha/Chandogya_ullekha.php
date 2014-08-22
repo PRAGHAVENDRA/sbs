@@ -279,7 +279,7 @@
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=05#Ch_C05_S10_V02#quote_118">‘यदन्तरापितरं मातरं च’ (ऋ. १० । ८८ । १५)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=05#Ch_C05_S10_V05#quote_119">‘ततः शेषेण’ (गौ. ध. २ । २ । २९)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S03_V02#quote_138">‘आकाशवत्सर्वगतश्च नित्यः’ (?)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_144">‘ध्यायतीव लेलायतीव सधीः स्वप्नो भूत्वेमं लोकमतिक्रामति’ (बृ. मा. ४ । १ । ७)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_144">‘ध्यायतीव लेलायतीव’ ‘सधीः स्वप्नो भूत्वेमं लोकमतिक्रामति’ (बृ. मा. ४ । १ । ७)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V06#quote_157">‘यद्वै मनसा ध्यायति तद्वाचा वदति’ (?)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S09_V03#quote_159">‘यथाप्रज्ञं हि सम्भवाः’ (ऐ. आ. २ । ३ । २)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_171">‘अग्निहोत्रं जुहुयात्’ (?)</a></li>

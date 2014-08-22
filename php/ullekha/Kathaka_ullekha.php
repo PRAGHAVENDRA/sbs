@@ -6,9 +6,9 @@
 </li>
 <li><a id="udl12" href="javascript:void(0);" onclick="show_nav_level1('#udl12')">काठकोपनिषत्</a>
 <ul class="hide" id="udl12ul">
-<li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S01_I03#quote_1">‘निचाय्य तं मृत्युमुखात्प्रमुच्यते’ (क. उ. १-३-१५)</a></li>
-<li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S01_I03#quote_2">‘ब्रह्म प्राप्तो विरजोऽभूद्विमृत्युः’ (क. उ. २-३-१८)</a></li>
-<li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S01_I03#quote_3">‘स्वर्गलोका अमृतत्वं भजन्ते’ (क. उ. १-१-१३)</a></li>
+<li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S01_I02#quote_1">‘निचाय्य तं मृत्युमुखात्प्रमुच्यते’ (क. उ. १-३-१५)</a></li>
+<li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S01_I02#quote_2">‘ब्रह्म प्राप्तो विरजोऽभूद्विमृत्युः’ (क. उ. २-३-१८)</a></li>
+<li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S01_I02#quote_3">‘स्वर्गलोका अमृतत्वं भजन्ते’ (क. उ. १-१-१३)</a></li>
 <li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S03_V12#quote_8">‘यस्माद्भूयो न जायते’ (क. उ. १-३-८)</a></li>
 <li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S03_V15#quote_11">‘एष सर्वेषु भूतेषु’ (क. उ. १-३-१२)</a></li>
 <li id="sort_05" type="Kathaka" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=02#Ka_C02_S01_I01#quote_12">‘एष सर्वेषु भूतेषु गुढोऽत्मा न प्रकाशते’ (क. उ. १-३-१२)</a></li>
@@ -33,7 +33,7 @@
 </li>
 <li><a id="udl15" href="javascript:void(0);" onclick="show_nav_level1('#udl15')">अन्यत्र</a>
 <ul class="hide" id="udl15ul">
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S01_I03#quote_4">‘आयुर्वै घृतम्’ (तै. सं. २ । ३ । ११)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S01_I02#quote_4">‘आयुर्वै घृतम्’ (तै. सं. २ । ३ । ११)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=01#Ka_C01_S03_V12#quote_9">‘अनध्वगा अध्वसु पारयिष्णवः’ (?)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=02#Ka_C02_S02_V02#quote_15">‘इयं वेदिः परोऽन्तः पृथिव्याः’ (ऋ. मं. १ । २२ । १६४ । ३५)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Kathaka&page=02#Ka_C02_S02_V07#quote_16">‘यथाप्रज्ञं हि सम्भवाः’ (ऐ. आ. २ । ३ । २)</a></li>

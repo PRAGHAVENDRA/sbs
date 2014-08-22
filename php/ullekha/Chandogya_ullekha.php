@@ -4,7 +4,7 @@
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=03#Ch_C03_S14_V01#quote_68">‘यं यं वापि स्मरन्भावं त्यजत्यन्ते कलेबरम्’ (भ. गी. ८-६)</a></li>
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=03#Ch_C03_S14_V02#quote_73">‘धर्माविरुद्धो भूतेषु कामोऽस्मि’ (भ. गी. ७-११)</a></li>
 <li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=03#Ch_C03_S14_V02#quote_74">‘पुण्यो गन्धः पृथिव्याम्’ (भ. गी. ७-९)</a></li>
-<li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S14_V02#quote_162">‘ज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा’ (भ. गी. ४-३७)</a></li>
+<li id="sort_02" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S14_V02#quote_163">‘ज्ञानाग्निः सर्वकर्माणि भस्मसात्कुरुते तथा’ (भ. गी. ४-३७)</a></li>
 </ul>
 </li>
 <li><a id="udl12" href="javascript:void(0);" onclick="show_nav_level1('#udl12')">ऐतरेयोपनिषत्</a>
@@ -26,7 +26,7 @@
 <li><a id="udl15" href="javascript:void(0);" onclick="show_nav_level1('#udl15')">कौषीतकिब्राह्मणोपनिषत्</a>
 <ul class="hide" id="udl15ul">
 <li id="sort_08" type="kst" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=03#Ch_C03_S14_V02#quote_69">‘यो वै प्राणः सा प्रज्ञा या वा प्रज्ञा स प्राणः’ (कौ. उ. ३-३)</a></li>
-<li id="sort_08" type="kst" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_185">‘तद्यथा रथस्यारेषु नेमिरर्पितो नाभावरा अर्पिता एवमेवैता भूतमात्राः प्रज्ञामात्रास्वर्पिताः प्रज्ञामात्राः प्राणेऽर्पिताः स एष प्राण एव प्रज्ञात्मा’ (कौ. उ. ३-९)</a></li>
+<li id="sort_08" type="kst" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_186">‘तद्यथा रथस्यारेषु नेमिरर्पितो नाभावरा अर्पिता एवमेवैता भूतमात्राः प्रज्ञामात्रास्वर्पिताः प्रज्ञामात्राः प्राणेऽर्पिताः स एष प्राण एव प्रज्ञात्मा’ (कौ. उ. ३-९)</a></li>
 </ul>
 </li>
 <li><a id="udl16" href="javascript:void(0);" onclick="show_nav_level1('#udl16')">छान्दोग्योपनिषत्</a>
@@ -84,55 +84,55 @@
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S04_V04#quote_141">‘यथा तु खलु सोम्येमास्तिस्रो देवतास्त्रिवृत्त्रिवृदेकैका भवति तन्मे विजानीहि’ (छा. उ. ६-४-४)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S05_V02#quote_142">‘आपोमयः प्राणो नपिबतो विच्छेत्स्यते’ (छा. उ. ६-७-१)</a></li>
 <li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S07_V01#quote_143">‘अथान्नस्यायी द्रष्टा’ (छा. उ. ७-९-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V02#quote_155">‘प्राणशरीरो भारूपः’ (छा. उ. ३-१४-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V06#quote_156">‘अन्नमशितं त्रेधा विधीयते’ (छा. उ. ६-५-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S14_V02#quote_164">‘ब्रह्मसंस्थोऽमृतत्वमेति’ (छा. उ. २-२३-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_166">‘कथं नु भगवः स आदेशो भवति’ (छा. उ. ६-१-३)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_167">‘आदित्यो ब्रह्म’ (छा. उ. ३-१९-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_168">‘तस्य तावदेव चिरम्’ (छा. उ. ६-१४-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_169">‘अश्रुतं श्रुतं भवति’ (छा. उ. ६-१-३)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_170">‘आचार्यवान्पुरुषो वेद-तस्य तावदेव चिरम्’ (छा. उ. ६-१४-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_172">‘मन्त्रेषु कर्माणि’ (छा. उ. ७-४-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_174">‘यत्र नान्यत्पश्यति’ (छा. उ. ७-२४-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_175">‘आत्मैवाधस्तात्’ (छा. उ. ७-२५-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_176">‘स आत्मा’ (छा. उ. ६-१६-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_177">‘आचार्यवान्पुरुषो वेद’ (छा. उ. ६-१४-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_179">‘वाचारम्भणं विकारो नामधेयम्’ (छा. उ. ६-१-४)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S08_V02#quote_181">‘न वै मा प्रतिभान्ति भो’ (छा. उ. ६-७-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S12_V01#quote_182">‘वायुमागृह्य’ (छा. उ. ७-११-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S24_V01#quote_191">‘विज्ञातारमरे केन विजानीयात्’ (छा. उ. २-४-१४)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V01#quote_192">‘आकाशो वै नाम’ (छा. उ. ८-१४-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V03#quote_196">‘यथा वा अरा नाभौ’ (छा. उ. ७-१५-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V05#quote_197">‘वाचारम्भणं विकारो नामधेयम्’ (छा. उ. ६-१-४)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S03_V03#quote_200">‘सता सोम्य तदा सम्पन्नः’ (छा. उ. ६-८-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S03_V04#quote_201">‘यो वै भूमा तदमृतम्’ (छा. उ. ७-२४-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S03_V04#quote_202">‘तत्सत्यं स आत्मा’ (छा. उ. ६-८-७)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S04_V01#quote_203">‘यस्मादर्वाक्संवत्सरोऽहोभिः परिवर्तते’ (छा. उ. ६-८-७)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S04_V01#quote_204">‘य आत्मापहतपाप्मा’ (छा. उ. ८-७-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_207">‘त इमे सत्याः कामाः’ (छा. उ. ८-३-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_208">‘समक्लृप्तां द्यावापृथिवी’ (छा. उ. ७-४-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_209">‘यथा वा अरा नाभौ’ (छा. उ. ७-१५-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S06_V05#quote_210">‘विष्वङ्ङन्या’ (छा. उ. ८-६-६)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S07_I01#quote_211">‘अथ य एष सम्प्रसादोऽस्माच्छरीरात्समुत्थाय परं ज्योतिरुपसम्पद्य स्वेन रूपेणाभिनिष्पद्यत एष आत्मेति होवाचैतदमृतभयमेतद्ब्रह्म’ (छा. उ. ८-३-४)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S07_V01#quote_212">‘नाहमत्र भोग्यं पश्यामि’ (छा. उ. ८-९-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V01#quote_214">‘तौ ह शान्तहृदयौ प्रवव्रजतुः’ (छा. उ. ८-८-३)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V01#quote_215">‘साध्वलंकृतौ’ (छा. उ. ८-८-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V03#quote_216">‘य आत्मापहतपाप्मा’ (छा. उ. ८-७-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V03#quote_217">‘य एषोऽक्षिणि पुरुषो दृश्यते’ (छा. उ. ८-७-४)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V03#quote_218">‘य आत्मा’ (छा. उ. ८-७-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S09_V02#quote_219">‘यद्वेत्थ तेन मोपसीद’ (छा. उ. ७-१-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V01#quote_220">‘य एषोऽक्षिणि’ (छा. उ. ८-७-४)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V04#quote_221">‘नास्य जरयैतज्जीर्यति’ (छा. उ. ८-१-५)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V04#quote_222">‘अस्य शरीरस्य नाशमन्वेष नश्यति’ (छा. उ. ८-९-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V04#quote_223">‘य एषोऽक्षिणि पुरुषो दृश्यते’ (छा. उ. ८-७-४)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_228">‘नाह खल्वयं सम्प्रत्यात्मानं जानात्ययमहमस्मीति नो एवेमानि भूतानि विनाशमेवापीतो भवति नाहमत्र भोग्यं पश्यामि’ (छा. उ. ७-११-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_229">‘स्त्रीभिर्वा यानैर्वा’ (छा. उ. ८-१२-३)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_230">‘स यदि पितृलोककामः’ (छा. उ. ८-२-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_231">‘स एकधा भवति’ (छा. उ. ७-२६-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_232">‘किं पश्यथः’ (छा. उ. ८-८-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_234">‘अशरीरं वाव सन्तं न प्रियाप्रिये स्पृशतः’ (छा. उ. ८-१२-१)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_235">‘अहमेव’ (छा. उ. ७-२५-२)</a></li>
-<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V03#quote_237">‘य एते ब्रह्मलोके’ (छा. उ. ८-१२-५)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V02#quote_156">‘प्राणशरीरो भारूपः’ (छा. उ. ३-१४-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V06#quote_157">‘अन्नमशितं त्रेधा विधीयते’ (छा. उ. ६-५-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S14_V02#quote_165">‘ब्रह्मसंस्थोऽमृतत्वमेति’ (छा. उ. २-२३-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_167">‘कथं नु भगवः स आदेशो भवति’ (छा. उ. ६-१-३)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_168">‘आदित्यो ब्रह्म’ (छा. उ. ३-१९-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_169">‘तस्य तावदेव चिरम्’ (छा. उ. ६-१४-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_170">‘अश्रुतं श्रुतं भवति’ (छा. उ. ६-१-३)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_171">‘आचार्यवान्पुरुषो वेद-तस्य तावदेव चिरम्’ (छा. उ. ६-१४-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_173">‘मन्त्रेषु कर्माणि’ (छा. उ. ७-४-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_175">‘यत्र नान्यत्पश्यति’ (छा. उ. ७-२४-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_176">‘आत्मैवाधस्तात्’ (छा. उ. ७-२५-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_177">‘स आत्मा’ (छा. उ. ६-१६-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_178">‘आचार्यवान्पुरुषो वेद’ (छा. उ. ६-१४-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_180">‘वाचारम्भणं विकारो नामधेयम्’ (छा. उ. ६-१-४)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S08_V02#quote_182">‘न वै मा प्रतिभान्ति भो’ (छा. उ. ६-७-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S12_V01#quote_183">‘वायुमागृह्य’ (छा. उ. ७-११-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S24_V01#quote_192">‘विज्ञातारमरे केन विजानीयात्’ (छा. उ. २-४-१४)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V01#quote_193">‘आकाशो वै नाम’ (छा. उ. ८-१४-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V03#quote_197">‘यथा वा अरा नाभौ’ (छा. उ. ७-१५-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V05#quote_198">‘वाचारम्भणं विकारो नामधेयम्’ (छा. उ. ६-१-४)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S03_V03#quote_201">‘सता सोम्य तदा सम्पन्नः’ (छा. उ. ६-८-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S03_V04#quote_202">‘यो वै भूमा तदमृतम्’ (छा. उ. ७-२४-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S03_V04#quote_203">‘तत्सत्यं स आत्मा’ (छा. उ. ६-८-७)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S04_V01#quote_204">‘यस्मादर्वाक्संवत्सरोऽहोभिः परिवर्तते’ (छा. उ. ६-८-७)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S04_V01#quote_205">‘य आत्मापहतपाप्मा’ (छा. उ. ८-७-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_208">‘त इमे सत्याः कामाः’ (छा. उ. ८-३-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_209">‘समक्लृप्तां द्यावापृथिवी’ (छा. उ. ७-४-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_210">‘यथा वा अरा नाभौ’ (छा. उ. ७-१५-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S06_V05#quote_211">‘विष्वङ्ङन्या’ (छा. उ. ८-६-६)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S07_I01#quote_212">‘अथ य एष सम्प्रसादोऽस्माच्छरीरात्समुत्थाय परं ज्योतिरुपसम्पद्य स्वेन रूपेणाभिनिष्पद्यत एष आत्मेति होवाचैतदमृतभयमेतद्ब्रह्म’ (छा. उ. ८-३-४)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S07_V01#quote_213">‘नाहमत्र भोग्यं पश्यामि’ (छा. उ. ८-९-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V01#quote_215">‘तौ ह शान्तहृदयौ प्रवव्रजतुः’ (छा. उ. ८-८-३)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V01#quote_216">‘साध्वलंकृतौ’ (छा. उ. ८-८-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V03#quote_217">‘य आत्मापहतपाप्मा’ (छा. उ. ८-७-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V03#quote_218">‘य एषोऽक्षिणि पुरुषो दृश्यते’ (छा. उ. ८-७-४)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S08_V03#quote_219">‘य आत्मा’ (छा. उ. ८-७-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S09_V02#quote_220">‘यद्वेत्थ तेन मोपसीद’ (छा. उ. ७-१-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V01#quote_221">‘य एषोऽक्षिणि’ (छा. उ. ८-७-४)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V04#quote_222">‘नास्य जरयैतज्जीर्यति’ (छा. उ. ८-१-५)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V04#quote_223">‘अस्य शरीरस्य नाशमन्वेष नश्यति’ (छा. उ. ८-९-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V04#quote_224">‘य एषोऽक्षिणि पुरुषो दृश्यते’ (छा. उ. ८-७-४)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_229">‘नाह खल्वयं सम्प्रत्यात्मानं जानात्ययमहमस्मीति नो एवेमानि भूतानि विनाशमेवापीतो भवति नाहमत्र भोग्यं पश्यामि’ (छा. उ. ७-११-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_230">‘स्त्रीभिर्वा यानैर्वा’ (छा. उ. ८-१२-३)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_231">‘स यदि पितृलोककामः’ (छा. उ. ८-२-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_232">‘स एकधा भवति’ (छा. उ. ७-२६-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_233">‘किं पश्यथः’ (छा. उ. ८-८-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_235">‘अशरीरं वाव सन्तं न प्रियाप्रिये स्पृशतः’ (छा. उ. ८-१२-१)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_236">‘अहमेव’ (छा. उ. ७-२५-२)</a></li>
+<li id="sort_09" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V03#quote_238">‘य एते ब्रह्मलोके’ (छा. उ. ८-१२-५)</a></li>
 </ul>
 </li>
 <li><a id="udl17" href="javascript:void(0);" onclick="show_nav_level1('#udl17')">जाबालोपनिषत्</a>
@@ -145,19 +145,19 @@
 <li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S02_V03#quote_132">‘यतो वाचो निवर्तन्ते । अप्राप्य मनसा सह’ (तै. उ. २-९-१)</a></li>
 <li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S02_V03#quote_133">‘अनिरुक्तेऽनिलयने’ (तै. उ. २-७-१)</a></li>
 <li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S02_V03#quote_134">‘तस्माद्वा एतस्मादात्मन आकाशः संभूतः’ (तै. उ. २-१-१)</a></li>
-<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_173">‘यतो वाचो निवर्तन्ते’ (तै. उ. २-९-१)</a></li>
-<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_178">‘यतो वाचो निवर्तन्ते’ (तै. उ. २-९-१)</a></li>
-<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S24_V01#quote_189">‘अदृश्येऽनात्म्ये’ (तै. उ. २-७-१)</a></li>
-<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V03#quote_194">‘तस्माद्वा एतस्मादात्मन आकाशः संभूतः’ (तै. उ. २-१-१)</a></li>
-<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_227">‘आनन्दो ब्रह्म’ (तै. उ. ३-६-१)</a></li>
+<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_174">‘यतो वाचो निवर्तन्ते’ (तै. उ. २-९-१)</a></li>
+<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S01_V03#quote_179">‘यतो वाचो निवर्तन्ते’ (तै. उ. २-९-१)</a></li>
+<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S24_V01#quote_190">‘अदृश्येऽनात्म्ये’ (तै. उ. २-७-१)</a></li>
+<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V03#quote_195">‘तस्माद्वा एतस्मादात्मन आकाशः संभूतः’ (तै. उ. २-१-१)</a></li>
+<li id="sort_11" type="Taitiriya" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_228">‘आनन्दो ब्रह्म’ (तै. उ. ३-६-१)</a></li>
 </ul>
 </li>
 <li><a id="udl19" href="javascript:void(0);" onclick="show_nav_level1('#udl19')">प्रश्नोपनिषत्</a>
 <ul class="hide" id="udl19ul">
 <li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=03#Ch_C03_S13_V01#quote_65">‘आदित्यो ह वै ब्राह्मप्राणः’ (प्र. उ. ३-८)</a></li>
-<li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_183">‘कस्मिन्न्वहमुत्क्रान्त उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति स प्राणमसृजत’ (प्र. उ. ६-३)</a></li>
-<li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_184">‘कस्मिन्न्वहमुत्क्रान्त उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति स प्राणमसृजत’ (प्र. उ. ६-४)</a></li>
-<li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V03#quote_239">‘कस्मिन्न्वहमुत्क्रान्ते उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति’ (प्र. उ. ६-३)</a></li>
+<li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_184">‘कस्मिन्न्वहमुत्क्रान्त उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति स प्राणमसृजत’ (प्र. उ. ६-३)</a></li>
+<li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S15_V01#quote_185">‘कस्मिन्न्वहमुत्क्रान्त उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति स प्राणमसृजत’ (प्र. उ. ६-४)</a></li>
+<li id="sort_12" type="Prashna" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V03#quote_240">‘कस्मिन्न्वहमुत्क्रान्ते उत्क्रान्तो भविष्यामि कस्मिन्वा प्रतिष्ठिते प्रतिष्ठास्यामीति’ (प्र. उ. ६-३)</a></li>
 </ul>
 </li>
 <li><a id="udl110" href="javascript:void(0);" onclick="show_nav_level1('#udl110')">बृहदारण्यकोपनिषत्</a>
@@ -193,33 +193,33 @@
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=05#Ch_C05_S10_V06#quote_122">‘सविज्ञानो भवति सविज्ञानमेवान्ववक्रामति’ (बृ. उ. ४-४-२)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=05#Ch_C05_S12_V01#quote_127">‘क्वैष तदाभूत्कुत एतदागात्’ (बृ. उ. २-१-१६)</a></li>
 <li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S03_V02#quote_139">‘ध्यायतीव लेलायतीव’ (बृ. उ. ४-३-७)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_145">‘स वा अयमात्मा ब्रह्म विज्ञानमयो मनोमयः’ (बृ. उ. ४-४-५)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_146">‘स्वप्नेन शारीरम्’ (बृ. उ. ४-३-११)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_147">‘प्राणन्नेव प्राणो नाम भवति’ (बृ. उ. १-४-७)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_148">‘अनन्वागतं पुण्येनानन्वागतं पापेन तीर्णो हि तदा सर्वान् शोकान् हृदयस्य भवति’ (बृ. उ. ४-३-२२)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_149">‘तद्वा अस्यैतदतिच्छन्दा’ (बृ. उ. ४-३-२१)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_150">‘एष परम आनन्दः’ (बृ. उ. ४-३-३३)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_151">‘श्राम्यत्येव वाक् श्राम्यति चक्षुः’ (बृ. उ. १-५-२१)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_152">‘गृहीता वाक् गृहीतं चक्षुः गृहीतं श्रोत्रं गृहीतं मनः’ (बृ. उ. २-१-१७)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_153">‘तद्यथा श्येनो वा सुपर्णो वा विपरिपत्य श्रान्तः’ (बृ. उ. ४-३-१९)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V02#quote_154">‘प्राणस्य प्राणम्’ (बृ. उ. ४-४-१८)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V07#quote_158">‘नान्यदतोऽस्ति द्रष्टृ नान्यदतोऽस्ति श्रोतृ’ (बृ. उ. ३-८-११)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S12_V02#quote_160">‘अन्यत्रमना अभूवम्’ (बृ. उ. १-५-३)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S14_V02#quote_161">‘पुण्यो वै पुण्येन कर्मणा भवति’ (बृ. उ. ३-२-१५)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S04_V02#quote_180">‘अन्नं दाम’ (बृ. उ. २-२-१)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S17_V01#quote_186">‘नामरूपे सत्यं ताभ्यामयं प्राणश्छन्नः’ (बृ. उ. १-६-३)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S17_V01#quote_187">‘प्राणा वै सत्यं तेषामेष सत्यम्’ (बृ. उ. २-१-२०)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S17_V01#quote_188">‘प्राणा वै सत्यं तेषामेष सत्यम्’ (बृ. उ. २-३-६)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V03#quote_195">‘एतस्मिन्नु खल्वक्षरे गार्ग्याकाशः’ (बृ. उ. ३-८-११)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V05#quote_198">‘विज्ञानमानन्दं ब्रह्म’ (बृ. उ. ३-९-२८)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V05#quote_199">‘नेति नेति’ (बृ. उ. २-३-६)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_206">‘अशोकमहिमम्’ (बृ. उ. ५-१०-१)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S07_V04#quote_213">‘सर्वान्तरः’ (बृ. उ. ३-५-१)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V04#quote_224">‘ध्यायतीव’ (बृ. उ. ४-३-७)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_226">‘विज्ञानमानन्दं ब्रह्म’ (बृ. उ. ३-९-२८)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_233">‘अत्रायं पुरुषः स्वयंज्योतिः’ (बृ. उ. ४-३-९)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_236">‘नान्योऽतोऽस्ति द्रष्टा’ (बृ. उ. ३-७-२३)</a></li>
-<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V03#quote_238">‘केन कं पश्येत्’ (बृ. उ. २-४-१४)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_146">‘स वा अयमात्मा ब्रह्म विज्ञानमयो मनोमयः’ (बृ. उ. ४-४-५)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_147">‘स्वप्नेन शारीरम्’ (बृ. उ. ४-३-११)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_148">‘प्राणन्नेव प्राणो नाम भवति’ (बृ. उ. १-४-७)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_149">‘अनन्वागतं पुण्येनानन्वागतं पापेन तीर्णो हि तदा सर्वान् शोकान् हृदयस्य भवति’ (बृ. उ. ४-३-२२)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_150">‘तद्वा अस्यैतदतिच्छन्दा’ (बृ. उ. ४-३-२१)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_151">‘एष परम आनन्दः’ (बृ. उ. ४-३-३३)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_152">‘श्राम्यत्येव वाक् श्राम्यति चक्षुः’ (बृ. उ. १-५-२१)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_153">‘गृहीता वाक् गृहीतं चक्षुः गृहीतं श्रोत्रं गृहीतं मनः’ (बृ. उ. २-१-१७)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_154">‘तद्यथा श्येनो वा सुपर्णो वा विपरिपत्य श्रान्तः’ (बृ. उ. ४-३-१९)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V02#quote_155">‘प्राणस्य प्राणम्’ (बृ. उ. ४-४-१८)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V07#quote_159">‘नान्यदतोऽस्ति द्रष्टृ नान्यदतोऽस्ति श्रोतृ’ (बृ. उ. ३-८-११)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S12_V02#quote_161">‘अन्यत्रमना अभूवम्’ (बृ. उ. १-५-३)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S14_V02#quote_162">‘पुण्यो वै पुण्येन कर्मणा भवति’ (बृ. उ. ३-२-१५)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S04_V02#quote_181">‘अन्नं दाम’ (बृ. उ. २-२-१)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S17_V01#quote_187">‘नामरूपे सत्यं ताभ्यामयं प्राणश्छन्नः’ (बृ. उ. १-६-३)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S17_V01#quote_188">‘प्राणा वै सत्यं तेषामेष सत्यम्’ (बृ. उ. २-१-२०)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S17_V01#quote_189">‘प्राणा वै सत्यं तेषामेष सत्यम्’ (बृ. उ. २-३-६)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V03#quote_196">‘एतस्मिन्नु खल्वक्षरे गार्ग्याकाशः’ (बृ. उ. ३-८-११)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V05#quote_199">‘विज्ञानमानन्दं ब्रह्म’ (बृ. उ. ३-९-२८)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V05#quote_200">‘नेति नेति’ (बृ. उ. २-३-६)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_207">‘अशोकमहिमम्’ (बृ. उ. ५-१०-१)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S07_V04#quote_214">‘सर्वान्तरः’ (बृ. उ. ३-५-१)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S10_V04#quote_225">‘ध्यायतीव’ (बृ. उ. ४-३-७)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_227">‘विज्ञानमानन्दं ब्रह्म’ (बृ. उ. ३-९-२८)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_234">‘अत्रायं पुरुषः स्वयंज्योतिः’ (बृ. उ. ४-३-९)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_237">‘नान्योऽतोऽस्ति द्रष्टा’ (बृ. उ. ३-७-२३)</a></li>
+<li id="sort_13" type="Brha" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V03#quote_239">‘केन कं पश्येत्’ (बृ. उ. २-४-१४)</a></li>
 </ul>
 </li>
 <li><a id="udl111" href="javascript:void(0);" onclick="show_nav_level1('#udl111')">मुण्डकोपनिषत्</a>
@@ -227,8 +227,8 @@
 <li id="sort_15" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=03#Ch_C03_S14_V02#quote_70">‘मनोमयः प्राणशरीरनेता’ (मु. उ. २-२-८)</a></li>
 <li id="sort_15" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=04#Ch_C04_S15_V04#quote_85">‘तस्य भासा सर्वमिदं विभाति’ (मु. उ. २-२-११)</a></li>
 <li id="sort_15" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S02_V02#quote_130">‘दिव्यो ह्यमूर्तः पुरुषः सबाह्याभ्यन्तरो ह्यजः’ (मु. उ. २-१-२)</a></li>
-<li id="sort_15" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S14_V02#quote_163">‘क्षीयन्ते चास्य कर्माणि’ (मु. उ. २-२-९)</a></li>
-<li id="sort_15" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S15_V02#quote_165">‘पर्योप्तकामस्य कृतात्मनस्त्विहैव सर्वे प्रविलीयन्ति कामाः’ (मु. उ. ३-२-२)</a></li>
+<li id="sort_15" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S14_V02#quote_164">‘क्षीयन्ते चास्य कर्माणि’ (मु. उ. २-२-९)</a></li>
+<li id="sort_15" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S15_V02#quote_166">‘पर्योप्तकामस्य कृतात्मनस्त्विहैव सर्वे प्रविलीयन्ति कामाः’ (मु. उ. ३-२-२)</a></li>
 </ul>
 </li>
 <li><a id="udl112" href="javascript:void(0);" onclick="show_nav_level1('#udl112')">श्वेताश्वतरोपनिषत्</a>
@@ -279,13 +279,14 @@
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=05#Ch_C05_S10_V02#quote_118">‘यदन्तरापितरं मातरं च’ (ऋ. १० । ८८ । १५)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=05#Ch_C05_S10_V05#quote_119">‘ततः शेषेण’ (गौ. ध. २ । २ । २९)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S03_V02#quote_138">‘आकाशवत्सर्वगतश्च नित्यः’ (?)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_144">‘ध्यायतीव लेलायतीव’ ‘सधीः स्वप्नो भूत्वेमं लोकमतिक्रामति’ (बृ. मा. ४ । १ । ७)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V06#quote_157">‘यद्वै मनसा ध्यायति तद्वाचा वदति’ (?)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S09_V03#quote_159">‘यथाप्रज्ञं हि सम्भवाः’ (ऐ. आ. २ । ३ । २)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_171">‘अग्निहोत्रं जुहुयात्’ (?)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S24_V01#quote_190">‘न संदृशे तिष्ठति रूपमस्य’ (तै. ना. १ । ३)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V03#quote_193">‘येनावृतं खं च दिवं महीं च’ (तै. ना. १)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_205">‘पराञ्चि खानि व्यतृणत्स्वयंभूस्तस्मात्पराङ्पश्यति नान्तरात्मन्’ (का. २ । १ । १)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_225">‘न म्लेच्छाशुच्यधार्मिकैः सह संभाषेत’ (गौ. ध. १ । ९ । १७)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_144">‘ध्यायतीव लेलायतीव’</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V01#quote_145">‘सधीः स्वप्नो भूत्वेमं लोकमतिक्रामति’ (बृ. मा. ४ । १ । ७)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S08_V06#quote_158">‘यद्वै मनसा ध्यायति तद्वाचा वदति’ (?)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S09_V03#quote_160">‘यथाप्रज्ञं हि सम्भवाः’ (ऐ. आ. २ । ३ । २)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S16_V03#quote_172">‘अग्निहोत्रं जुहुयात्’ (?)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=07#Ch_C07_S24_V01#quote_191">‘न संदृशे तिष्ठति रूपमस्य’ (तै. ना. १ । ३)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S01_V03#quote_194">‘येनावृतं खं च दिवं महीं च’ (तै. ना. १)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S05_V04#quote_206">‘पराञ्चि खानि व्यतृणत्स्वयंभूस्तस्मात्पराङ्पश्यति नान्तरात्मन्’ (का. २ । १ । १)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=08#Ch_C08_S12_V01#quote_226">‘न म्लेच्छाशुच्यधार्मिकैः सह संभाषेत’ (गौ. ध. १ । ९ । १७)</a></li>
 </ul>
 </li>

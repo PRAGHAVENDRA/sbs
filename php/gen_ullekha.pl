@@ -51,7 +51,7 @@ while($line)
 				$page_num = $bs_id;
 				$page_num =~ s/.*\_C([0-9]+).*/$1/g;
 				$page_num =~ s/.*\_V([0-9]+).*/$1/g;
-				print TEMP "<li id=\"sort_".get_sortid($ref_bhashya)."\" type=\"".$ref_bhashya."\" class=\"qt\"><a href=\"".$bhashya."_id.html&page=" . $page_num . "#".$bs_id."#quote_".$idref."\">" . $dref . "</a></li>\n";
+				print TEMP "<li id=\"sort_".get_sortid($ref_bhashya)."\" data-sort=\"" . $dref . "\" type=\"".$ref_bhashya."\" class=\"qt\"><a href=\"".$bhashya."_id.html&page=" . $page_num . "#".$bs_id."#quote_".$idref."\">" . $dref . "</a></li>\n";
 				$idref++;
 			}
 		}
@@ -73,7 +73,7 @@ while($line)
 			$page_num = $bs_id;
 			$page_num =~ s/.*\_C([0-9]+).*/$1/g;
 			$page_num =~ s/.*\_V([0-9]+).*/$1/g;
-			print TEMP "<li id=\"sort_99\" type=\"".$ref_bhashya."\" class=\"qt\"><a href=\"".$bhashya."_id.html&page=" . $page_num . "#".$bs_id."#quote_".$idref."\">" . $href . "</a></li>\n";
+			print TEMP "<li id=\"sort_99\" data-sort=\"" . $href . "\" type=\"".$ref_bhashya."\" class=\"qt\"><a href=\"".$bhashya."_id.html&page=" . $page_num . "#".$bs_id."#quote_".$idref."\">" . $href . "</a></li>\n";
 			$idref++;
 		}
 	}
@@ -112,11 +112,13 @@ while($line)
 				print TEMP "</ul>\n</li>\n<li>"."<a id=\"udl1".$bcount."\" href=\"javascript:void(0);\" onclick=\"show_nav_level1('#udl1".$bcount."')\">" . $upn_san . "</a>\n"."<ul class=\"hide\" id=\"udl1".$bcount."ul\">"."\n";
 			}
 			$upnf = $upn;
+			$line =~ s/data\-sort=\"(.*)\" type/type/;
 			$line =~ s/href=\"([a-zA-Z\_]+)\_id\.html/target=\"_blank\" href=\"format.php?bhashya=$1/;
 			print TEMP $line;
 		}
 		else
 		{
+			$line =~ s/data\-sort=\"(.*)\" type/type/;
 			$line =~ s/href=\"([a-zA-Z\_]+)\_id\.html/target=\"_blank\" href=\"format.php?bhashya=$1/;
 			print TEMP $line;
 		}
@@ -190,18 +192,18 @@ sub get_sortid()
 		case "BS" { return("01"); }
 		case "Gita" { return("02"); }
 		case "Isha" { return("03"); }
-		case "Aitareya" { return("04"); }
-		case "Kathaka" { return("05"); }
-		case "Kena_pada" { return("06"); }
-		case "Kena_vakya" { return("07"); }
-		case "kst" { return("08"); }
-		case "Chandogya" { return("09"); }
-		case "jbl" { return("10"); }
-		case "Taitiriya" { return("11"); }
-		case "Prashna" { return("12"); }
+		case "Kena_pada" { return("04"); }
+		case "Kena_vakya" { return("05"); }
+		case "Kathaka" { return("06"); }
+		case "Prashna" { return("07"); }
+		case "Mundaka" { return("08"); }
+		case "Mandukya" { return("09"); }
+		case "Taitiriya" { return("10"); }
+		case "Aitareya" { return("11"); }
+		case "Chandogya" { return("12"); }
 		case "Brha" { return("13"); }
-		case "Mandukya" { return("14"); }
-		case "Mundaka" { return("15"); }
+		case "kst" { return("14"); }
+		case "jbl" { return("15"); }
 		case "svt" { return("16"); }
 		else { return("00"); }
 	}

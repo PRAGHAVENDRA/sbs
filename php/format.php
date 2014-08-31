@@ -124,9 +124,9 @@ echo"</div>";
 if($_GET['bhashya'] == 'BS')
 {
 echo "<div class=\"BS_nav\">";
-echo "<p id=\"show_adhyaya\" class=\"adhikarana clr noul\"><a id=\"show_adhyaya_button\" target=\"_blank\" href=\"javascript:void(0);\">अध्यायाः</a></p>";
-echo "<p id=\"show_sutra\" class=\"adhikarana clr noul\"><a id=\"show_sutra_button\" target=\"_blank\" href=\"javascript:void(0);\">सूत्राणि</a></p>";
-echo "<p id=\"show_adhikarana\" class=\"adhikarana clr noul\"><a id=\"show_adhikarana_button\" target=\"_blank\" href=\"javascript:void(0);\">अधिकरणानि</a></p>";
+echo "<p id=\"show_adhyaya\" class=\"adhikarana clr noul\"><a id=\"show_adhyaya_button\" href=\"javascript:void(0);\">अध्यायाः</a></p>";
+echo "<p id=\"show_sutra\" class=\"adhikarana clr noul\"><a id=\"show_sutra_button\" href=\"javascript:void(0);\">सूत्राणि</a></p>";
+echo "<p id=\"show_adhikarana\" class=\"adhikarana clr noul\"><a id=\"show_adhikarana_button\" href=\"javascript:void(0);\">अधिकरणानि</a></p>";
 echo "</div>";
 }
 echo "<div class=\"ullekha_nav\">";

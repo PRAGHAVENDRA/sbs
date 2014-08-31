@@ -20,6 +20,14 @@ if(isset($_SESSION['valid']))
 	<link rel="stylesheet" type="text/css" href="style/reset.css" media ="screen" />
 	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
 	<title>Shankara Bhashya</title>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $( "#triggerRegistration" ).click(function(){
+                $( "#registration" ).toggleClass( "hide" );
+                $(window).scrollTop($("#registration").offset().top - 100);
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -93,13 +101,13 @@ else
 					<li id="regForm">
 						<input class="rsubmit" type="submit" name="submit" value="submit"/>
                         <p class="forgotPassword fright clr2"><a href="javascript:void(0);" onclick="$('#lemail').prop('disabled', true);$('#lpassword').prop('disabled', true);$('#regForm h2').hide();$('#pr_email_show').show();">Forgot your password?</a></p>
-						<h2 class="clr2" style="margin-top: 1em;">If you are a first time user, then we request you to register below</h2>
+						<h2 class="clr2" style="margin-top: 2em;"><a href="javascript:void(0);" id="triggerRegistration">Click here to register, if you are a first time user</a></h2>
 					</li>
 				</ul>
 			</div>
 		</div>
 		</form>
-		<form method="post" action="register.php">
+		<form method="post" action="register.php" id="registration"<?php echo ($err_str_registration == "&nbsp;") ? "class=\"hide\"" : ""; ?>>
 		<div class="registration">
 			<div class="otherp">
 				<ul>

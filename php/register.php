@@ -67,8 +67,19 @@ echo "<!DOCTYPE html>
 	<script type=\"text/javascript\" src=\"js/common.js\" charset=\"UTF-8\"></script>
 	<script type=\"text/javascript\" src=\"js/jquery-1.9.1.js\"></script>
 	<script type=\"text/javascript\" src=\"js/devanagari_kbd.js\" charset=\"UTF-8\"></script>
-	<title>Shankara Bhashya</title>
-</head>";
+	<title>Shankara Bhashya</title>"
+?>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $( "#triggerRegistration" ).click(function(){
+                $( "#registration" ).toggleClass( "hide" );
+                $(window).scrollTop($("#registration").offset().top - 100);
+            })
+        })
+    </script>
+
+<?php
+echo "</head>";
 
 echo "<body>";
 
@@ -164,7 +175,7 @@ else
 			</div>
 		</div>
 		</form>
-        <form method=\"post\" action=\"register.php\" id=\"registration\">
+        <form method=\"post\" action=\"register.php\" id=\"registration\" class=\"hide\">
 		<div class=\"registration\">
 			<div class=\"otherp\">
 				<ul>

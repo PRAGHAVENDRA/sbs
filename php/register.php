@@ -94,9 +94,6 @@ echo "<div class=\"page\" id=\"page\">";
 
 include("connect.php");
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
 $query_l2 = "select count(*) from details where email='$email'";
 $result_l2 = mysql_query($query_l2);
 $row_l2=mysql_fetch_assoc($result_l2);

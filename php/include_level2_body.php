@@ -2,9 +2,6 @@
 
 require_once("connect.php");
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
 $bhashya = $_POST['bhashya'];
 $hval = $_POST['hval'];
 $query_l1 = "select * from bhashya where bid='$bhashya' and level='1'";

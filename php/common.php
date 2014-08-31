@@ -286,9 +286,6 @@ function VerifyCredentials($lemail, $lpassword)
 {
 	session_start();
 	include("connect.php");
-
-	$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-	$rs = mysql_select_db($database,$db) or die("No Database");
 	
 	$salt = "shankara";
 	$lpassword = sha1($salt.$lpassword);
@@ -419,9 +416,6 @@ function uiConvertChar($char)
 function hasResetExpired($reset)
 {
   	include("connect.php");
-
-	$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-	$rs = mysql_select_db($database,$db) or die("No Database");
 	
 	$query_l2 = "select *,count(*) from reset where hash='$reset'";
 	$result_l2 = mysql_query($query_l2);

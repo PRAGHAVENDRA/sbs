@@ -3,9 +3,6 @@
 include("connect.php");
 include("common.php");
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
 if(isset($_POST['searchtext']))
 {
 	$check_vb=$_POST['check_vb'];

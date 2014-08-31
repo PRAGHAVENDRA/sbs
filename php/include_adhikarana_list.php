@@ -2,9 +2,6 @@
 
 include("connect.php");
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
 $query_l1 = "select distinct title,id from bhashya where bid='ब्रह्मसूत्रभाष्यम्' and id regexp '\_A'";
 $result_l1 = mysql_query($query_l1);
 $num_rows_l1 = mysql_num_rows($result_l1);

@@ -17,10 +17,7 @@ if(isset($_POST['pr_email']))
 		}
         
         $to = $pr_email;
-        
-        $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-        $rs = mysql_select_db($database,$db) or die("No Database");
-        
+
         $query_l2 = "select password,name,email from details where email='$pr_email'";
         $result_l2 = mysql_query($query_l2);
         $num_rows_l2 = mysql_num_rows($result_l2);

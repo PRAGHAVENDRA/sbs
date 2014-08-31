@@ -58,9 +58,6 @@ elseif($_SESSION['valid'] != 1)
 
 include("connect.php");
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
 $query = "select * from details order by userid";
 $result = mysql_query($query);
 

@@ -2,9 +2,6 @@
 
 include("connect.php");
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
 $query_l1 = "select distinct title,id,content from bhashya where id regexp '^BS\_' and id regexp '\_V' and id not regexp '\_B' order by content";
 $result_l1 = mysql_query($query_l1);
 $num_rows_l1 = mysql_num_rows($result_l1);

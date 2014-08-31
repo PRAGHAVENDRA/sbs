@@ -3,9 +3,6 @@
 include("connect.php");
 include("common.php");
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
 $del_query = "DROP TABLE IF EXISTS bhashya";
 mysql_query($del_query);
 

@@ -23,9 +23,6 @@ $email = $_POST['email'];
 
 include("connect.php");
 
-$db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-$rs = mysql_select_db($database,$db) or die("No Database");
-
 $query = "UPDATE details SET interest='$int_str' where email='$email'";
 echo $query;
 $result = mysql_query($query);

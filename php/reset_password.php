@@ -86,9 +86,6 @@ elseif(isset($_GET['reset']))
     }
     elseif(($error_val == 0) && ($isfirst == 0))
     {
-        $db = mysql_connect("localhost",$user,$password) or die("Not connected to database");
-        $rs = mysql_select_db($database,$db) or die("No Database");
-
         $salt = "shankara";
         $npwd = sha1($salt.$pwd);
         

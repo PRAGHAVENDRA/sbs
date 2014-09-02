@@ -545,7 +545,6 @@ hr{
 #sidenav {
 	left: 0;
 }
-
 .show {
     transform: translateX(360px);
 	 -moz-transform: translateX(360px);
@@ -567,23 +566,32 @@ hr{
 	width: 100%;
 	text-align: left;
 	height: 25px;
-	display: block;
-	cursor: pointer;
-    float: left;
     margin: 15px;
+}
+#sidenav .sort button{
+    display: inline-block;
+	width: 40px;
+    text-align: center;
+    border: none;
+    background: none;
+    color: #FFF;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
 }
 #sidenav i {
     text-shadow: 1px 1px 2px #000;
 }
 .mainNav {
 	position: relative;
-	margin-top: 20px;
+    z-index: 1400;
+    padding-top: 80px;
 }
 .mainNav>ul{
     display: none;
 }
 .mainNav>ul>li {
-	padding: 10px 30px 10px 25px;
+	padding: 10px 40px 10px 25px;
 	border-bottom: 1px solid #193E74;
 	display: block;
 	clear: both;
@@ -617,9 +625,11 @@ hr{
     color: #fff;
     background: #193E74;
     text-align: center;
-    width: 100%;
+    width: 400px;
     box-shadow: 0 0 2px #152A4A;
     border-bottom: 1px solid #1A3152;
+    position: fixed;
+    z-index: 1401;
 }
 .subnav ul{
     padding: 0px 0 20px 0;
@@ -1077,4 +1087,7 @@ hr{
 }
 #pr_email_show{
     display: none;
+}
+#navLevel1{
+    margin-top: 20px;
 }

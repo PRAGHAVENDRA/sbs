@@ -15,12 +15,24 @@ echo "      </ul>";
 echo "  </nav>";
 
 echo "  <nav class=\"mainNav\">";
+echo "      <div class=\"sort hide\">";
+echo "          <button title=\"Sort numerically\" id=\"sortNumeric\"><i class=\"fa fa-sort-numeric-asc\"></i></button>";
+echo "          <button title=\"Sort alphabetically\" id=\"sortAlphabet\"><i class=\"fa fa fa-sort-alpha-asc\"></i></button>";
+echo "      </div>";
 include("include_level".$level."_nav.php");
 
 if($bhashya == "BS_id.xml") {
+    echo "  <ul id=\"navLevel2\">";
     include("include_sutra_list.php");
+    echo "  </ul>";
+    
+    echo "  <ul id=\"navLevel3\">";
     include("include_adhikarana_list.php");
+    echo "  </ul>";
+    
+    echo "  <ul id=\"navLevel4\">";
     include("include_vishaya_list.php");
+    echo "  </ul>";
 }
 echo "  </nav>";
 echo "</div>";

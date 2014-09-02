@@ -164,6 +164,21 @@ include("include_level".$level."_body.php");
 			}
 		});
 	});
+    
+    $( "#sortAlphabet" ).click(
+        function() {
+            $( "#navLevel2" ).load( "include_sutra_list.php?sort=content" );
+            $( "#navLevel3" ).load( "include_adhikarana_list.php?sort=title" );
+            $( "#navLevel4" ).load( "include_sutra_list.php?sort=content" );
+        }
+    );
+    $( "#sortNumeric" ).click(
+        function() {
+            $( "#navLevel2" ).load( "include_sutra_list.php?sort=id" );
+            $( "#navLevel3" ).load( "include_adhikarana_list.php?sort=id" );
+            $( "#navLevel4" ).load( "include_sutra_list.php?sort=id" );
+        }
+    );
 </script>
 </body>
 </html>

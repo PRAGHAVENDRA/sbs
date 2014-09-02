@@ -8,7 +8,7 @@ $num_rows_l1 = mysql_num_rows($result_l1);
 
 if($num_rows_l1)
 {
-    echo "<ul id=\"navLevel2\">";
+    echo "<ul id=\"navLevel4\">";
 	for($i_l1=1;$i_l1<=$num_rows_l1;$i_l1++)
 	{
 		$row_l1=mysql_fetch_assoc($result_l1);

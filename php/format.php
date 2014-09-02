@@ -16,34 +16,22 @@ elseif($_SESSION['valid'] != 1)
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang= "en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link rel="stylesheet" type="text/css" href="style/indexstyle.css" media ="screen" />
 	<link rel="stylesheet" type="text/css" href="style/reset.css" media ="screen" />
 	<link rel="stylesheet" type="text/css" href="style/dots.css" media ="screen" />
+	<link rel="stylesheet" type="text/css" href="style/jquery.mCustomScrollbar.css" media="screen">
+    <link href="style/font-awesome-4.1.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" />
+
 	<script type="text/javascript" src="js/common.js" charset="UTF-8"></script>
 	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script type="text/javascript" src="js/devanagari_kbd.js" charset="UTF-8"></script>
 	<title>Shankara Bhashya</title>
 	
 	<script type="text/javascript">
-	function OnloadFunction(){
-		$("#sidenav").height("96%");
-		$("#sidenav1").height("96%");
-		$("#sidenav2").height("96%");
-		$("#rsidenav").height("96%");
-		setTimeout(function(){$('#sidenav').css('left','-220px');},1000);
-		setTimeout(function(){$('#sidenav1').css('left','-220px');},1000);
-		setTimeout(function(){$('#sidenav2').css('left','-220px');},1000);
-		setTimeout(function(){var hloc = window.location.href;var jump_id = hloc.split("#");jump_id = jump_id[1];$('#BH_'+jump_id).slideToggle('slow');var qid = getUrlParameter('qid');if(qid === undefined){}else{$("html, body").hide().fadeIn('slow').animate({ scrollTop: $('#'+qid).offset().top - 150 }, 1)}},100);
-		setTimeout( function(){$(document).scroll(function(){$('#callout').fadeOut(2000)})}, 2000);
-		$(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
-		$(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
-		$('#show_adhyaya_button').click(function() {$('#sidenav').css('left','0px');$('#sidenav1').hide(10);$('#sidenav2').hide(10);$('#sidenav').show(10);setTimeout(function(){$('#sidenav').css('left','-220px');},1000);});
-		$('#show_adhikarana_button').click(function() {$('#sidenav1').css('left','0px');$('#sidenav').hide(10);$('#sidenav2').hide(10);$('#sidenav1').show(10);setTimeout(function(){$('#sidenav1').css('left','-220px');},1000);});
-		$('#show_sutra_button').click(function() {$('#sidenav2').css('left','0px');$('#sidenav').hide(10);$('#sidenav1').hide(10);$('#sidenav2').show(10);setTimeout(function(){$('#sidenav2').css('left','-220px');},1000);});
-	}
 	$(document).ready(OnloadFunction);
 	$(document).ready(function() {$("#pageloader").fadeOut(1000);})
 	</script>
@@ -79,9 +67,10 @@ $_POST['bid'] = $_GET['bhashya'];
 $_POST['hval'] = $hval;
 
 if (file_exists($bhashya)) {
- $xml = simplexml_load_file($bhashya);
-} else {
- exit("Failed to open $bhashya");
+    $xml = simplexml_load_file($bhashya);
+}
+else {
+    exit("Failed to open $bhashya");
 }
 
 require_once("common.php");
@@ -90,48 +79,9 @@ echo "<body>";
 echo "<div id=\"pageloader\"></div>";
 echo "<div id=\"loader\"><img src=\"images/loader.gif\" /></div>";
 
-if($_GET['bhashya'] == 'BS')
-{
-echo "<div id=\"sidenav1\">
-		<div class=\"arrow\">☰</div>
-		<nav class=\"nav\"><ul>";
-include("include_adhikarana_list.php");
-echo "</ul></nav>
-	</div>";
-echo "<div id=\"sidenav2\">
-		<div class=\"arrow\">☰</div>
-		<nav class=\"nav\"><ul>";
-include("include_sutra_list.php");
-echo "</ul></nav>
-	</div>";
-}
-echo "<div id=\"sidenav\">
-		<div class=\"arrow\">☰</div>
-		<nav class=\"nav\"><ul>";
-include("include_level".$level."_nav.php");
-echo "</ul></nav>
-	</div>";
-echo "<div id=\"rsidenav\">
-	<div class=\"arrow\">☰</div>
-		<nav class=\"nav\"><ul>";
-include("glossary.php");
-echo "</ul></nav>
-	</div>";
-
-echo "<div id=\"searchpanel\">
-	<a id=\"show_search\" href=\"search.php\"><img src=\"images/search.png\" /></a>";
-echo"</div>";
-if($_GET['bhashya'] == 'BS')
-{
-echo "<div class=\"BS_nav\">";
-echo "<p id=\"show_adhyaya\" class=\"adhikarana clr noul\"><a id=\"show_adhyaya_button\" href=\"javascript:void(0);\">अध्यायाः</a></p>";
-echo "<p id=\"show_sutra\" class=\"adhikarana clr noul\"><a id=\"show_sutra_button\" href=\"javascript:void(0);\">सूत्राणि</a></p>";
-echo "<p id=\"show_adhikarana\" class=\"adhikarana clr noul\"><a id=\"show_adhikarana_button\" href=\"javascript:void(0);\">अधिकरणानि</a></p>";
-echo "</div>";
-}
-echo "<div class=\"ullekha_nav\">";
-echo "<p id=\"show_adhikarana\" class=\"adhikarana clr noul\"><a target=\"_blank\" href=\"ullekha.php?bid=".$_GET['bhashya']."\">उल्लेखाः</a></p>";
-echo "</div>";
+include("include_sideNavigation.php");
+include("include_glossary.php");
+include("include_searchAndUllekhaPanel.php");
 
 echo "<div class=\"header_top\" id=\"header_top\">
 		<div class=\"container\">

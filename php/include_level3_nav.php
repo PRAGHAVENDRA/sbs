@@ -1,4 +1,6 @@
 <?php
+
+echo "<ul id=\"navLevel1\">";
 foreach ($xml->div->div->div as $chapter)
 {
 	if((string) $chapter['class'] != "chapter")
@@ -6,7 +8,10 @@ foreach ($xml->div->div->div as $chapter)
 		continue;
 	}
 	$aid = preg_split("/\_C/", $chapter['id']);
-	echo "<li><a id=\"l1".intval($aid[1])."\" href=\"javascript:void(0);\" onclick=\"show_nav_level1('#l1".intval($aid[1])."')\">".(string) $chapter->div[0]."</a><ul class=\"hide\" id=\"l1".intval($aid[1])."ul\">";
+    $chName = (string) $chapter->div[0];
+    $chName = preg_replace("/॥/", "", $chName);
+    
+	echo "<li><a id=\"l1".intval($aid[1])."\" href=\"javascript:void(0);\" onclick=\"show_nav_level1('#l1".intval($aid[1])."')\"><i class=\"fa fa-angle-right\"></i> " . $chName . "</a><ul id=\"l1".intval($aid[1])."ul\">";
 	foreach ($chapter->div as $section)
 	{
 		if((string) $section['class'] != "section")
@@ -16,8 +21,13 @@ foreach ($xml->div->div->div as $chapter)
 		$page_num = '01';
 		if(preg_match("/.*\_C([0-9]+).*/", $section['id'], $page_n)){$page_num = $page_n[1];}
 		
-		echo "<li><a href=\"format.php?bhashya=" . $_POST['bid'] . "&page=" . $page_num . "#".$section['id']."\">".(string) $section->div[0]."</a></li>";
+        $sName = (string) $section->div[0];
+        $sName = preg_replace("/॥/", "", $sName);
+	
+    	echo "<li><a href=\"format.php?bhashya=" . $_POST['bid'] . "&page=" . $page_num . "#".$section['id']."\">· " . $sName . "</a></li>";
 	}
 	echo "</ul></li>";
 }
+echo "</ul>";
+
 ?>

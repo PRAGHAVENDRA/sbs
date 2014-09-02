@@ -8,6 +8,7 @@ $num_rows_l1 = mysql_num_rows($result_l1);
 
 if($num_rows_l1)
 {
+    echo "<ul id=\"navLevel3\">";
 	for($i_l1=1;$i_l1<=$num_rows_l1;$i_l1++)
 	{
 		$row_l1=mysql_fetch_assoc($result_l1);
@@ -21,5 +22,6 @@ if($num_rows_l1)
 	
 		echo "<li class=\"sml\"><a class=\"sml\" href=\"format.php?bhashya=BS&page=" . $page_num . "#".$id."\">" . convert_devanagari($i_l1) . ". " . $title . "</a></li>";
 	}
+    echo "</ul>";
 }
 ?>

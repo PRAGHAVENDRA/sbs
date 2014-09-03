@@ -103,14 +103,7 @@ echo "<div class=\"header_top\" id=\"header_top\">
 	<div class=\"clearfix\">&nbsp;</div>";
 	echo "<div class=\"page_inner\">";
 
-if(($hval != '') && (!(isset($_GET['qid']))))
-{
-	echo "<div class=\"callout left\" id=\"callout\">
-	<span class=\"qt\">$hval</span>
-	<b class=\"co_arrow co_arrow_border\"></b>
-	<b class=\"co_arrow\"></b>
-	</div>";
-}
+include("include_callout_box.php");
 
 if(isset($_GET['page'])){$page_num = intval($_GET['page']);}else{$page_num = 1;}
 
@@ -169,14 +162,14 @@ include("include_level".$level."_body.php");
         function() {
             $( "#navLevel2" ).load( "include_sutra_list.php?sort=content" );
             $( "#navLevel3" ).load( "include_adhikarana_list.php?sort=title" );
-            $( "#navLevel4" ).load( "include_sutra_list.php?sort=content" );
+            $( "#navLevel4" ).load( "include_vishaya_list.php?sort=vakya" );
         }
     );
     $( "#sortNumeric" ).click(
         function() {
             $( "#navLevel2" ).load( "include_sutra_list.php?sort=id" );
             $( "#navLevel3" ).load( "include_adhikarana_list.php?sort=id" );
-            $( "#navLevel4" ).load( "include_sutra_list.php?sort=id" );
+            $( "#navLevel4" ).load( "include_vishaya_list.php?sort=ref" );
         }
     );
 </script>

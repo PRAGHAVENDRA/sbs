@@ -16,7 +16,7 @@ echo "  </nav>";
 
 echo "  <nav class=\"mainNav\">";
 echo "      <div class=\"sort hide\">";
-echo "          <button title=\"Sort numerically\" id=\"sortNumeric\"><i class=\"fa fa-sort-numeric-asc\"></i></button>";
+echo "          <button title=\"Sort by order of occurrence\" id=\"sortNumeric\"><i class=\"fa fa-sort-numeric-asc\"></i></button>";
 echo "          <button title=\"Sort alphabetically\" id=\"sortAlphabet\"><i class=\"fa fa fa-sort-alpha-asc\"></i></button>";
 echo "      </div>";
 include("include_level".$level."_nav.php");

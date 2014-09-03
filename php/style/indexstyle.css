@@ -724,6 +724,29 @@ hr{
 	width: 250px;
 	z-index: 149;
 }
+.callout_wide {
+	float: left;
+}
+.callout_wide {
+	background-color: #FAFAFA;
+	position: fixed;
+	color: #BB0000;
+	padding: 16px 10px 10px 16px;
+	font-size: 0.9em;
+	border: 1px solid #E0E0E0;
+	border-radius: 3px;
+	left: 50px;
+	margin-top: 10px;
+	min-height: 50px;
+	width: 400px;
+	z-index: 149;
+}
+.callout_wide i{
+    display: block;
+	float: right;
+    font-size: 1.3em;
+    margin-top: 30px;
+}
 /*
 .callout::before {
 	content: "";
@@ -1090,4 +1113,18 @@ hr{
 }
 #navLevel1{
     margin-top: 20px;
+}
+.vishaya{
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin: 10px;
+}
+.vishaya{
+    background-color: #F0F0F0;
+    padding: 10px 30px;
+    margin: 10px;
+    text-align: left;
+}
+.vishaya i{
+    color: #9E1212;
 }

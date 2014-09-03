@@ -3,7 +3,14 @@
 include("connect.php");
 require_once("common.php");
 
-$query_l1 = "select distinct title,id,content from bhashya where id regexp '^BS\_' and id regexp '\_V' and id not regexp '\_B' order by content";
+if(isset($_GET['sort'])){
+    $sort = $_GET['sort'];
+}
+else{
+    $sort = "ref";
+}
+
+$query_l1 = "select * from vishaya order by $sort";
 $result_l1 = mysql_query($query_l1);
 $num_rows_l1 = mysql_num_rows($result_l1);
 
@@ -13,18 +20,17 @@ if($num_rows_l1)
 	{
 		$row_l1=mysql_fetch_assoc($result_l1);
 
-		$title=$row_l1['title'];
-		$id=$row_l1['id'];
-		$content=$row_l1['content'];
-		
-		$xml1 = new SimpleXMLElement($content);
-		$content = $xml1->__toString();
-		
-		$content = preg_replace("/॥.*॥ /u", "", $content);
+		$bhashya = $row_l1['bhashya'];
+		$content = $row_l1['vakya'];
+		$id = $row_l1['ref'];
+
+        $vid = preg_replace("/\_B[0-9]+$/", "", $id);
+        
+		$content = preg_replace("/\([0-9]+\)$/", "", $content);
 		$page_num = '01';
 		if(preg_match("/.*\_C([0-9]+).*/", $id, $page_n)){$page_num = $page_n[1];}
 	
-		echo "<li class=\"sml\"><a class=\"sml\" href=\"format.php?bhashya=BS&page=" . $page_num . "#".$id."\">" . convert_devanagari($i_l1) . ". " . $content . "</a></li>";
+		echo "<li class=\"sml\"><a class=\"sml\" href=\"format.php?bhashya=" . $bhashya . "&amp;page=" . $page_num . "&amp;hval=" . $content . "&amp;qid=".$id."&amp;nav=1#" . $vid . "\">" . convert_devanagari($i_l1) . ". " . $content . "</a></li>";
 	}
 }
 ?>

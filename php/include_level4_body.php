@@ -4,6 +4,7 @@ require_once("connect.php");
 
 $bhashya = $_POST['bhashya'];
 $hval = $_POST['hval'];
+
 $query_l1 = "select * from bhashya where bid='$bhashya' and level='1'";
 
 if(isset($_GET['page']) && !empty($_GET['page']) && is_numeric($_GET['page'])) {

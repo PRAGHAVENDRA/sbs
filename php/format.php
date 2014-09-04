@@ -65,6 +65,7 @@ else
 $_POST['bhashya'] = $bhashya_san{$_GET['bhashya']};
 $_POST['bid'] = $_GET['bhashya'];
 $_POST['hval'] = $hval;
+$_POST['level'] = $level;
 
 if (file_exists($bhashya)) {
     $xml = simplexml_load_file($bhashya);
@@ -107,7 +108,7 @@ include("include_callout_box.php");
 
 if(isset($_GET['page'])){$page_num = intval($_GET['page']);}else{$page_num = 1;}
 
-echo "<div class=\"page_format\" data-page=\"" . $page_num . ";" . $level . "\" data=\"true\" id=\"pageLazy\">";
+echo "<div class=\"page_format\" data-page=\"" . $page_num . ";" . $level . ";" . $_GET['bhashya'] . "\" data=\"true\" id=\"pageLazy\">";
 
 include("include_level".$level."_body.php");
 
@@ -117,42 +118,53 @@ include("include_level".$level."_body.php");
 <script type="text/javascript">
 	$(document).ready(function(){
 		var mul = $('#pageLazy').attr('data-page');
+
 		var pagenum = mul.split(/;/)[0];
 		var level = mul.split(/;/)[1];
+		var bhashya = mul.split(/;/)[2];
 		var goNow = true;
+        
 		$(window).scroll( function() {
 			var go = $('#pageLazy');
 			
 			var postData = <?php echo !empty($_POST)?json_encode($_POST):'null';?>;
 			if(go.attr('data') == "true" && goNow == true){
 				if(($(this).scrollTop() + $(this).innerHeight()) > ($(document).height() - 600)) {
-					
-					$('#loader').fadeIn(500);
-					pagenum = parseInt(pagenum)+parseInt(1);
+                    
+                    mull = $('#pageLazy').attr('data-page');
+                    pagenum = mull.split(/;/)[0];
 
+					$('#loader').fadeIn(500);
+        			pagenum = parseInt(pagenum)+parseInt(1);
+                    
+                    var cbid = "#" + bhashya + "_C0" + pagenum;
 					goNow = false;
-					if(level != 1){
-					$.ajax({
-						type: "POST",
-						url: "include_level" + level + "_body.php?page=" + pagenum,
-						dataType: "html",
-						data: postData,
-						success: function(res){
-							if(res.length > 4) {
-								goNow = true;
-								$('#loader').fadeOut(500);
-								go.append(res).fadeIn();
-								OnloadFunction();
-							} else {
-								goNow = false;
-								$('#loader').fadeOut(500);
-							}
-						},
-						error: function(e){
-							goNow = false;
-							$('#loader').fadeOut(500);
-						}
-					});}
+					if((level != 1) && ($( cbid ).length == 0)){
+                        $.ajax({
+                            type: "POST",
+                            url: "include_level" + level + "_body.php?page=" + pagenum,
+                            dataType: "html",
+                            data: postData,
+                            success: function(res){
+                                if(res.length > 4) {
+                                    goNow = true;
+                                    $('#loader').fadeOut(500);
+                                    go.append(res).fadeIn();
+                                    OnloadFunctionAjax();
+                                } else {
+                                    goNow = false;
+                                    $('#loader').fadeOut(500);
+                                }
+                            },
+                            error: function(e){
+                                goNow = false;
+                                $('#loader').fadeOut(500);
+                            }
+                        });
+                    }
+                    else{
+                        $('#loader').fadeOut(500);
+                    }
 				}
 			}
 		});

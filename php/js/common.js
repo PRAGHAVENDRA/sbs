@@ -63,15 +63,15 @@ function OnloadFunction(){
     $( "#sidenav .arrow" ).click(
         function() {
             if($( '#sidenav' ).hasClass( "show" )){
-                $( '#sidenav' ).removeClass( "show" );
+                $( '#sidenav' ).toggleClass( "show" );
                 $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-times" );$( '.arrow i' ).addClass( "fa-navicon" );$( '.arrow i' ).fadeIn( 20 );} );
             }
             else{
-                $( '#sidenav' ).addClass( "show" );
+                $( '#sidenav' ).toggleClass( "show" );
                 $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-navicon" );$( '.arrow i' ).addClass( "fa-times" );$( '.arrow i' ).fadeIn( 20 );} );
             }
         }
-    );    
+    );
     
     $( "#showNavLevel1" ).click(function() {$( ".mainNav ul" ).hide();$( "#showNavLevel2, #showNavLevel3, #showNavLevel4" ).removeClass( "active" );$( ".mainNav #navLevel1" ).show();$( "#showNavLevel1" ).addClass( "active" );$( ".sort" ).hide();$("#sidenav").mCustomScrollbar("scrollTo", 0);});
     $( "#showNavLevel2" ).click(function() {$( ".mainNav ul" ).hide();$( "#showNavLevel3, #showNavLevel4, #showNavLevel1" ).removeClass( "active" );$( ".mainNav #navLevel2" ).show();$( "#showNavLevel2" ).addClass( "active" );$( ".sort" ).show();$("#sidenav").mCustomScrollbar("scrollTo", 0);});
@@ -88,17 +88,52 @@ function OnloadFunction(){
         if(qid === undefined){
         }
         else{
-            $( "#" + qid ).before( "<p class=\"vishaya\"><i class=\"fa fa-arrow-right\"></i> " + decodeURIComponent(hval) +"</p>" );
+            $( "#" + qid ).before( "<p class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + decodeURIComponent(hval) +"</p>" );
             $("html, body").hide().fadeIn('slow').animate({ scrollTop: $( ".vishaya" ).offset().top - 140 }, 1)
         }
     },100);
-
-
-
-
-
+    
     setTimeout( function(){$(document).scroll(function(){$('#callout').fadeOut(2000)})}, 2000);
     
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
+}
+function OnloadFunctionAjax(){
+    $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
+    $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
+}
+function scrollTo(id, pagenum, bhashya, hval, level){
+    
+    if($( id ).length == 0){
+        loadChapter(id, pagenum, bhashya, hval, level);
+    }
+    else{
+        $( "html, body" ).scrollTop($( id ).offset().top);
+    }
+}
+function loadChapter(id, pagenum, bhashya, hval, level){
+    
+    var go = $('#pageLazy');
+    var postData = {"bhashya":bhashya,"hval":hval};
+
+    $.ajax({
+        type: "POST",
+        url: "include_level" + level + "_body.php?page=" + pagenum,
+        dataType: "html",
+        data: postData,
+        success: function(res){
+            goNow = true;
+            $('#loader').fadeOut(500);
+            go.append(res).fadeIn();
+            OnloadFunctionAjax();
+            $( "html, body" ).scrollTop($( id ).offset().top);
+            var dattr = $( ".page_format" ).attr("data-page");
+            dattr = parseInt(pagenum) + ';' + dattr.split(/;/)[1] + ';' + dattr.split(/;/)[2];
+            $( "#pageLazy" ).attr("data-page", dattr)
+        },
+        error: function(e){
+            goNow = false;
+            $('#loader').fadeOut(500);
+        }
+    });
 }

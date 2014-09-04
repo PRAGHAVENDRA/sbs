@@ -27,7 +27,10 @@ if($num_rows_l1)
 		$page_num = '01';
 		if(preg_match("/.*\_C([0-9]+).*/", $id, $page_n)){$page_num = $page_n[1];}
 	
+/*
 		echo "<li class=\"sml\"><a class=\"sml\" href=\"format.php?bhashya=BS&page=" . $page_num . "#".$id."\">" . convert_devanagari($i_l1) . ". " . $title . "</a></li>";
+*/
+		echo "<li class=\"sml\"><a class=\"sml\" href=\"javascript:void(0);\" onclick=\"scrollTo( '#$id', '$page_num', '" . $_POST['bhashya'] . "', '" . $_POST['hval'] . "', '" . $_POST['level'] . "' )\">" . convert_devanagari($i_l1) . ". " . $title . "</a></li>";
 	}
 }
 ?>

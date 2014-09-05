@@ -1134,3 +1134,6 @@ hr{
 #ajaxLoader{
     margin-left: 10px;
 }
+.subnav #ajaxLoader{
+    position: absolute;
+}

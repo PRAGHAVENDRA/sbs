@@ -19,20 +19,17 @@ echo "      <div class=\"sort hide\">";
 echo "          <button title=\"Sort by order of occurrence\" id=\"sortNumeric\"><i class=\"fa fa-sort-numeric-asc\"></i></button>";
 echo "          <button title=\"Sort alphabetically\" id=\"sortAlphabet\"><i class=\"fa fa fa-sort-alpha-asc\"></i></button>";
 echo "      </div>";
+
+echo "<ul id=\"navLevel1\">";
 include("include_level".$level."_nav.php");
+echo "</ul>";
 
 if($bhashya == "BS_id.xml") {
-    echo "  <ul id=\"navLevel2\">";
-    include("include_sutra_list.php");
-    echo "  </ul>";
+    echo "  <ul id=\"navLevel2\"></ul>";
     
-    echo "  <ul id=\"navLevel3\">";
-    include("include_adhikarana_list.php");
-    echo "  </ul>";
+    echo "  <ul id=\"navLevel3\"></ul>";
     
-    echo "  <ul id=\"navLevel4\">";
-    include("include_vishaya_list.php");
-    echo "  </ul>";
+    echo "  <ul id=\"navLevel4\"></ul>";
 }
 echo "  </nav>";
 echo "</div>";

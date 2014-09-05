@@ -570,14 +570,17 @@ hr{
 }
 #sidenav .sort button{
     display: inline-block;
-	width: 40px;
-    text-align: center;
+	width: 55px;
+    text-align: left;
     border: none;
     background: none;
     color: #FFF;
     font-size: 1em;
     cursor: pointer;
     outline: none;
+}
+#sidenav .sort button:first-of-type{
+    margin-left: 20px;
 }
 #sidenav i {
     text-shadow: 1px 1px 2px #000;
@@ -1127,4 +1130,7 @@ hr{
 }
 .vishaya i{
     color: #9E1212;
+}
+#ajaxLoader{
+    margin-left: 10px;
 }

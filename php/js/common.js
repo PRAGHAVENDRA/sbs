@@ -96,6 +96,22 @@ function OnloadFunction(){
     
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
+    
+    $( "a, button" ).click(function(){
+        $( "#ajaxLoader" ).remove();
+        $(this).append("<i id=\"ajaxLoader\" class=\"fa fa-spinner fa-spin\"></i>");
+        $( "#ajaxLoader" ).hide();
+    });
+    
+    $( document )
+    .ajaxStart(function() {
+        setTimeout( function(){$( "#ajaxLoader" ).fadeIn( 50 );}, 1);
+        console.log($( "#ajaxLoader" ));
+    })
+    .ajaxStop(function() {
+        setTimeout( function(){$( "#ajaxLoader" ).fadeOut( 250 );}, 1);
+    })
+    ;
 }
 function OnloadFunctionAjax(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});

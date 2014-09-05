@@ -84,12 +84,11 @@ function OnloadFunction(){
         jump_id = jump_id[1];
         $('#BH_'+jump_id).slideToggle('slow');
         var qid = getUrlParameter('qid');
-        var hval = getUrlParameter('hval');
+
         if(qid === undefined){
         }
         else{
-            $( "#" + qid ).before( "<p class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + decodeURIComponent(hval) +"</p>" );
-            $("html, body").hide().fadeIn('slow').animate({ scrollTop: $( ".vishaya" ).offset().top - 140 }, 1)
+            $("html, body").hide().fadeIn('slow').animate({ scrollTop: $( '#' + qid ).offset().top - 140 }, 1)
         }
     },100);
     
@@ -102,16 +101,7 @@ function OnloadFunctionAjax(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
 }
-function scrollTo(id, pagenum, bhashya, hval, level){
-    
-    if($( id ).length == 0){
-        loadChapter(id, pagenum, bhashya, hval, level);
-    }
-    else{
-        $( "html, body" ).scrollTop($( id ).offset().top);
-    }
-}
-function loadChapter(id, pagenum, bhashya, hval, level){
+function loadChapter(parentId, id, pagenum, bhashya, hval, level){
     
     var go = $('#pageLazy');
     var postData = {"bhashya":bhashya,"hval":hval};
@@ -126,7 +116,23 @@ function loadChapter(id, pagenum, bhashya, hval, level){
             $('#loader').fadeOut(500);
             go.append(res).fadeIn();
             OnloadFunctionAjax();
-            $( "html, body" ).scrollTop($( id ).offset().top);
+           
+            if(parentId != 0){
+                if($ (parentId).length == 0){
+                    $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
+                    $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
+                }
+                else{
+                    $( parentId ).show( 10 , function() {
+                        $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
+                        $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
+                    });
+                }
+            }
+            else{
+                $( "html, body" ).scrollTop($( id ).offset().top);
+            }
+            
             var dattr = $( ".page_format" ).attr("data-page");
             dattr = parseInt(pagenum) + ';' + dattr.split(/;/)[1] + ';' + dattr.split(/;/)[2];
             $( "#pageLazy" ).attr("data-page", dattr)
@@ -136,4 +142,32 @@ function loadChapter(id, pagenum, bhashya, hval, level){
             $('#loader').fadeOut(500);
         }
     });
+}
+function scrollTo(id, pagenum, bhashya, hval, level){
+    
+    if($( id ).length == 0){
+        loadChapter(0, id, pagenum, bhashya, hval, level);
+    }
+    else{
+        $( "html, body" ).scrollTop($( id ).offset().top);
+    }
+}
+function scrollToText(parentId, id, pagenum, bhashya, hval, level){
+    
+    if($( id ).length == 0){
+        loadChapter(parentId, id, pagenum, bhashya, hval, level);
+    }
+    else{
+        
+        if($ (parentId).length == 0){
+            $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
+            $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
+        }
+        else{
+            $( parentId ).show( 10 , function() {
+                $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
+                $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
+            });
+        }
+    }
 }

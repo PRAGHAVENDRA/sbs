@@ -26,8 +26,8 @@ elseif($_SESSION['valid'] != 1)
     <link href="style/font-awesome-4.1.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" />
 
 	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-	<script type="text/javascript" src="js/common.js" charset="UTF-8"></script>
 	<script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="js/common.js" charset="UTF-8"></script>
 	<script type="text/javascript" src="js/devanagari_kbd.js" charset="UTF-8"></script>
 	<title>Shankara Bhashya</title>
 	

@@ -182,6 +182,7 @@ function closeNav(time){
         $( '#sidenav' ).removeClass( "show" );
         $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-times" );$( '.arrow i' ).addClass( "fa-navicon" );$( '.arrow i' ).fadeIn( 20 );} );
     },time);
+    $( "#sidenav" ).unbind( "mouseleave" );
 }
 function openNav(time){
     setTimeout( function(){

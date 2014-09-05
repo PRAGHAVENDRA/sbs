@@ -24,7 +24,7 @@ $sth11=$dbh->prepare("CREATE TABLE vishaya(source varchar(5),
 bhashya varchar(20),
 vid varchar(10),
 ref varchar(50),
-vakya varchar(2000), primary key(vid)) ENGINE=MyISAM");
+vakya varchar(2000), primary key(vid)) ENGINE=MyISAM character set utf8 collate utf8_general_ci");
 $sth11->execute();
 $sth11->finish(); 
 

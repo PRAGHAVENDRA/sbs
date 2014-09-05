@@ -151,6 +151,11 @@ include("include_level".$level."_body.php");
                                     $('#loader').fadeOut(500);
                                     go.append(res).fadeIn();
                                     OnloadFunctionAjax();
+                                    
+                                    var dattr = $( ".page_format" ).attr("data-page");
+                                    dattr = parseInt(pagenum) + ';' + dattr.split(/;/)[1] + ';' + dattr.split(/;/)[2];
+                                    $( "#pageLazy" ).attr("data-page", dattr);
+                                    
                                 } else {
                                     goNow = false;
                                     $('#loader').fadeOut(500);

@@ -135,7 +135,7 @@ include("include_level".$level."_body.php");
                     pagenum = mull.split(/;/)[0];
 
 					$('#loader').fadeIn(500);
-        			pagenum = parseInt(pagenum)+parseInt(1);
+        			pagenum = parseInt(pagenum) + parseInt(1);
                     
                     var cbid = "#" + bhashya + "_C0" + pagenum;
 					goNow = false;

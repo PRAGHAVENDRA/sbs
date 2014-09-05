@@ -58,17 +58,17 @@ function OnloadFunction(){
     $("#sidenav").mCustomScrollbar({scrollInertia: 100});
     $(".mainNav #navLevel1").show();
     $("#showNavLevel1").addClass( "active" );
-    setTimeout(function(){$('#sidenav').css('left','-360px');},1000);
+    setTimeout(function(){
+        $('#sidenav').css('left','-360px');
+    },1000);
     
     $( "#sidenav .arrow" ).click(
         function() {
             if($( '#sidenav' ).hasClass( "show" )){
-                $( '#sidenav' ).toggleClass( "show" );
-                $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-times" );$( '.arrow i' ).addClass( "fa-navicon" );$( '.arrow i' ).fadeIn( 20 );} );
+                closeNav(1);
             }
             else{
-                $( '#sidenav' ).toggleClass( "show" );
-                $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-navicon" );$( '.arrow i' ).addClass( "fa-times" );$( '.arrow i' ).fadeIn( 20 );} );
+                openNav(1);
             }
         }
     );
@@ -135,7 +135,7 @@ function loadChapter(parentId, id, pagenum, bhashya, hval, level){
             
             var dattr = $( ".page_format" ).attr("data-page");
             dattr = parseInt(pagenum) + ';' + dattr.split(/;/)[1] + ';' + dattr.split(/;/)[2];
-            $( "#pageLazy" ).attr("data-page", dattr)
+            $( "#pageLazy" ).attr("data-page", dattr);
         },
         error: function(e){
             goNow = false;
@@ -151,6 +151,7 @@ function scrollTo(id, pagenum, bhashya, hval, level){
     else{
         $( "html, body" ).scrollTop($( id ).offset().top);
     }
+    closeNav(1000);
 }
 function scrollToText(parentId, id, pagenum, bhashya, hval, level){
     
@@ -170,4 +171,17 @@ function scrollToText(parentId, id, pagenum, bhashya, hval, level){
             });
         }
     }
+    closeNav(1000);
+}
+function closeNav(time){
+    setTimeout( function(){
+        $( '#sidenav' ).toggleClass( "show" );
+        $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-times" );$( '.arrow i' ).addClass( "fa-navicon" );$( '.arrow i' ).fadeIn( 20 );} );
+    },time);
+}
+function openNav(time){
+    setTimeout( function(){
+        $( '#sidenav' ).toggleClass( "show" );
+        $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-navicon" );$( '.arrow i' ).addClass( "fa-times" );$( '.arrow i' ).fadeIn( 20 );} );
+    },time);
 }

@@ -1,6 +1,5 @@
 <?php
 
-echo "<ul id=\"navLevel1\">";
 foreach ($xml->div->div->div as $chapter)
 {
 	if((string) $chapter['class'] != "chapter")
@@ -28,6 +27,5 @@ foreach ($xml->div->div->div as $chapter)
 	}
 	echo "</ul></li>";
 }
-echo "</ul>";
 
 ?>

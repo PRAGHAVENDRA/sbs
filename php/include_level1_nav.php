@@ -1,7 +1,6 @@
 <?php
 
 $i = 1;
-echo "<ul id=\"navLevel1\">";
 foreach ($xml->div->div->div as $verse)
 {
 	if((string) $verse['class'] != "verse")
@@ -22,6 +21,5 @@ foreach ($xml->div->div->div as $verse)
 		$i++;
 	}
 }
-echo "</ul>";
 
 ?>

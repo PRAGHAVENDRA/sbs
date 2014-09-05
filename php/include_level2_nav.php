@@ -1,6 +1,5 @@
 <?php
 
-echo "<ul id=\"navLevel1\">";
 foreach ($xml->div->div->div as $chapter)
 {
 	if((string) $chapter['class'] != "chapter")
@@ -16,6 +15,5 @@ foreach ($xml->div->div->div as $chapter)
     echo "<li><a href=\"javascript:void(0);\" onclick=\"scrollTo( '#" . $chapter['id'] . "', '" . $page_num . "', '" . $_POST['bhashya'] . "', '" . $_POST['hval'] . "', '" . $_POST['level'] . "' )\">· " . $chName . "</a></li>";
 
 }
-echo "</ul>";
 
 ?>

@@ -151,7 +151,9 @@ function scrollTo(id, pagenum, bhashya, hval, level){
     else{
         $( "html, body" ).scrollTop($( id ).offset().top);
     }
-    closeNav(1000);
+    $( "#sidenav" ).mouseleave(function() {
+        closeNav(100);
+    });
 }
 function scrollToText(parentId, id, pagenum, bhashya, hval, level){
     
@@ -171,17 +173,19 @@ function scrollToText(parentId, id, pagenum, bhashya, hval, level){
             });
         }
     }
-    closeNav(1000);
+    $( "#sidenav" ).mouseleave(function() {
+        closeNav(100);
+    });
 }
 function closeNav(time){
     setTimeout( function(){
-        $( '#sidenav' ).toggleClass( "show" );
+        $( '#sidenav' ).removeClass( "show" );
         $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-times" );$( '.arrow i' ).addClass( "fa-navicon" );$( '.arrow i' ).fadeIn( 20 );} );
     },time);
 }
 function openNav(time){
     setTimeout( function(){
-        $( '#sidenav' ).toggleClass( "show" );
+        $( '#sidenav' ).addClass( "show" );
         $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-navicon" );$( '.arrow i' ).addClass( "fa-times" );$( '.arrow i' ).fadeIn( 20 );} );
     },time);
 }

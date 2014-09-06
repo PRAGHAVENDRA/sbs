@@ -541,6 +541,9 @@ hr{
 	-moz-box-shadow: 4px 0 10px rgba(0,0,0,0.25);
 	-webkit-box-shadow: 4px 0 10px rgba(0,0,0,0.25);
 	height: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
 }
 #sidenav {
 	left: 0;

@@ -73,10 +73,38 @@ function OnloadFunction(){
         }
     );
     
-    $( "#showNavLevel1" ).click(function() {$( ".mainNav ul" ).hide();$( "#showNavLevel2, #showNavLevel3, #showNavLevel4" ).removeClass( "active" );$( ".mainNav #navLevel1" ).show();$( "#showNavLevel1" ).addClass( "active" );$( ".sort" ).hide();$("#sidenav").mCustomScrollbar("scrollTo", 0);});
-    $( "#showNavLevel2" ).click(function() {$( ".mainNav ul" ).hide();$( "#showNavLevel3, #showNavLevel4, #showNavLevel1" ).removeClass( "active" );$( "#navLevel2" ).load( "include_sutra_list.php" ).show();$( "#showNavLevel2" ).addClass( "active" );$( ".sort" ).show();$("#sidenav").mCustomScrollbar("scrollTo", 0);});
-    $( "#showNavLevel3" ).click(function() {$( ".mainNav ul" ).hide();$( "#showNavLevel4, #showNavLevel1, #showNavLevel2" ).removeClass( "active" );$( "#navLevel3" ).load( "include_adhikarana_list.php" ).show();$( "#showNavLevel3" ).addClass( "active" );$( ".sort" ).show();$("#sidenav").mCustomScrollbar("scrollTo", 0);});
-    $( "#showNavLevel4" ).click(function() {$( ".mainNav ul" ).hide();$( "#showNavLevel1, #showNavLevel2, #showNavLevel3" ).removeClass( "active" );$( "#navLevel4" ).load( "include_vishaya_list.php" ).show();$( "#showNavLevel4" ).addClass( "active" );$( ".sort" ).show();$("#sidenav").mCustomScrollbar("scrollTo", 0);});
+    $( "#showNavLevel1" ).click(function() {
+        $( ".mainNav ul" ).hide();
+        $( "#showNavLevel2, #showNavLevel3, #showNavLevel4" ).removeClass( "active" );
+        $( ".mainNav #navLevel1" ).show();
+        $( "#showNavLevel1" ).addClass( "active" );
+        $( ".sort" ).hide();
+        $("#sidenav").mCustomScrollbar("scrollTo", 0);
+    });
+    $( "#showNavLevel2" ).click(function() {
+        $( ".mainNav ul" ).hide();
+        $( "#showNavLevel3, #showNavLevel4, #showNavLevel1" ).removeClass( "active" );
+        $( "#navLevel2" ).load( "include_sutra_list.php", function(){bindLoader();}).show();
+        $( "#showNavLevel2" ).addClass( "active" );
+        $( ".sort" ).show();
+        $("#sidenav").mCustomScrollbar("scrollTo", 0);
+    });
+    $( "#showNavLevel3" ).click(function() {
+        $( ".mainNav ul" ).hide();
+        $( "#showNavLevel4, #showNavLevel1, #showNavLevel2" ).removeClass( "active" );
+        $( "#navLevel3" ).load( "include_adhikarana_list.php", function(){bindLoader();}).show();
+        $( "#showNavLevel3" ).addClass( "active" );
+        $( ".sort" ).show();
+        $("#sidenav").mCustomScrollbar("scrollTo", 0);
+    });
+    $( "#showNavLevel4" ).click(function() {
+        $( ".mainNav ul" ).hide();
+        $( "#showNavLevel1, #showNavLevel2, #showNavLevel3" ).removeClass( "active" );
+        $( "#navLevel4" ).load( "include_vishaya_list.php", function(){bindLoader();}).show();
+        $( "#showNavLevel4" ).addClass( "active" );
+        $( ".sort" ).show();
+        $("#sidenav").mCustomScrollbar("scrollTo", 0);
+    });
     
     setTimeout(function(){
         var hloc = window.location.href;
@@ -97,11 +125,7 @@ function OnloadFunction(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     
-    $( "a, button" ).click(function(){
-        $( "#ajaxLoader" ).remove();
-        $(this).append("<i id=\"ajaxLoader\" class=\"fa fa-spinner fa-spin\"></i>");
-        $( "#ajaxLoader" ).hide();
-    });
+    bindLoader();
     
     $( document )
     .ajaxStart(function() {
@@ -204,4 +228,11 @@ function openNav(time){
         $( '#sidenav' ).addClass( "show" );
         $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-navicon" );$( '.arrow i' ).addClass( "fa-times" );$( '.arrow i' ).fadeIn( 20 );} );
     },time);
+}
+function bindLoader(){
+    $( "a, button" ).click(function(){
+        $( "#ajaxLoader" ).remove();
+        $(this).append("<i id=\"ajaxLoader\" class=\"fa fa-spinner fa-spin\"></i>");
+        $( "#ajaxLoader" ).hide();
+    });    
 }

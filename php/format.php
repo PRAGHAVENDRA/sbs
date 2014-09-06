@@ -177,16 +177,16 @@ include("include_level".$level."_body.php");
     
     $( "#sortAlphabet" ).click(
         function() {
-            $( "#navLevel2" ).load( "include_sutra_list.php?sort=content" );
-            $( "#navLevel3" ).load( "include_adhikarana_list.php?sort=title" );
-            $( "#navLevel4" ).load( "include_vishaya_list.php?sort=vakya" );
+            $( "#navLevel2" ).load( "include_sutra_list.php?sort=content", function(){bindLoader();} );
+            $( "#navLevel3" ).load( "include_adhikarana_list.php?sort=title", function(){bindLoader();} );
+            $( "#navLevel4" ).load( "include_vishaya_list.php?sort=vakya", function(){bindLoader();} );
         }
     );
     $( "#sortNumeric" ).click(
         function() {
-            $( "#navLevel2" ).load( "include_sutra_list.php?sort=id" );
-            $( "#navLevel3" ).load( "include_adhikarana_list.php?sort=id" );
-            $( "#navLevel4" ).load( "include_vishaya_list.php?sort=ref" );
+            $( "#navLevel2" ).load( "include_sutra_list.php?sort=id", function(){bindLoader();} );
+            $( "#navLevel3" ).load( "include_adhikarana_list.php?sort=id", function(){bindLoader();} );
+            $( "#navLevel4" ).load( "include_vishaya_list.php?sort=ref", function(){bindLoader();} );
         }
     );
 </script>

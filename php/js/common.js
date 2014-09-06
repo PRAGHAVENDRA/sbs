@@ -184,6 +184,7 @@ function loadChapter(parentId, id, pagenum, bhashya, hval, level){
 }
 function scrollTo(id, pagenum, bhashya, hval, level){
     
+    event.preventDefault();
     if($( id ).length == 0){
         loadChapter(0, id, pagenum, bhashya, hval, level);
     }
@@ -195,7 +196,8 @@ function scrollTo(id, pagenum, bhashya, hval, level){
     });
 }
 function scrollToText(parentId, id, pagenum, bhashya, hval, level){
-    
+ 
+    event.preventDefault();
     if($( id ).length == 0){
         loadChapter(parentId, id, pagenum, bhashya, hval, level);
     }

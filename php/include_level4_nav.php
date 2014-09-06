@@ -22,8 +22,8 @@ foreach ($xml->div->div->div as $chapter)
 		
         $sName = (string) $section->div[0];
         $sName = preg_replace("/॥/", "", $sName);
-	
-        echo "<li><a href=\"javascript:void(0);\" onclick=\"scrollTo( '#" . $section['id'] . "', '" . $page_num . "', '" . $_POST['bhashya'] . "', '" . $_POST['hval'] . "', '" . $_POST['level'] . "' )\">· " . $sName . "</a></li>";
+        
+        echo "<li><a href=\"format.php?bhashya=" . $_POST['bid'] . "&page=" . $page_num . "#".$section['id']."\" onclick=\"scrollTo( '#" . $section['id'] . "', '" . $page_num . "', '" . $_POST['bhashya'] . "', '" . $_POST['hval'] . "', '" . $_POST['level'] . "' )\">· " . $sName . "</a></li>";
 	}
 	echo "</ul></li>";
 }

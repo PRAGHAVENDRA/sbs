@@ -12,7 +12,7 @@ foreach ($xml->div->div->div as $chapter)
     $chName = (string) $chapter->div[0];
     $chName = preg_replace("/॥/", "", $chName);
     
-    echo "<li><a href=\"javascript:void(0);\" onclick=\"scrollTo( '#" . $chapter['id'] . "', '" . $page_num . "', '" . $_POST['bhashya'] . "', '" . $_POST['hval'] . "', '" . $_POST['level'] . "' )\">· " . $chName . "</a></li>";
+    echo "<li><a href=\"format.php?bhashya=" . $_POST['bid'] . "&page=" . $page_num . "#".$chapter['id']."\" onclick=\"scrollTo( '#" . $chapter['id'] . "', '" . $page_num . "', '" . $_POST['bhashya'] . "', '" . $_POST['hval'] . "', '" . $_POST['level'] . "' )\">· " . $chName . "</a></li>";
 
 }
 

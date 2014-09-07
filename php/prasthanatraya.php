@@ -1,18 +1,4 @@
-<?php
-
-session_start(); 
-
-if(!(isset($_SESSION['valid'])))
-{
-	@header("Location: login.php");
-	exit;
-}
-elseif($_SESSION['valid'] != 1)
-{
-	@header("Location: login.php");
-	exit;
-}
-?>
+<?php require_once('include_requireLogin.php'); ?>
 
 <!DOCTYPE html>
 

@@ -35,7 +35,7 @@ if($num_rows_l1)
 		$page_num = '01';
 		if(preg_match("/.*\_C([0-9]+).*/", $id, $page_n)){$page_num = $page_n[1];}
 	
-		echo "<li class=\"sml\"><a class=\"sml\" href=\"format.php?bhashya=BS&page=" . $page_num . "#".$id."\" onclick=\"scrollTo( '#$id', '$page_num', '" . $bid . "', '', '4' )\">· " . $content . "</a></li>";
+		echo "<li class=\"sml\"><a class=\"navLinkScroll sml\" href=\"format.php?bhashya=BS&page=" . $page_num . "#".$id."\" data-index=\"#" . $id . ";" . $page_num . ";" . $bid . ";;4\">· " . $content . "</a></li>";
 	}
 }
 

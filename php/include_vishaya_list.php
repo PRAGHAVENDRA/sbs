@@ -33,7 +33,7 @@ if($num_rows_l1)
 		$page_num = '01';
 		if(preg_match("/.*\_C([0-9]+).*/", $id, $page_n)){$page_num = $page_n[1];}
 	
-        echo "\n<li class=\"sml\"><a class=\"sml\" href=\"format.php?bhashya=" . $bhashya . "&amp;page=" . $page_num . "&amp;hval=" . $content . "&amp;qid=".$id."&amp;nav=1#" . $vid . "\" onclick=\"scrollToText( '#BH_" . $vid . "', '#" . $id . "', '" . $page_num . "', '" . $bhashya_san{$bhashya} . "', '" . preg_replace("/'/", "\'", $content) . "', '" . $bhashya_level{$bhashya} . "' )\">" . convert_devanagari($i_l1) . ". " . $content . "</a></li>";
+        echo "\n<li class=\"sml\"><a class=\"navLinkScrollText sml\" href=\"format.php?bhashya=" . $bhashya . "&amp;page=" . $page_num . "&amp;hval=" . $content . "&amp;qid=".$id."&amp;nav=1#" . $vid . "\" data-index=\"#BH_" . $vid . ";#" . $id . ";" . $page_num . ";" . $bhashya_san{$bhashya} . ";" . preg_replace("/'/", "\'", $content) . ";" . $bhashya_level{$bhashya} . "\">" . convert_devanagari($i_l1) . ". " . $content . "</a></li>";
 	}
 }
 ?>

@@ -84,7 +84,7 @@ function OnloadFunction(){
     $( "#showNavLevel2" ).click(function() {
         $( ".mainNav ul" ).hide();
         $( "#showNavLevel3, #showNavLevel4, #showNavLevel1" ).removeClass( "active" );
-        $( "#navLevel2" ).load( "include_sutra_list.php", function(){bindLoader();}).show();
+        $( "#navLevel2" ).load( "include_sutra_list.php", function(){bindNavEvents();}).show();
         $( "#showNavLevel2" ).addClass( "active" );
         $( ".sort" ).show();
         $("#sidenav").mCustomScrollbar("scrollTo", 0);
@@ -92,7 +92,7 @@ function OnloadFunction(){
     $( "#showNavLevel3" ).click(function() {
         $( ".mainNav ul" ).hide();
         $( "#showNavLevel4, #showNavLevel1, #showNavLevel2" ).removeClass( "active" );
-        $( "#navLevel3" ).load( "include_adhikarana_list.php", function(){bindLoader();}).show();
+        $( "#navLevel3" ).load( "include_adhikarana_list.php", function(){bindNavEvents();}).show();
         $( "#showNavLevel3" ).addClass( "active" );
         $( ".sort" ).show();
         $("#sidenav").mCustomScrollbar("scrollTo", 0);
@@ -100,7 +100,7 @@ function OnloadFunction(){
     $( "#showNavLevel4" ).click(function() {
         $( ".mainNav ul" ).hide();
         $( "#showNavLevel1, #showNavLevel2, #showNavLevel3" ).removeClass( "active" );
-        $( "#navLevel4" ).load( "include_vishaya_list.php", function(){bindLoader();}).show();
+        $( "#navLevel4" ).load( "include_vishaya_list.php", function(){bindNavEvents();}).show();
         $( "#showNavLevel4" ).addClass( "active" );
         $( ".sort" ).show();
         $("#sidenav").mCustomScrollbar("scrollTo", 0);
@@ -125,7 +125,7 @@ function OnloadFunction(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     
-    bindLoader();
+    bindNavEvents();
     
     $( document )
     .ajaxStart(function() {
@@ -182,42 +182,6 @@ function loadChapter(parentId, id, pagenum, bhashya, hval, level){
         }
     });
 }
-function scrollTo(id, pagenum, bhashya, hval, level){
-    
-    event.preventDefault();
-    if($( id ).length == 0){
-        loadChapter(0, id, pagenum, bhashya, hval, level);
-    }
-    else{
-        $( "html, body" ).scrollTop($( id ).offset().top);
-    }
-    $( "#sidenav" ).mouseleave(function() {
-        closeNav(100);
-    });
-}
-function scrollToText(parentId, id, pagenum, bhashya, hval, level){
- 
-    event.preventDefault();
-    if($( id ).length == 0){
-        loadChapter(parentId, id, pagenum, bhashya, hval, level);
-    }
-    else{
-        
-        if($ (parentId).length == 0){
-            $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
-            $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
-        }
-        else{
-            $( parentId ).show( 10 , function() {
-                $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
-                $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
-            });
-        }
-    }
-    $( "#sidenav" ).mouseleave(function() {
-        closeNav(100);
-    });
-}
 function closeNav(time){
     setTimeout( function(){
         $( '#sidenav' ).removeClass( "show" );
@@ -231,10 +195,64 @@ function openNav(time){
         $( '.arrow i' ).fadeOut( 400, function(){$( '.arrow i' ).removeClass( "fa-navicon" );$( '.arrow i' ).addClass( "fa-times" );$( '.arrow i' ).fadeIn( 20 );} );
     },time);
 }
-function bindLoader(){
+function bindNavEvents(){
     $( "a, button" ).click(function(){
         $( "#ajaxLoader" ).remove();
         $(this).append("<i id=\"ajaxLoader\" class=\"fa fa-spinner fa-spin\"></i>");
         $( "#ajaxLoader" ).hide();
-    });    
+    });
+    
+    $( ".navLinkScroll" ).click(function( event ) {
+        event.preventDefault();
+        var data = $(this).attr('data-index').split(/;/);
+        
+        var id = data[0];
+        var pagenum = data[1];
+        var bhashya = data[2];
+        var hval = data[3];
+        var level = data[4];
+        
+        if($( id ).length == 0){
+            loadChapter(0, id, pagenum, bhashya, hval, level);
+        }
+        else{
+            $( "html, body" ).scrollTop($( id ).offset().top);
+        }
+        $( "#sidenav" ).mouseleave(function() {
+            closeNav(100);
+        });
+    });
+    
+    $( ".navLinkScrollText" ).click(function( event ) {
+        event.preventDefault();
+        var data = $(this).attr('data-index').split(/;/);
+        
+        var parentId = data[0];
+        var id = data[1];
+        var pagenum = data[2];
+        var bhashya = data[3];
+        var hval = data[4];
+        var level = data[5];
+        
+        if($( id ).length == 0){
+            loadChapter(parentId, id, pagenum, bhashya, hval, level);
+        }
+        else{
+            
+            if($ (parentId).length == 0){
+                $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
+                $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
+            }
+            else{
+                $( parentId ).show( 10 , function() {
+                    $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
+                    $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
+                });
+            }
+        }
+        $( "#sidenav" ).mouseleave(function() {
+            closeNav(100);
+        });
+    });
+
 }

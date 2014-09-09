@@ -1,16 +1,4 @@
-<?php
-
-require_once('include_requireLogin.php');
-if(isset($_GET['id']))
-{
-    $id = $_GET['id'];
-}
-else
-{
-    @header("Location: supplements.php");
-}
-
-?>
+<?php require_once('include_requireLogin.php'); ?>
 
 <!DOCTYPE html>
 
@@ -63,8 +51,45 @@ echo "<div class=\"header_top\" id=\"header_top\">
 	<div class=\"clearfix\">&nbsp;</div>";
 echo "<div class=\"page_inner\">";
 echo "<div class=\"page_format\">";
-include("supplements/".$id."/index.html");
 ?>
+        <div class="chapter hashnav">
+            <ul class="supllementLisitng">
+                <li>
+                    <span class="title"><a href="supplement.php?id=20140908001">१. आकाशाधिकरणम्</a></span></a><br />
+                    <span class="author"><a href="#">विद्वान्  मणिद्राविडः, चेन्नै</a></span>
+                    <p class="fright">
+                        <i class="fa fa-youtube-play"></i>
+                        <i class="fa fa-file-text-o"></i>
+                    </p>                    
+                </li>
+                <li>
+                    <span class="title"><a href="#">२. जन्माद्यधिकरणम्</a></span></a><br />
+                    <span class="author"><a href="#">विद्वान्  मणिद्राविडः, चेन्नै</a></span>
+                    <p class="fright">
+                        <i class="fa fa-youtube-play"></i>
+                        <i class="fa fa-file-text-o"></i>
+                        <i class="fa fa-file-pdf-o"></i>
+                    </p>                    
+                </li>
+                <li>
+                    <span class="title"><a href="#">३. शास्त्रयोनित्वाधिकरणम्</a></span></a><br />
+                    <span class="author"><a href="#">विद्वान्  मणिद्राविडः, चेन्नै</a></span>
+                    <p class="fright">
+                        <i class="fa fa-youtube-play"></i>
+                        <i class="fa fa-file-pdf-o"></i>
+                    </p>                    
+                </li>
+                <li>
+                    <span class="title"><a href="#">४. समन्वयाधिकरणम्</a></span></a><br />
+                    <span class="author"><a href="#">विद्वान्  मणिद्राविडः, चेन्नै</a></span>
+                    <p class="fright">
+                        <i class="fa fa-file-text-o"></i>
+                        <i class="fa fa-file-pdf-o"></i>
+                    </p>                    
+                </li>
+            </ul>
+            </div>
+        </div>
 	</div>
 	</div>
 	</div>

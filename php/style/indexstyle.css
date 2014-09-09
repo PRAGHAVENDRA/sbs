@@ -1140,3 +1140,51 @@ hr{
 .subnav #ajaxLoader{
     position: absolute;
 }
+.backTo{
+    font-family: gentium;
+    text-align: left;
+	margin-bottom: 1em;
+	width: 20%;
+	color: #BB0000;
+}
+.backTo a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.backTo a:HOVER{
+    text-decoration: underline;
+}
+.video{
+    margin: 2em;
+    border: none;
+    background: none;
+}
+.supllementLisitng{
+    text-align: left;
+}
+.supllementLisitng li{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 1em;
+}
+.supllementLisitng .title{
+    color: #9E1212;
+}
+.supllementLisitng .author{
+    color: #777;
+    margin-left: 3em;
+    font-size: 0.9em;
+}
+.supllementLisitng .author:before{
+    content: "–";
+}
+.supllementLisitng a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.supllementLisitng a:HOVER{
+    text-decoration: underline;
+}
+.supllementLisitng i{
+    margin: 0 5px;
+    color: #9E1212;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE supplements SYSTEM "supplements.dtd">
+
+<!--
+Media types:
+Text: 1
+Video: 2
+Audio: 3
+PDF/documents: 4
+Others: 5
+-->
+
+<supplements>
+    <supplement id="20140908001" ref="BS_C01_S01_I01">
+        <title>आकाशाधिकरणम्</title>
+        <author>विद्वान्  मणिद्राविडः, चेन्नै</author>
+        <media>1;2</media>
+    </supplement>
+</supplements>

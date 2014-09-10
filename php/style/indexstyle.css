@@ -1161,6 +1161,8 @@ hr{
 }
 .supllementLisitng{
     text-align: left;
+    width: 80%;
+    margin: 0 auto;
 }
 .supllementLisitng li{
     border-bottom: 1px solid #CCCCCC;

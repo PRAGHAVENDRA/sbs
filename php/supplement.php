@@ -37,36 +37,38 @@ else
 $bhashya_level = array("BS"=>"4","Kathaka"=>"3","Mundaka"=>"3","Taitiriya"=>"3","Aitareya"=>"3","Brha"=>"3","Chandogya"=>"3","Kena_pada"=>"2","Kena_vakya"=>"2","Prashna"=>"2","Mandukya"=>"2","Gita"=>"2","svt"=>"2","kst"=>"2","Isha"=>"1","jbl"=>"1");
 $bhashya_san = array("BS"=>"ब्रह्मसूत्रभाष्यम्","Kathaka"=>"काठकोपनिषद्भाष्यम्","Mundaka"=>"मुण्डकोपनिषद्भाष्यम्","Taitiriya"=>"तैत्तिरीयोपनिषद्भाष्यम्","Aitareya"=>"ऐतरेयोपनिषद्भाष्यम्","Brha"=>"बृहदारण्यकोपनिषद्भाष्यम्","Chandogya"=>"छान्दोग्योपनिषद्भाष्यम्","Kena_pada"=>"केनोपनिषत् पदभाष्य​म्","Kena_vakya"=>"केनोपनिषत् वाक्य​भाष्य​म्","Prashna"=>"प्रश्नोपनिषद्भाष्यम्","Mandukya"=>"माण्डूक्योपनिषद्भाष्यम्","Gita"=>"श्रीमद्भगवद्गीताभाष्यम्","svt"=>"श्वेताश्वतरोपनिषत्","kst"=>"कौषीतकिब्राह्मणोपनिषत्","Isha"=>"ईशावास्योपनिषद्भाष्यम्","jbl"=>"जाबालोपनिषत्");
 
+require_once("connect.php");
 require_once("common.php");
 
-echo "<body>";
-echo "<div id=\"pageloader\"></div>";
-echo "<div id=\"loader\"><img src=\"images/loader.gif\" /></div>";
-
-
-echo "<div class=\"header_top\" id=\"header_top\">
-		<div class=\"container\">
-			<nav class=\"fsan\">
+?>
+<body>
+    <div id="pageloader"></div>
+    <div id="loader"><img src="images/loader.gif" /></div>
+    <div class="header_top" id="header_top">
+		<div class="container">
+			<nav class="fsan">
 				<ul>
-					<li><a title=\"Main Page\" href=\"prasthanatraya.php\">मुख्यपृष्ठम्</a></li>
-					<li><a title=\"Sri Shankara Bhashya\" href=\"prasthanatraya_list.php\">श्रीशाङ्करप्रस्थानत्रयभाष्यम्</a></li>
-					<li><a title=\"Search\" href=\"search.php\">अन्वेषणम्</a></li>
+					<li><a title="Main Page" href="prasthanatraya.php">मुख्यपृष्ठम्</a></li>
+					<li><a title="Sri Shankara Bhashya" href="prasthanatraya_list.php">श्रीशाङ्करप्रस्थानत्रयभाष्यम्</a></li>
+					<li><a title="Search" href="search.php">अन्वेषणम्</a></li>
 				</ul>
 			</nav>
-			<div class=\"logo\"><a href=\"http://www.sringeri.net/\"><img src=\"images/logo.png\" alt=\"Sringeri Logo\" /></a></div>
-			<div class=\"title fsan\">
-				<span class=\"clr noul\"><a href=\"../index.php\">अद्वैतशारदा</a></span><br />
+			<div class="logo"><a href="http://www.sringeri.net/"><img src="images/logo.png" alt="Sringeri Logo" /></a></div>
+			<div class="title fsan">
+				<span class="clr noul"><a href="../index.php">अद्वैतशारदा</a></span><br />
 				दक्षिणाम्नाय श्रीशारदापीठम्, शृङ्गेरी
 			</div>
 		</div>
 	</div>
-	<div class=\"clearfix\">&nbsp;</div>";
-echo "<div class=\"page_inner\">";
-echo "<div class=\"page_format\">";
+	<div class="clearfix">&nbsp;</div>
+    <div class="page_inner">
+        <div class="page_format">
+            <div class="chapter hashnav">
+<?php
 include("supplements/".$id."/index.html");
 ?>
-	</div>
-	</div>
+            </div>
+        </div>
 	</div>
 </body>
 </html>

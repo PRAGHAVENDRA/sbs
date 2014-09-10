@@ -25,73 +25,71 @@
 $bhashya_level = array("BS"=>"4","Kathaka"=>"3","Mundaka"=>"3","Taitiriya"=>"3","Aitareya"=>"3","Brha"=>"3","Chandogya"=>"3","Kena_pada"=>"2","Kena_vakya"=>"2","Prashna"=>"2","Mandukya"=>"2","Gita"=>"2","svt"=>"2","kst"=>"2","Isha"=>"1","jbl"=>"1");
 $bhashya_san = array("BS"=>"ब्रह्मसूत्रभाष्यम्","Kathaka"=>"काठकोपनिषद्भाष्यम्","Mundaka"=>"मुण्डकोपनिषद्भाष्यम्","Taitiriya"=>"तैत्तिरीयोपनिषद्भाष्यम्","Aitareya"=>"ऐतरेयोपनिषद्भाष्यम्","Brha"=>"बृहदारण्यकोपनिषद्भाष्यम्","Chandogya"=>"छान्दोग्योपनिषद्भाष्यम्","Kena_pada"=>"केनोपनिषत् पदभाष्य​म्","Kena_vakya"=>"केनोपनिषत् वाक्य​भाष्य​म्","Prashna"=>"प्रश्नोपनिषद्भाष्यम्","Mandukya"=>"माण्डूक्योपनिषद्भाष्यम्","Gita"=>"श्रीमद्भगवद्गीताभाष्यम्","svt"=>"श्वेताश्वतरोपनिषत्","kst"=>"कौषीतकिब्राह्मणोपनिषत्","Isha"=>"ईशावास्योपनिषद्भाष्यम्","jbl"=>"जाबालोपनिषत्");
 
+require_once("connect.php");
 require_once("common.php");
 
-echo "<body>";
-echo "<div id=\"pageloader\"></div>";
-echo "<div id=\"loader\"><img src=\"images/loader.gif\" /></div>";
-
-
-echo "<div class=\"header_top\" id=\"header_top\">
-		<div class=\"container\">
-			<nav class=\"fsan\">
+?>
+<body>
+    <div id="pageloader"></div>
+    <div id="loader"><img src="images/loader.gif" /></div>
+    <div class="header_top" id="header_top">
+		<div class="container">
+			<nav class="fsan">
 				<ul>
-					<li><a title=\"Main Page\" href=\"prasthanatraya.php\">मुख्यपृष्ठम्</a></li>
-					<li><a title=\"Sri Shankara Bhashya\" href=\"prasthanatraya_list.php\">श्रीशाङ्करप्रस्थानत्रयभाष्यम्</a></li>
-					<li><a title=\"Search\" href=\"search.php\">अन्वेषणम्</a></li>
+					<li><a title="Main Page" href="prasthanatraya.php">मुख्यपृष्ठम्</a></li>
+					<li><a title="Sri Shankara Bhashya" href="prasthanatraya_list.php">श्रीशाङ्करप्रस्थानत्रयभाष्यम्</a></li>
+					<li><a title="Search" href="search.php">अन्वेषणम्</a></li>
 				</ul>
 			</nav>
-			<div class=\"logo\"><a href=\"http://www.sringeri.net/\"><img src=\"images/logo.png\" alt=\"Sringeri Logo\" /></a></div>
-			<div class=\"title fsan\">
-				<span class=\"clr noul\"><a href=\"../index.php\">अद्वैतशारदा</a></span><br />
+			<div class="logo"><a href="http://www.sringeri.net/"><img src="images/logo.png" alt="Sringeri Logo" /></a></div>
+			<div class="title fsan">
+				<span class="clr noul"><a href="../index.php">अद्वैतशारदा</a></span><br />
 				दक्षिणाम्नाय श्रीशारदापीठम्, शृङ्गेरी
 			</div>
 		</div>
 	</div>
-	<div class=\"clearfix\">&nbsp;</div>";
-echo "<div class=\"page_inner\">";
-echo "<div class=\"page_format\">";
+	<div class="clearfix">&nbsp;</div>
+    <div class="page_inner">
+        <div class="page_format">
+            <div class="chapter hashnav">
+<?php
+$query = "select * from supplements order by id";
+
+$result = mysql_query($query);
+$num_rows = mysql_num_rows($result);
+
+$slNo = 0;
+if($num_rows > 0)
+{
+    echo "<ul class=\"supllementLisitng\">";
+	for($i=1;$i<=$num_rows;$i++)
+	{
+		$row=mysql_fetch_assoc($result);
+
+		$id=$row['id'];
+		$ref=$row['ref'];
+		$title=$row['title'];
+		$author=$row['author'];
+		$media=$row['media'];
+
+        if(file_exists("supplements/" . $id . "/index.html"))
+        {
+            $slNo++;
+            echo "<li>";
+            echo "  <span class=\"title\"><a href=\"supplement.php?id=" . $id . "&amp;ref=" . $ref . "\">" . convert_devanagari($slNo) . ". " . $title . "</a></span></a><br />";
+            echo "  <span class=\"author\"><a href=\"#\">" . $author . "</a></span>";
+            echo "  <p class=\"fright\">";
+            echo "      <i title=\"Text\" class=\"fa fa-file-text-o\"></i>";
+            echo "      <i title=\"Video\" class=\"fa fa-youtube-play\"></i>";
+            echo "  </p>";
+            echo "</li>";
+        }
+    }
+    echo "</ul>";
+}
 ?>
-        <div class="chapter hashnav">
-            <ul class="supllementLisitng">
-                <li>
-                    <span class="title"><a href="supplement.php?id=20140908001">१. आकाशाधिकरणम्</a></span></a><br />
-                    <span class="author"><a href="#">विद्वान्  मणिद्राविडः, चेन्नै</a></span>
-                    <p class="fright">
-                        <i class="fa fa-youtube-play"></i>
-                        <i class="fa fa-file-text-o"></i>
-                    </p>                    
-                </li>
-                <li>
-                    <span class="title"><a href="#">२. जन्माद्यधिकरणम्</a></span></a><br />
-                    <span class="author"><a href="#">विद्वान्  मणिद्राविडः, चेन्नै</a></span>
-                    <p class="fright">
-                        <i class="fa fa-youtube-play"></i>
-                        <i class="fa fa-file-text-o"></i>
-                        <i class="fa fa-file-pdf-o"></i>
-                    </p>                    
-                </li>
-                <li>
-                    <span class="title"><a href="#">३. शास्त्रयोनित्वाधिकरणम्</a></span></a><br />
-                    <span class="author"><a href="#">विद्वान्  मणिद्राविडः, चेन्नै</a></span>
-                    <p class="fright">
-                        <i class="fa fa-youtube-play"></i>
-                        <i class="fa fa-file-pdf-o"></i>
-                    </p>                    
-                </li>
-                <li>
-                    <span class="title"><a href="#">४. समन्वयाधिकरणम्</a></span></a><br />
-                    <span class="author"><a href="#">विद्वान्  मणिद्राविडः, चेन्नै</a></span>
-                    <p class="fright">
-                        <i class="fa fa-file-text-o"></i>
-                        <i class="fa fa-file-pdf-o"></i>
-                    </p>                    
-                </li>
-            </ul>
             </div>
         </div>
-	</div>
-	</div>
-	</div>
+    </div>
 </body>
 </html>

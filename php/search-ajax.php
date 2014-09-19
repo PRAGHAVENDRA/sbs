@@ -92,7 +92,7 @@ if(isset($_POST['searchtext']))
 				$link_id = preg_split("/\_B/", $id);
 				$link_id = $link_id[0];
 				
-				echo ProcessRef("<p class=\"readmore\"><a target=\"_blank\" href=\"".get_bhashya($bid)."_id.html#$link_id#$searchtext\">read on...</a></p>", '');
+				echo ProcessRef("<p class=\"readmore fsan\"><a target=\"_blank\" href=\"".get_bhashya($bid)."_id.html#$link_id#$searchtext\">अग्रे पठन्तु...</a></p>", '');
 				echo "</li>";
 			}
 			echo "</ul>";

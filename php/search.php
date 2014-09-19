@@ -73,7 +73,7 @@
 					<tr>
 						<td colspan="2" class="right" style="padding: 1em 0 0 3em;">
 							<input name="submit" type="submit" id="submit" value="अन्वेषणम्"/>
-							<input name="reset" type="reset" id="reset" value="रीसेट"/>
+							<input name="reset" type="reset" id="reset" value="सम्मार्जनम्"/>
 						</td>
 					</tr>
 				</table>

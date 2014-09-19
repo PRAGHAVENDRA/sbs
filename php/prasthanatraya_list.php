@@ -44,24 +44,26 @@
 		</div>
 		<div class="maincontent fsan sml clr" style="padding-bottom:20px;">
 			<p class="cen" style="font-size: 2.4em;">ॐ</p>
+
+			<div class="ppbutton" id="playbutton4"><a title="Play Audio" id="play4" href="javascript:void(0);"><img style="margin: 27px 10px 0px 0;width: 18px;" src="images/play.png" alt="Play or Pause button"/></a></div>
+			<div class="ppbutton" id="pausebutton4" style="display: none;"><a title="Pause" id="pause4" href="javascript:void(0);"><img style="margin: 27px 10px 0px 0;width: 18px;" src="images/pause.png" alt="Play or Pause button"/></a></div>
+			<p class="clr4">करतलकलिताद्वयात्मतत्त्वं क्षपितदुरन्तचिरन्तनप्रमोहम् ।<br />
+			उपचितमुदितोदितैर्गुणौघैः उपनिषदामयमुज्जहार भाष्यम् ।।</p><br />
+			
+			<div class="ppbutton" id="playbutton3"><a title="Play Audio" id="play3" href="javascript:void(0);"><img style="margin: 0px 10px 0px 0;width: 18px;" src="images/play.png" alt="Play or Pause button"/></a></div>
+			<div class="ppbutton" id="pausebutton3" style="display: none;"><a title="Pause" id="pause3" href="javascript:void(0);"><img style="margin: 0px 10px 0px 0;width: 18px;" src="images/pause.png" alt="Play or Pause button"/></a></div>
+			<p class="clr4">ततो महाभारतसारभूताः स व्याकरोद्भागवतीश्च गीताः ।</p><br />
+
 			<div class="ppbutton" id="playbutton2"><a title="Play Audio" id="play2" href="javascript:void(0);"><img style="margin: 27px 10px 0px 0;width: 18px;" src="images/play.png" alt="Play or Pause button"/></a></div>
 			<div class="ppbutton" id="pausebutton2" style="display: none;"><a title="Pause" id="pause2" href="javascript:void(0);"><img style="margin: 27px 10px 0px 0;width: 18px;" src="images/pause.png" alt="Play or Pause button"/></a></div>
 			<p class="clr4">गुरुः समस्तोपनिषत्स्वतन्त्रः।<br />
 			अनेन दूरीकृतभेदवादम् अकारि शारीरकसूत्रभाष्यम् ।।</p><br />
 			
-			<div class="ppbutton" id="playbutton3"><a title="Play Audio" id="play3" href="javascript:void(0);"><img style="margin: 0px 10px 0px 0;width: 18px;" src="images/play.png" alt="Play or Pause button"/></a></div>
-			<div class="ppbutton" id="pausebutton3" style="display: none;"><a title="Pause" id="pause3" href="javascript:void(0);"><img style="margin: 0px 10px 0px 0;width: 18px;" src="images/pause.png" alt="Play or Pause button"/></a></div>
-			<p class="clr4">ततो महाभारतसारभूताः स व्याकरोद्भागवतीश्च गीताः ।</p><br />
-			
-			<div class="ppbutton" id="playbutton4"><a title="Play Audio" id="play4" href="javascript:void(0);"><img style="margin: 27px 10px 0px 0;width: 18px;" src="images/play.png" alt="Play or Pause button"/></a></div>
-			<div class="ppbutton" id="pausebutton4" style="display: none;"><a title="Pause" id="pause4" href="javascript:void(0);"><img style="margin: 27px 10px 0px 0;width: 18px;" src="images/pause.png" alt="Play or Pause button"/></a></div>
-			<p class="clr4">करतलकलिताद्वयात्मतत्त्वं क्षपितदुरन्तचिरन्तनप्रमोहम् ।<br />
-			उपचितमुदितोदितैर्गुणौघैः उपनिषदामयमुज्जहार भाष्यम् ।।</p><br />
 		</div>
 		<div class="maincontent fsan clr noul">
-			<p class="big bld"><a target="_blank" href="format.php?bhashya=BS">॥ ब्रह्मसूत्रभाष्यम् ॥</a></p>
-			<p class="gpall big bld"><a target="_blank" href="format.php?bhashya=Gita">॥ श्रीमद्भगवद्गीताभाष्यम् ॥</a></p>
 			<p class="big bld"><a href="upanishat.php">॥ उपनिषद्भाष्याणि ॥</a></p>			
+			<p class="gpall big bld"><a target="_blank" href="format.php?bhashya=Gita">॥ श्रीमद्भगवद्गीताभाष्यम् ॥</a></p>
+			<p class="big bld"><a target="_blank" href="format.php?bhashya=BS">॥ ब्रह्मसूत्रभाष्यम् ॥</a></p>
 		</div>
 	</div>
 </body>

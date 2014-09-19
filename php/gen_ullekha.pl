@@ -189,22 +189,22 @@ sub get_sortid()
 	my($upn) = @_;
 	switch ($upn)
 	{
-		case "BS" { return("01"); }
-		case "Gita" { return("02"); }
-		case "Isha" { return("03"); }
-		case "Kena_pada" { return("04"); }
-		case "Kena_vakya" { return("05"); }
-		case "Kathaka" { return("06"); }
-		case "Prashna" { return("07"); }
-		case "Mundaka" { return("08"); }
-		case "Mandukya" { return("09"); }
-		case "Taitiriya" { return("10"); }
-		case "Aitareya" { return("11"); }
-		case "Chandogya" { return("12"); }
-		case "Brha" { return("13"); }
-		case "kst" { return("14"); }
-		case "jbl" { return("15"); }
-		case "svt" { return("16"); }
+		case "Isha" { return("01"); }
+		case "Kena_pada" { return("02"); }
+		case "Kena_vakya" { return("03"); }
+		case "Kathaka" { return("04"); }
+		case "Prashna" { return("05"); }
+		case "Mundaka" { return("06"); }
+		case "Mandukya" { return("07"); }
+		case "Taitiriya" { return("08"); }
+		case "Aitareya" { return("09"); }
+		case "Chandogya" { return("10"); }
+		case "Brha" { return("11"); }
+		case "kst" { return("12"); }
+		case "jbl" { return("13"); }
+		case "svt" { return("14"); }
+        case "Gita" { return("15"); }
+        case "BS" { return("16"); }
 		else { return("00"); }
 	}
 }

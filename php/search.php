@@ -52,21 +52,21 @@
 					<tr>
 						<td colspan="2" class="right" style="padding: 1em 0 0 3em;">
 							<ul class="fleft">
-								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b01" value="ब्रह्मसूत्रभाष्यम्" /><label for="b01">&nbsp;ब्रह्मसूत्रभाष्यम्</label></li>
-								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b02" value="श्रीमद्भगवद्गीताभाष्यम्" /><label for="b02">&nbsp;श्रीमद्भगवद्गीताभाष्यम्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b03" value="ईशावास्योपनिषद्भाष्यम्" /><label for="b03">&nbsp;ईशावास्योपनिषद्भाष्यम्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b04" value="केनोपनिषत् पदभाष्य​म्" /><label for="b04">&nbsp;केनोपनिषत् पदभाष्य​म्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b05" value="केनोपनिषत् वाक्य​भाष्य​म्" /><label for="b05">&nbsp;केनोपनिषत् वाक्य​भाष्य​म्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b06" value="काठकोपनिषद्भाष्यम्" /><label for="b06">&nbsp;काठकोपनिषद्भाष्यम्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b07" value="प्रश्नोपनिषद्भाष्यम्" /><label for="b07">&nbsp;प्रश्नोपनिषद्भाष्यम्</label></li>
-							</ul>
-							<ul class="fright">
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b08" value="मुण्डकोपनिषद्भाष्यम्" /><label for="b08">&nbsp;मुण्डकोपनिषद्भाष्यम्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b09" value="माण्डूक्योपनिषद्भाष्यम्" /><label for="b09">&nbsp;माण्डूक्योपनिषद्भाष्यम्</label></li>
+							</ul>
+							<ul class="fright">
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b10" value="तैत्तिरीयोपनिषद्भाष्यम्" /><label for="b10">&nbsp;तैत्तिरीयोपनिषद्भाष्यम्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b11" value="ऐतरेयोपनिषद्भाष्यम्" /><label for="b11">&nbsp;ऐतरेयोपनिषद्भाष्यम्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b12" value="बृहदारण्यकोपनिषद्भाष्यम्" /><label for="b12">&nbsp;बृहदारण्यकोपनिषद्भाष्यम्</label></li>
 								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b13" value="छान्दोग्योपनिषद्भाष्यम्" /><label for="b13">&nbsp;छान्दोग्योपनिषद्भाष्यम्</label></li>
+								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b02" value="श्रीमद्भगवद्गीताभाष्यम्" /><label for="b02">&nbsp;श्रीमद्भगवद्गीताभाष्यम्</label></li>
+								<li class="mbot"><input name="check_bhashya[]" type="checkbox" id="b01" value="ब्रह्मसूत्रभाष्यम्" /><label for="b01">&nbsp;ब्रह्मसूत्रभाष्यम्</label></li>
 							</ul>
 						</td>
 					</tr>

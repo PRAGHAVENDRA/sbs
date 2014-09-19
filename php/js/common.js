@@ -72,7 +72,7 @@ function OnloadFunction(){
             }
         }
     );
-    
+
     $( "#showNavLevel1" ).click(function() {
         $( ".mainNav ul" ).hide();
         $( "#showNavLevel2, #showNavLevel3, #showNavLevel4" ).removeClass( "active" );
@@ -255,4 +255,14 @@ function bindNavEvents(){
         });
     });
 
+}
+function bindToggleEvent(){
+    $( "#toggleAll" ).click(function() {
+        if($( ".toggle input" ).prop( "checked")) {
+            $( ".toggle input" ).prop( "checked", false);
+        }
+        else {
+            $( ".toggle input" ).prop( "checked", true);
+        }
+    });
 }

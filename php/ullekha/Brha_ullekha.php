@@ -750,7 +750,7 @@
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Brha&page=04#BR_C04_S04_V22#quote_736">‘अष्टाचत्वारिंशत्संस्काराः’ (गौ. ध. १ । ८ । ८ तः २२, २४, २५)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Brha&page=06#BR_C06_S02_V15#quote_834">‘अष्टाशीतिसहस्राणामृषीणामूर्ध्वरेतसाम् । उत्तरेणार्यम्णः पन्थास्तेऽमृतत्वं हि भेजिरे’ (?)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Brha&page=02#BR_C02_S01_V20#quote_355">‘आकाशवत्सर्वगतश्च नित्यः’ (शत. ब्रा. १० । ६ । ३ । २)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Brha&page=02#BR_C02_S01_V20#quote_367">‘आकाशवत्सर्वगतश्च नित्यः’ (शत. ब्रा. ?)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Brha&page=02#BR_C02_S01_V20#quote_367">‘आकाशवत्सर्वगतश्च नित्यः’ (शत. ब्रा. १० । ६ । ३ । २)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Brha&page=01#BR_C01_S01_I04#quote_11">‘आत्मयाजी श्रेयान्देवयाजिनः’ (शत. ब्रा. १ । २ । ६ । ११३)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Brha&page=03#BR_C03_S03_I03#quote_523">‘इदं मेऽनेनाङ्गं संस्क्रियते’ (शत. ब्रा. ११ । २ । ६ । १३)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Brha&page=01#BR_C01_S04_V06#quote_56">‘इन्द्रं मित्रं वरुणमग्निमाहुः’ (ऋ. १ । १९४ । ४६)</a></li>

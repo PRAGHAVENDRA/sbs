@@ -249,7 +249,7 @@
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S08_V07#quote_28">‘अतः प्रदानं देवा उपजीवन्ति’ (?)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=04#Ch_C04_S17_V06#quote_91">‘अथ केन ब्रह्मत्वमित्यनयैव त्रय्या विद्यया’ (?)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=04#Ch_C04_S16_V01#quote_89">‘अयं वै यज्ञो योऽयं पवते’ (ऐ. ब्रा. २५ । ८)</a></li>
-<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S03_V02#quote_138">‘आकाशवत्सर्वगतश्च नित्यः’ (?)</a></li>
+<li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=06#Ch_C06_S03_V02#quote_138">‘आकाशवत्सर्वगतश्च नित्यः’ (शत. ब्रा. १० । ६ । ३ । २)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=05#Ch_C05_S10_V02#quote_106">‘आभूतसम्प्लवं स्थानममृतत्वं हि भाष्यते’ (वि. पु. २ । ८ । ९७)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S08_V07#quote_29">‘इयं वै रथंतरम्’ (तां. ब्रा. १८ । ६ । ११)</a></li>
 <li id="sort_99" type="zothers" class="qt"><a target="_blank" href="format.php?bhashya=Chandogya&page=01#Ch_C01_S13_V01#quote_36">‘इयं वै रथंतरम्’ (तां. ब्रा. १८ । ६ । ११)</a></li>

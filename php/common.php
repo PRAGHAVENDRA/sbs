@@ -446,5 +446,26 @@ function hasResetExpired($reset)
         }
     }
 }
+function entityReferenceReplace($term)
+{
+	if(is_array($term))
+	{
+		$term = "$term";
+	}
+	
+	$term = preg_replace("/<i>/", "", $term);
+	$term = preg_replace("/<\/i>/", "", $term);
+	$term = preg_replace("/\;/", "&#59;", $term);
+	$term = preg_replace("/</", "&#60;", $term);
+	$term = preg_replace("/=/", "&#61;", $term);
+	$term = preg_replace("/>/", "&#62;", $term);
+	$term = preg_replace("/\(/", "&#40;", $term);
+	$term = preg_replace("/\)/", "&#41;", $term);
+	$term = preg_replace("/\:/", "&#58;", $term);
+	$term = preg_replace("/\?/", "&#63;", $term);
+	$term = preg_replace("/Drop table|Create table|Alter table|Delete from|Desc table|Show databases|iframe/i", "", $term);
+	
+	return($term);
+}
 
 ?>

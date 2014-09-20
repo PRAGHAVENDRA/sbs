@@ -13,6 +13,9 @@ if(isset($_POST['searchtext']))
 		$check_bhashya=$_POST['check_bhashya'];
 	
 		$searchtext=$_POST['searchtext'];
+        
+        $searchtext = entityReferenceReplace($searchtext);
+        $searchtext = addslashes($searchtext);
 
 		$searchtext = preg_replace("/[\t]+/", " ", $searchtext);
 		$searchtext = preg_replace("/[ ]+/", " ", $searchtext);
@@ -56,7 +59,7 @@ if(isset($_POST['searchtext']))
 		}
 		
 		$query = "SELECT * FROM bhashya WHERE content REGEXP '$searchtext' and bid REGEXP '$bfilter'".$vbfilter;
-		
+        
 		if(isset($_GET['page']) && !empty($_GET['page']) && is_numeric($_GET['page'])) {
 			$query .= " LIMIT ".(($_GET['page'] - 1)*5).",5";
 		} else {

@@ -53,6 +53,11 @@ require_once("common.php");
         <div class="page_format">
             <div class="chapter hashnav">
 <?php
+
+/*
+$db = @new mysqli('localhost', "$user", "$password", "$database");
+*/
+
 $query = "select * from supplements order by id";
 
 $result = mysql_query($query);

@@ -70,7 +70,7 @@
 								<li class="mbot toggle"><input name="check_bhashya[]" type="checkbox" id="b13" value="छान्दोग्योपनिषद्भाष्यम्" /><label for="b13">&nbsp;छान्दोग्योपनिषद्भाष्यम्</label></li>
 								<li class="mbot toggle"><input name="check_bhashya[]" type="checkbox" id="b02" value="श्रीमद्भगवद्गीताभाष्यम्" /><label for="b02">&nbsp;श्रीमद्भगवद्गीताभाष्यम्</label></li>
 								<li class="mbot toggle"><input name="check_bhashya[]" type="checkbox" id="b01" value="ब्रह्मसूत्रभाष्यम्" /><label for="b01">&nbsp;ब्रह्मसूत्रभाष्यम्</label></li>
-								<li class="mbot clr"><input name="toggleAll" type="checkbox" id="toggleAll" value="सर्वम्" /><label for="b01">&nbsp;सर्वम्</label></li>
+								<li class="mbot clr"><input name="toggleAll" type="checkbox" id="toggleAll" value="सर्वम्" /><label for="toggleAll">&nbsp;सर्वम्</label></li>
 							</ul>
 						</td>
 					</tr>

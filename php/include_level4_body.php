@@ -78,8 +78,9 @@ if($num_rows_l1)
 						else
 						{
 							echo "<div class=\"subsection hashnav\" id=\"$id\" type=\"$type\">";
-							echo "<div class=\"ssname\">$title</div>\n";
-							
+                            $ids = preg_split('/\_A/', $id);
+                            echo "<div class=\"ssname\">" . convert_devanagari(intval($ids[1])) . ". " . $title . "</div>\n";
+
 							$vids = preg_split("/\;/", $content);
 							foreach ($vids as $vid)
 							{

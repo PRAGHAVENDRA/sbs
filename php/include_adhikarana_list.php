@@ -27,7 +27,6 @@ if($num_rows_l1)
 		$id=$row_l1['id'];
 		$bid=$row_l1['bid'];
 		
-		$title = preg_replace("/^[०१२३४५६७८९\.]+/", "", $title);
 		$page_num = '01';
 		if(preg_match("/.*\_C([0-9]+).*/", $id, $page_n)){$page_num = $page_n[1];}
 	

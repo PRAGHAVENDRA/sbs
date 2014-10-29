@@ -68,6 +68,7 @@ if(($error_val == 0) && ($isfirst == 0))
 					<li><a title="Main Page" href="prasthanatraya.php">मुख्यपृष्ठम्</a></li>
 					<li><a title="Sri Shankara Bhashya" href="prasthanatraya_list.php">श्रीशाङ्करप्रस्थानत्रयभाष्यम्</a></li>
 					<li><a title="Search" href="search.php">अन्वेषणम्</a></li>
+					<li><a title="Help" href="feedback.php">साहाय्यम्</a></li>
 				</ul>
 			</nav>
 			<div class="logo"><a href="http://www.sringeri.net/"><img src="images/logo.png" alt="Sringeri Logo" /></a></div>
@@ -131,6 +132,7 @@ elseif(($error_val > 0) || ($isfirst == 1))
 					<li><a title="Main Page" href="prasthanatraya.php">मुख्यपृष्ठम्</a></li>
 					<li><a title="Sri Shankara Bhashya" href="prasthanatraya_list.php">श्रीशाङ्करप्रस्थानत्रयभाष्यम्</a></li>
 					<li><a title="Search" href="search.php">अन्वेषणम्</a></li>
+					<li><a title="Help" href="feedback.php">साहाय्यम्</a></li>
 				</ul>
 			</nav>
 			<div class="logo"><a href="http://www.sringeri.net/"><img src="images/logo.png" alt="Sringeri Logo" /></a></div>

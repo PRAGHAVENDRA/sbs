@@ -144,8 +144,23 @@ elseif(($error_val > 0) || ($isfirst == 1))
 	</div>
 	<div class="clearfix">&nbsp;</div>
     <div class="page">
+        <div class="page_left">
+            <div class="help">
+                <p class="otherp big clr">Help</p>
+                <p class="otherp">The first release of the Advaitasharada  Project is an Internet edition of the Prasthanatraya – Brahmasutra, Srimadbhagavadgita and ten principal upanishads (Isa, Kena, Katha, Prasna, Mundaka, Mandukya, Taittiriya, Aitareya, Brihadaranyaka and Chandogya) – Bhashyas of Bhagavatpada Sri Shankaracharya. The content is from the Vani Vilasa edition of the Bhashyas, first published (in 20 volumes) during 1910-14, and later photographically reproduced (in 10 volumes) by Samata publications.</p>
+                <p class="otherp">The Internet edition has the following features:</p>
+                <ul class="otherp">
+                    <li>1. Each Bhashya corpus is displayed along with its internal structure – sutras, adhikaranas, adhyayas, shlokas, khandas, etc., which appears in the side bar on the left; moving the mouse near to the right edge of the screen will bring sidebar out. This can be used to navigate to a particular portion of the corpus as per the structure. Brahmasutra bhashya has three different structures, namely, sutra, adhikarana and adhyaya-pada, any one of which can be chosen.</li>
+                    <li>2. The bhashya text of a particular sutra / shloka / mantra is folded by default and clicking on the भाष्यम्  button will unfold it for view.</li>
+                    <li>3. The उल्लेखाः button on the top right of the screen will open the list of quotes from other bhashyas in the corpus which are in the particular bhashya under view. Clicking on it will navigate to the place in the text where that quote appears.</li>
+                    <li>4. Quotes, उल्लेखाः, which appear in a bhashya, on clicking, will navigate to that bhashya from where the quote originates.</li>
+                    <li>5. There is a hidden sidebar on the left edge of the screen, which is activated by moving mouse over there, which contains expansions of the abbreviations used in the quotes.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="page_right">
 <?php
-    echo "<p class=\"fgentium small clr\">Feedback</p>
+    echo "<p class=\"fgentium clr big\">Feedback</p>
         <form method=\"post\" action=\"feedback.php\">
             <div class=\"feedback\">
                 <div class=\"otherp\">
@@ -189,6 +204,7 @@ echo "                  </li>
                 </div>
             </div>
         </form>
+    </div>
     </div>
 </body>
 </html>";

@@ -812,8 +812,8 @@ hr{
 	padding: 20px;
 }
 .feedback{
-	width: 600px;
-	margin: 30px auto 30px auto;
+	width: 400px;
+	margin: 30px;
 	box-shadow: 0 0 7px #AAA;
 	min-height: 100px;
 	padding: 20px;
@@ -837,7 +837,7 @@ hr{
     padding:3px 3px 3px 0px;
 }
 .feedback label {
-    width:520px;
+    width:320px;
     margin-top: 3px;
     display:inline-block;
     float:left;
@@ -875,7 +875,7 @@ hr{
 }
 .feedback textarea{
     padding:8px;
-    width:580px;
+    width:380px;
     border: 1px solid #AAA;
     height: 150px;
     border-radius: 3px;
@@ -1188,4 +1188,15 @@ hr{
 .supllementLisitng i{
     margin: 0 5px;
     color: #9E1212;
+}
+.help{
+    width: 450px;
+    font-size: 1.2em;
+}
+.help p{
+    text-align: left;
+}
+.help li{
+    margin: 0 0 1em 1em;
+    text-align: left;
 }

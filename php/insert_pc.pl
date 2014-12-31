@@ -21,7 +21,7 @@ $sthDel->execute();
 $sthDel->finish();
 
 $sth11=$dbh->prepare("CREATE TABLE pc(ref varchar(50),
-vakya varchar(2000)) ENGINE=MyISAM character set utf8 collate utf8_general_ci");
+words varchar(2000)) ENGINE=MyISAM character set utf8 collate utf8_general_ci");
 $sth11->execute();
 $sth11->finish(); 
 
@@ -32,11 +32,11 @@ while($line)
 	if($line =~ /<pc ref="(.*)">(.*)<\/pc>/)
 	{
 		$ref = $1;
-		$vakya = $2;
-		insert_vakya($ref,$vakya);
+		$words = $2;
+		insert_words($ref,$words);
 		$pcid = "";
 		$ref = "";
-		$vakya = "";
+		$words = "";
 	}
 	$line = <IN>;
 }
@@ -44,15 +44,15 @@ while($line)
 close(IN);
 $dbh->disconnect();
 
-sub insert_vakya()
+sub insert_words()
 {
-	my($ref,$vakya) = @_;
+	my($ref,$words) = @_;
 	my($sth1);
     
     $ref =~ s/'/\\'/g;
-    $vakya =~ s/'/\\'/g;
+    $words =~ s/'/\\'/g;
 	
-    $sth1=$dbh->prepare("insert into pc values('$ref','$vakya')");
+    $sth1=$dbh->prepare("insert into pc values('$ref','$words')");
 	$sth1->execute();
 	$sth1->finish();
 }

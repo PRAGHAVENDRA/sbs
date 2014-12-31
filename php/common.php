@@ -467,5 +467,33 @@ function entityReferenceReplace($term)
 	
 	return($term);
 }
+function highlightWords($text, $id)
+{
+    include("connect.php");
+	
+	$query = "select * from pc where ref='$id'";
+	$result = mysql_query($query);
+	if($result)
+    {
+        $row=mysql_fetch_assoc($result);
+        $words=$row['words'];
+        
+        $words = rtrim(preg_replace("/॥.*॥/", "", $words));
+        $words = preg_replace("/, /", ",", $words);
+        
+        $wordArray = explode(',', $words);
+        
+        foreach($wordArray as $word)
+        {
+            $text = preg_replace('/' . $word.' /', ' <span class="clr">' . $word . '</span> ', $text);
+        }
+
+        return($text);
+    }
+    else
+    {
+        return($text);
+    }
+}
 
 ?>

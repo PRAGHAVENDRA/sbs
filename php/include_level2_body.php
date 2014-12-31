@@ -74,7 +74,7 @@ if($num_rows_l1)
 					{
 						$row_l2b=mysql_fetch_assoc($result_l2b);
 						$content=$row_l2b['content'];
-						echo ProcessRef($content, $hval) . "\n";
+						echo highlightWords(ProcessRef($content, $hval), $id) . "\n";
 					}
 					echo "</div>";
 				}

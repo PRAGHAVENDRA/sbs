@@ -12,6 +12,7 @@ echo "create database IF NOT EXISTS sbs character set utf8 collate utf8_general_
 php insert_db.php
 perl insert_vishaya.pl $host $db $usr $pwd
 perl insert_supplement.pl $host $db $usr $pwd
+perl insert_pc.pl $host $db $usr $pwd
 
 perl gen_ullekha.pl $host $db $usr $pwd Isha
 perl gen_ullekha.pl $host $db $usr $pwd Kena_pada

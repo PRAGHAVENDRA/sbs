@@ -485,7 +485,7 @@ function highlightWords($text, $id)
         
         foreach($wordArray as $word)
         {
-            $text = preg_replace('/' . $word.' /', ' <span class="clr">' . $word . '</span> ', $text);
+            $text = preg_replace("/ $word /u", ' <span class="clr">' . $word . '</span> ', $text);
         }
 
         return($text);

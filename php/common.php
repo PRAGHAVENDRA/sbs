@@ -2,17 +2,17 @@
 
 function ProcessRef($str, $find)
 {
-	if($find == '')
-	{
-		$find = 'content';
-	}
-	
 	$find = preg_replace("/‘/u", "", $find);
 	$find = preg_replace("/’/u", "", $find);
 	$find = preg_replace("/\(.*\)/u", "", $find);
 	$find = preg_replace("/^\ /", "", $find);
 	$find = preg_replace("/\ $/", "", $find);
 	
+    if($find == '')
+	{
+		$find = 'content';
+	}
+    
 	$str = preg_replace("/href=\"([a-zA-Z\_]+)\_id\.html/", "target=\"_blank\" href=\"format.php?bhashya=$1", $str);
 	$str = preg_replace("/(href=\"format\.php\?bhashya=[a-zA-Z\_]+)\#([a-zA-Z]+\_C)([0-9][0-9])/", "$1&page=$3#$2$3", $str);
 	$str = preg_replace("/<span/", " <span", $str);

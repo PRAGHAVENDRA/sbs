@@ -15,7 +15,7 @@
 <li id="sort_06" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=01#MD_C01_S02_V11#quote_18">‘इहैव सर्वे प्रविलीयन्ति कामाः’ (मु. उ. ३-२-२)</a></li>
 <li id="sort_06" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=01#MD_C01_S02_V01#quote_14">‘ऋग्वेदो यजुर्वेदः’ (मु. उ. १-१-५)</a></li>
 <li id="sort_06" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=02#MD_C02_S01_V10#quote_25">‘कस्मिन्नु भगवो विज्ञाते सर्वमिदं विज्ञातं भवति’ (मु. उ. १-१-३)</a></li>
-<li id="sort_06" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=01#MD_C01_S02_V11#quote_19">‘ते सर्वगं स सर्वतः प्राप्य धीरा युक्तात्मानः सर्वमेवाविशन्ति’ (मु. उ. ३-२-५)</a></li>
+<li id="sort_06" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=01#MD_C01_S02_V11#quote_19">‘ते सर्वगं सर्वतः प्राप्य धीरा युक्तात्मानः सर्वमेवाविशन्ति’ (मु. उ. ३-२-५)</a></li>
 <li id="sort_06" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=02#MD_C02_S01_V04#quote_22">‘दिव्यो ह्यमूर्तः’ (मु. उ. २-१-२)</a></li>
 <li id="sort_06" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=01#MD_C01_S02_V01#quote_16">‘नामरूपमन्नं च जायते’ (मु. उ. १-१-९)</a></li>
 <li id="sort_06" type="Mundaka" class="qt"><a target="_blank" href="format.php?bhashya=Mundaka&page=01#MD_C01_S01_I01#quote_5">‘परामृताः परिमुच्यन्ति सर्वे’ (मु. उ. ३-२-६)</a></li>

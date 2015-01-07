@@ -86,7 +86,7 @@
 <li id="sort_10" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=02#MK_C02_K32#quote_80">‘आत्मैवेदं सर्वम्’ (छा. उ. ७-२५-२)</a></li>
 <li id="sort_10" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K16#quote_118">‘आत्मैवेदं सर्वम्’ (छा. उ. ७-२५-२)</a></li>
 <li id="sort_10" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=07#MK_V07#quote_50">‘आत्मैवेदं सर्वम्’ (छा. उ. ७-२५-२)</a></li>
-<li id="sort_10" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=02#MK_C02_K01#quote_65">‘एकमेवाद्वितीयम’ (छा. उ. ६-२-१)</a></li>
+<li id="sort_10" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=02#MK_C02_K01#quote_65">‘एकमेवाद्वितीयम्’ (छा. उ. ६-२-१)</a></li>
 <li id="sort_10" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=02#MK_C02_K32#quote_82">‘एकमेवाद्वितीयम्’ (छा. उ. ६-२-१)</a></li>
 <li id="sort_10" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K18#quote_119">‘एकमेवाद्वितीयम्’ (छा. उ. ६-२-१)</a></li>
 <li id="sort_10" type="Chandogya" class="qt"><a target="_blank" href="format.php?bhashya=Mandukya&page=03#MK_C03_K14#quote_109">‘एकमेवाद्वितीयम्’ (छा. उ. ६-२-२)</a></li>

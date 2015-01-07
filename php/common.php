@@ -277,8 +277,6 @@ function get_adhikarana($id)
 	$row=mysql_fetch_assoc($result);
 	$title=$row['title'];
 	
-	$title = preg_replace("/^[०१२३४५६७८९\.]+/", "", $title);
-	$title = preg_replace("/^ +/", "", $title);
 	return("&nbsp;।&nbsp;" . $title);
 }
 

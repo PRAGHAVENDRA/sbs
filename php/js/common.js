@@ -140,7 +140,7 @@ function OnloadFunctionAjax(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
 }
-function loadChapter(parentId, id, pagenum, bhashya, hval, level){
+function loadChapter(parentId, id, pagenum, bhashya, hval, level, vid){
     
     var go = $('#pageLazy');
     var postData = {"bhashya":bhashya,"hval":hval};
@@ -157,18 +157,11 @@ function loadChapter(parentId, id, pagenum, bhashya, hval, level){
             OnloadFunctionAjax();
            
             if(parentId != 0){
-                if($ (parentId).length == 0){
-                    $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
-                    $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
-                }
-                else{
-                    $( parentId ).show( 10 , function() {
-                        $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
-                        $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
-                    });
-                }
+                
+               insertVishaya(parentId, id, pagenum, bhashya, hval, level, vid);
             }
             else{
+                
                 $( "html, body" ).scrollTop($( id ).offset().top);
             }
             
@@ -213,7 +206,7 @@ function bindNavEvents(){
         var level = data[4];
         
         if($( id ).length == 0){
-            loadChapter(0, id, pagenum, bhashya, hval, level);
+            loadChapter(0, id, pagenum, bhashya, hval, level, 0);
         }
         else{
             $( "html, body" ).scrollTop($( id ).offset().top);
@@ -233,22 +226,13 @@ function bindNavEvents(){
         var bhashya = data[3];
         var hval = data[4];
         var level = data[5];
+        var vid = data[6];
         
         if($( id ).length == 0){
-            loadChapter(parentId, id, pagenum, bhashya, hval, level);
+            loadChapter(parentId, id, pagenum, bhashya, hval, level, vid);
         }
         else{
-            
-            if($ (parentId).length == 0){
-                $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
-                $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
-            }
-            else{
-                $( parentId ).show( 10 , function() {
-                    $( id ).before( "<p id=\"" + id + "_VI\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
-                    $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
-                });
-            }
+            insertVishaya(parentId, id, pagenum, bhashya, hval, level, vid);
         }
         $( "#sidenav" ).mouseleave(function() {
             closeNav(100);
@@ -265,4 +249,19 @@ function bindToggleEvent(){
             $( ".toggle input" ).prop( "checked", true);
         }
     });
+}
+function insertVishaya(parentId, id, pagenum, bhashya, hval, level, vid) {
+    
+    if($ (parentId).length == 0){
+        $( id + '_VI_' + vid ).remove();
+        $( id ).before( "<p id=\"" + id.replace('#', '') + "_VI_" + vid + "\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
+        $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
+    }
+    else{
+        $( parentId ).show( 10 , function() {
+            $( id + '_VI_' + vid ).remove();
+            $( id ).before( "<p id=\"" + id.replace('#', '') + "_VI_" + vid + "\" class=\"vishaya\"><i class=\"fa fa-arrow-down\"></i> " + hval +"</p>" );
+            $( "html, body" ).scrollTop($( id ).prev().offset().top - 140);
+        });
+    }
 }

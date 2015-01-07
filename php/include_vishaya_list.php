@@ -13,7 +13,7 @@ else{
     $sort = "ref";
 }
 
-$query_l1 = "select * from vishaya order by $sort";
+$query_l1 = "select * from vishaya order by TRIM(LEADING '&#8216;' FROM $sort)";
 $result_l1 = mysql_query($query_l1);
 $num_rows_l1 = mysql_num_rows($result_l1);
 

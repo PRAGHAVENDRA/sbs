@@ -337,7 +337,7 @@
 <li id="sort_15" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=18#BG_C18_V13#quote_359">‘यावानर्थ उदपाने’ (भ. गी. २-४६)</a></li>
 <li id="sort_15" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=05#BG_C05_I01#quote_141">‘योगसंन्यस्तकर्माणम्’ (भ. गी. ४-४१)</a></li>
 <li id="sort_15" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=05#BG_C05_I07#quote_155">‘योगारूढस्य तस्यैव शमः कारणमुच्यते’ (भ. गी. ६-३)</a></li>
-<li id="sort_15" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=07#BG_C07_I01#quote_190">‘योगिनामपि सर्वेषां मद्गतेनान्तरात्मना । श्रद्धावन्भजते यो मां स मे युक्ततमो मतः’ (भ. गी. ६-४७)</a></li>
+<li id="sort_15" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=07#BG_C07_I01#quote_190">‘योगिनामपि सर्वेषां मद्गतेनान्तरात्मना । श्रद्धावान्भजते यो मां स मे युक्ततमो मतः’ (भ. गी. ६-४७)</a></li>
 <li id="sort_15" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=01#BG_C01_I05#quote_7">‘योगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये’ (भ. गी. ५-११)</a></li>
 <li id="sort_15" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=03#BG_C03_V04#quote_83">‘योगिनः कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये’ (भ. गी. ५-११)</a></li>
 <li id="sort_15" type="Gita" class="qt"><a target="_blank" href="format.php?bhashya=Gita&page=03#BG_C03_V35#quote_96">‘रागद्वेषौ ह्यस्य परिपन्थिनौ’ (भ. गी. ३-३४)</a></li>

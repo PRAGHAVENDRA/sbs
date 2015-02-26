@@ -135,11 +135,31 @@ function OnloadFunction(){
         setTimeout( function(){$( "#ajaxLoader" ).fadeOut( 250 );}, 1);
     })
     ;
+
+    $('[rel=popover]').popover({ 
+      html : true, 
+      content: function() {
+        $( "#popoverData" ).load( "snippet.html" );
+        var data1 = $( "#popoverData" ).html();
+        $( "#popoverData" ).remove();
+        return data1;
+      }
+    });
+
+    $('[rel=popover]').on('show.bs.popover', function () {
+        $('#triggerBM').on('click', function() {
+
+            alert('Hello');
+        });
+    });
 }
 function OnloadFunctionAjax(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
 }
+// function showBM(id){
+//     $('#BS_C01_S01_I01' ).append($('#dataBM').html());
+// }
 function loadChapter(parentId, id, pagenum, bhashya, hval, level, vid){
     
     var go = $('#pageLazy');

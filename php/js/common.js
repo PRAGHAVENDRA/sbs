@@ -136,14 +136,11 @@ function OnloadFunction(){
     })
     ;
 
-    $('[rel=popover]').popover({ 
-      html : true, 
-      content: function() {
-        $( "#popoverData" ).load( "snippet.html" );
-        var popoverdata = $( "#popoverData" ).html();
-        $( "#popoverData" ).remove();
-        return popoverdata;
-      }
+    $.get( 'snippet.html', function( data ) {
+        $('[rel=popover]').popover({ 
+            html : true, 
+            content: data
+        });
     });
 
 }

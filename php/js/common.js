@@ -143,7 +143,7 @@ function OnloadFunction(){
         
         $.get( id + '.html', function( data ) {
 
-            $('[rel=popover]').popover({ 
+            $( '#' + id ).popover({ 
                 html : true, 
                 content: data
             });
@@ -152,13 +152,13 @@ function OnloadFunction(){
 
     // // For touch enabled devices
     $( '.vTrigger' ).on( 'click', function() {
-
+        
         var id = $( this ).attr( "id" );
         var ifData = $( this ).attr( "data-loaded" );
  
         $.get( id + '.html', function( data ) {
 
-            $('[rel=popover]').popover({ 
+            $( '#' + id ).popover({ 
                 html : true, 
                 content: data
             });

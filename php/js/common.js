@@ -136,13 +136,25 @@ function OnloadFunction(){
     })
     ;
 
-    $.get( 'snippet.html', function( data ) {
-        $('[rel=popover]').popover({ 
-            html : true, 
-            content: data
-        });
-    });
+    $( '.vTrigger' ).one( 'mouseenter', function() {
 
+        var id = $( this ).attr( "id" );
+        var ifData = $( this ).attr( "data-loaded" );
+ 
+        if(ifData == '0') {
+            $.get( id + '.html', function( data ) {
+
+                $('[rel=popover]').popover({ 
+                    html : true, 
+                    content: data
+                });
+
+                $('#' + id ).on('show.bs.popover', function () {
+                    $( this ).attr( "data-loaded", '1' );
+                });
+            });
+        }
+    });
 }
 function OnloadFunctionAjax(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});

@@ -176,7 +176,8 @@ function OnloadFunction(){
                 $( '#' + parentId ).popover('hide')
             }
             else {
-                showVyakhya(id, parentId);               
+                $( '.VyakhyaDescriptor' ).remove();
+                showVyakhya(id, parentId);
             }
         });
     });

@@ -165,6 +165,7 @@ function OnloadFunction(){
         });
     });
 
+
     $( document ).ajaxComplete(function(){
         $( ".showvyakhya" ).on('click', function() {
 
@@ -175,12 +176,27 @@ function OnloadFunction(){
                 $( '#' + parentId ).popover('hide')
             }
             else {
-                $.get( id + '.html', function( data ) {
-                    $( '#' + parentId ).after( data );
-                    $( '#' + parentId ).popover('hide');
-                });
+                showVyakhya(id, parentId);               
             }
         });
+    });
+
+}
+
+function showVyakhya(id, parentId){
+    $.get( id + '.html', function( data ) {
+        $( '#' + parentId ).after( data );
+        $( '#' + id + 'Data' ).hide().slideDown( 1000, function() {
+            showCloseButton(id);
+        });
+        $( '#' + parentId ).popover('hide');
+    });
+}
+
+function showCloseButton(id){
+    $( '#' + id + 'Data' ).prepend( '<div class="closeButton">x</div>');
+    $( '.closeButton' ).on( 'click', function() {
+        $( this ).hide( 10 ).parent().slideUp( 1000 );
     });
 }
 

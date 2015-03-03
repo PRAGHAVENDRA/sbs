@@ -430,6 +430,10 @@ hr{
 }
 .hide{
 	display: none;
+	transition: all 4s;
+	-o-transition: all 4s;
+	-moz-transition: all 4s;
+	-webkit-transition: all 4s;
 }
 /***Menu***/
 
@@ -1241,4 +1245,19 @@ hr{
 	padding: 1em 2em;
 	margin: 0.5em 0 1em 0;
 	border-radius: 10px;
+}
+.closeButton{
+	color: #BB0000;
+	font-size: 18px;
+	float: right;
+	margin: -34px -46px 0 0;
+	background-color: #FFF;
+	/*width: 36px;
+	height: 36px;*/
+	padding: 0px 12px;
+	border-radius: 18px;
+	text-align: center;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.2);
+	font-family: sans-serif;
+	cursor: pointer;
 }

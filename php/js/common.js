@@ -197,7 +197,7 @@ function showVyakhya(id, parentId){
 function showCloseButton(id){
     $( '#' + id + 'Data' ).prepend( '<div class="closeButton">x</div>');
     $( '.closeButton' ).on( 'click', function() {
-        $( this ).hide( 10 ).parent().slideUp( 1000 );
+        $( this ).hide( 10 ).parent().slideUp( 750 );
     });
 }
 

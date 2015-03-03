@@ -136,55 +136,57 @@ function OnloadFunction(){
     })
     ;
 
-    $( '.vTrigger' ).one( 'mouseenter', function() {
+    $( '.vTrigger' ).on( 'mouseenter', function() {
 
         var id = $( this ).attr( "id" );
         var ifData = $( this ).attr( "data-loaded" );
- 
-        if(ifData == '0') {
-            $.get( id + '.html', function( data ) {
+        
+        $.get( id + '.html', function( data ) {
 
-                $('[rel=popover]').popover({ 
-                    html : true, 
-                    content: data
-                });
-
-                $('#' + id ).on('show.bs.popover', function () {
-                    $( this ).attr( "data-loaded", '1' );
-                });
+            $('[rel=popover]').popover({ 
+                html : true, 
+                content: data
             });
-        }
+        });
     });
 
-    // For touch enabled devices
-    $( '.vTrigger' ).one( 'click', function() {
+    // // For touch enabled devices
+    $( '.vTrigger' ).on( 'click', function() {
 
         var id = $( this ).attr( "id" );
         var ifData = $( this ).attr( "data-loaded" );
  
-        if(ifData == '0') {
-            $.get( id + '.html', function( data ) {
+        $.get( id + '.html', function( data ) {
 
-                $('[rel=popover]').popover({ 
-                    html : true, 
-                    content: data
-                });
-
-                $('#' + id ).on('show.bs.popover', function () {
-                    $( this ).attr( "data-loaded", '1' );
-                });
+            $('[rel=popover]').popover({ 
+                html : true, 
+                content: data
             });
-        }
+        });
+    });
+
+    $( document ).ajaxComplete(function(){
+        $( ".showvyakhya" ).on('click', function() {
+
+            var id = $( this ).attr( 'id' );
+            var parentId = $( this ).attr( 'data-parent' );
+            
+            if ( $( '#' + id + 'Data' ).length ) {
+                $( '#' + parentId ).popover('hide')
+            }
+            else {
+                $.get( id + '.html', function( data ) {
+                    $( '#' + parentId ).after( data );
+                    $( '#' + parentId ).popover('hide');
+                });
+            }
+        });
     });
 }
+
 function OnloadFunctionAjax(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
-}
-
-function showVyakhya( id ){
-    alert( id );
-    // $('#BS_C01_S01_I01' ).append($('#dataBM').html());
 }
 
 function loadChapter(parentId, id, pagenum, bhashya, hval, level, vid){

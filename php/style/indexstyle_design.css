@@ -1231,3 +1231,7 @@ hr{
 	list-style-type: decimal;
 	padding: 5px 0;
 }
+
+.popover ul li a{
+	cursor: pointer;
+}

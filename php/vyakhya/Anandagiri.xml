@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE vyakhya SYSTEM "vyakhya.dtd">
+
+<body>
 <div class="VyakhyaDescriptor" id="">
 	<p class="Avataranika">तदेव वचनमुदाहरति – </p>
 	<p class="prateeka">श्रीभगवानिति । </p>
@@ -228,3 +232,4 @@
 	<p class="Avataranika">कार्यकारणविभागविहीनं वस्त्वेव नास्तीति मन्वानश्चोदयति – </p>
 	<p class="prateeka">तदसत्त्व इति । </p>
 </div>
+</body>

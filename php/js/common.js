@@ -172,13 +172,15 @@ function OnloadFunction(){
             var id = $( this ).attr( 'id' );
             var parentId = $( this ).attr( 'data-parent' );
             
-            if ( $( '#' + id + 'Data' ).length ) {
-                $( '#' + parentId ).popover('hide')
-            }
-            else {
-                $( '.VyakhyaDescriptor' ).remove();
-                showVyakhya(id, parentId);
-            }
+            // if ( $( '#' + id + 'Data' ).length ) {
+            //     // $( '#' + parentId ).popover('hide')
+            // }
+            // else {
+
+            // Check if already loaded currently diabled. Anyways, we are closing all vyakhyas before showing the next
+            $( '.VyakhyaDescriptor' ).remove();
+            showVyakhya(id, parentId);
+            // }
         });
     });
 

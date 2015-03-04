@@ -1261,3 +1261,9 @@ hr{
 	font-family: sans-serif;
 	cursor: pointer;
 }
+.vyakhyaTitle{
+	width: 65%;
+	border-bottom: 1px solid #BB0000;
+	color: #BB0000;
+	margin-bottom: 1.5em;
+}

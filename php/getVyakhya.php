@@ -11,6 +11,7 @@ if (file_exists('vyakhya/' . $vyakhya . '.xml')) {
 
 	foreach ($xml->xpath('div[@id="' . $id . '"]') as $div) {
 		echo '<div class="VyakhyaDescriptor" id="' . $div['id'] . '">';
+		echo '<div class="vyakhyaTitle">' . $vyakhyaName{$vyakhya} . '</div>';
 		foreach ($div->p as $p) {
 			echo '<p class="' . $p['class'] . '">' . $p . '</p>';
 		}

@@ -139,8 +139,9 @@ function OnloadFunction(){
     $( '.vTrigger' ).on( 'mouseenter', function() {
 
         var id = $( this ).attr( "id" );
-        
-        $.get( id + '.html', function( data ) {
+        var sid = id.replace("sel_", "");
+
+        $.get( 'getSelectionMenu.php?id=' + sid, function( data ) {
 
             $( '#' + id ).popover({ 
                 html : true, 
@@ -153,8 +154,9 @@ function OnloadFunction(){
     $( '.vTrigger' ).on( 'click', function() {
         
         var id = $( this ).attr( "id" );
-    
-        $.get( id + '.html', function( data ) {
+        var sid = id.replace("sel_", "");
+
+        $.get( 'getSelectionMenu.php?id=' + sid, function( data ) {
 
             $( '#' + id ).popover({ 
                 html : true, 
@@ -167,27 +169,24 @@ function OnloadFunction(){
     $( document ).ajaxComplete(function(){
         $( ".showvyakhya" ).on('click', function() {
 
-            var id = $( this ).attr( 'id' );
+            var vyakhya = $( this ).attr( 'data-vyakhya' );
             var parentId = $( this ).attr( 'data-parent' );
             
-            // if ( $( '#' + id + 'Data' ).length ) {
-            //     // $( '#' + parentId ).popover('hide')
-            // }
-            // else {
-
             // Check if already loaded currently diabled. Anyways, we are closing all vyakhyas before showing the next
             $( '.VyakhyaDescriptor' ).remove();
-            showVyakhya(id, parentId);
-            // }
+            showVyakhya(vyakhya, parentId);
         });
     });
 
 }
 
-function showVyakhya(id, parentId){
-    $.get( id + '.html', function( data ) {
+function showVyakhya(vyakhya, parentId){
+    $.get( 'getVyakhya.php?vyakhya=' + vyakhya + '&id=' + parentId, function( data ) {
         $( '#' + parentId ).after( data );
-        $( '#' + id + 'Data' ).hide().slideDown( 1000, function() {
+
+        var id = parentId.replace("sel_", "") + '_' + vyakhya;
+
+        $( '#' + id ).hide().slideDown( 1000, function() {
             showCloseButton(id);
         });
         $( '#' + parentId ).popover('hide');
@@ -195,7 +194,7 @@ function showVyakhya(id, parentId){
 }
 
 function showCloseButton(id){
-    $( '#' + id + 'Data' ).prepend( '<div class="closeButton">x</div>');
+    $( '#' + id ).prepend( '<div class="closeButton">x</div>');
     $( '.closeButton' ).on( 'click', function() {
         $( this ).hide( 10 ).parent().slideUp( 750 );
     });

@@ -181,7 +181,7 @@ function OnloadFunction(){
 }
 
 function showVyakhya(vyakhya, parentId){
-    $.get( 'getVyakhya.php?vyakhya=' + vyakhya + '&id=' + parentId, function( data ) {
+    $.get( 'getVyakhya.php?vyakhya=' + vyakhya + '&id=' + parentId.replace("sel_", "") + '_' + vyakhya, function( data ) {
         $( '#' + parentId ).after( data );
 
         var id = parentId.replace("sel_", "") + '_' + vyakhya;

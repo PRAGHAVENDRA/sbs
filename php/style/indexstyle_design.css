@@ -1245,6 +1245,13 @@ hr{
 	padding: 1em 2em;
 	margin: 0.5em 0 1em 0;
 	border-radius: 10px;
+	text-align: left;
+}
+.VyakhyaDescriptor p{
+	display: inline;
+}
+.VyakhyaDescriptor .prateeka{
+	color: #BB0000;
 }
 .closeButton{
 	color: #BB0000;

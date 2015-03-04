@@ -337,7 +337,10 @@ sstitlekan{
 	margin: 1em;
 	font-size: 1.5em;
 }
-.intro_bhashya, .bhashya{
+.intro_bhashya{
+	text-align: left;
+}
+.bhashya{
 	text-align: justify;
 }
 .lpage ul li{

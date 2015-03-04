@@ -139,7 +139,6 @@ function OnloadFunction(){
     $( '.vTrigger' ).on( 'mouseenter', function() {
 
         var id = $( this ).attr( "id" );
-        var ifData = $( this ).attr( "data-loaded" );
         
         $.get( id + '.html', function( data ) {
 
@@ -154,8 +153,7 @@ function OnloadFunction(){
     $( '.vTrigger' ).on( 'click', function() {
         
         var id = $( this ).attr( "id" );
-        var ifData = $( this ).attr( "data-loaded" );
- 
+    
         $.get( id + '.html', function( data ) {
 
             $( '#' + id ).popover({ 

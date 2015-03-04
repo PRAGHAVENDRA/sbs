@@ -135,11 +135,76 @@ function OnloadFunction(){
         setTimeout( function(){$( "#ajaxLoader" ).fadeOut( 250 );}, 1);
     })
     ;
+
+    $( '.vTrigger' ).on( 'mouseenter', function() {
+
+        var id = $( this ).attr( "id" );
+        var sid = id.replace("sel_", "");
+
+        $.get( 'getSelectionMenu.php?id=' + sid, function( data ) {
+
+            $( '#' + id ).popover({ 
+                html : true, 
+                content: data
+            });
+        });
+    });
+
+    // // For touch enabled devices
+    $( '.vTrigger' ).on( 'click', function() {
+        
+        var id = $( this ).attr( "id" );
+        var sid = id.replace("sel_", "");
+
+        $.get( 'getSelectionMenu.php?id=' + sid, function( data ) {
+
+            $( '#' + id ).popover({ 
+                html : true, 
+                content: data
+            });
+        });
+    });
+
+
+    $( document ).ajaxComplete(function(){
+        $( ".showvyakhya" ).on('click', function() {
+
+            var vyakhya = $( this ).attr( 'data-vyakhya' );
+            var parentId = $( this ).attr( 'data-parent' );
+            
+            // Check if already loaded currently diabled. Anyways, we are closing all vyakhyas before showing the next
+            $( '.VyakhyaDescriptor' ).remove();
+            showVyakhya(vyakhya, parentId);
+        });
+    });
+
 }
+
+function showVyakhya(vyakhya, parentId){
+    $.get( 'getVyakhya.php?vyakhya=' + vyakhya + '&id=' + parentId.replace("sel_", "") + '_' + vyakhya, function( data ) {
+        $( '#' + parentId ).after( data );
+
+        var id = parentId.replace("sel_", "") + '_' + vyakhya;
+
+        $( '#' + id ).hide().slideDown( 1000, function() {
+            showCloseButton(id);
+        });
+        $( '#' + parentId ).popover('hide');
+    });
+}
+
+function showCloseButton(id){
+    $( '.VyakhyaDescriptor' ).prepend( '<div class="closeButton">x</div>');
+    $( '.closeButton' ).on( 'click', function() {
+        $( this ).hide( 10 ).parent().slideUp( 750 );
+    });
+}
+
 function OnloadFunctionAjax(){
     $(".qt a").hover(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
     $(".qt a").focus(function(){var htmlc;var ht;htmlc = $(this).html();htmlc = htmlc.replace("<span class=\"highlight\">", "");htmlc = htmlc.replace("<\/span>", "");if((this.href.match(/bhashya/) == 'bhashya') && (this.href.match(/hval/) == null)){this.href = this.href.split(/\#/)[0] + '&hval=' + htmlc + '#' + this.href.split(/\#/)[1];}});
 }
+
 function loadChapter(parentId, id, pagenum, bhashya, hval, level, vid){
     
     var go = $('#pageLazy');

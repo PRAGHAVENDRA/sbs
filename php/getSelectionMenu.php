@@ -12,6 +12,7 @@ foreach ($vyakhyaCode as $vk) {
 
     	foreach ($xml->xpath('div[@id="' . $id . '_' . $vk . '"]') as $div) {
  			echo '<li><a class="showvyakhya" data-vyakhya="' . $vk . '" data-parent="sel_' . $id . '">' . $vyakhyaName{$vk} . '</a></li>';
+ 			break;
  		}
    	}
 }
